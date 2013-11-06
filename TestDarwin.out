@@ -1,0 +1,119 @@
+[==========] Running 39 tests from 12 test cases.
+[----------] Global test environment set-up.
+[----------] 4 tests from move
+[ RUN      ] move.1
+[       OK ] move.1 (9 ms)
+[ RUN      ] move.2
+[       OK ] move.2 (3 ms)
+[ RUN      ] move.3
+[       OK ] move.3 (2 ms)
+[ RUN      ] move.4
+[       OK ] move.4 (2 ms)
+[----------] 4 tests from move (27 ms total)
+
+[----------] 6 tests from printTurn
+[ RUN      ] printTurn.1
+[       OK ] printTurn.1 (23 ms)
+[ RUN      ] printTurn.2
+[       OK ] printTurn.2 (6 ms)
+[ RUN      ] printTurn.3
+[       OK ] printTurn.3 (34 ms)
+[ RUN      ] printTurn.4
+[       OK ] printTurn.4 (10 ms)
+[ RUN      ] printTurn.5
+[       OK ] printTurn.5 (8 ms)
+[ RUN      ] printTurn.6
+[       OK ] printTurn.6 (11 ms)
+[----------] 6 tests from printTurn (92 ms total)
+
+[----------] 5 tests from isWall
+[ RUN      ] isWall.1
+[       OK ] isWall.1 (4 ms)
+[ RUN      ] isWall.2
+[       OK ] isWall.2 (4 ms)
+[ RUN      ] isWall.3
+[       OK ] isWall.3 (4 ms)
+[ RUN      ] isWall.4
+[       OK ] isWall.4 (38 ms)
+[ RUN      ] isWall.5
+[       OK ] isWall.5 (3 ms)
+[----------] 5 tests from isWall (54 ms total)
+
+[----------] 4 tests from getNextSpace
+[ RUN      ] getNextSpace.1
+[       OK ] getNextSpace.1 (7 ms)
+[ RUN      ] getNextSpace.2
+[       OK ] getNextSpace.2 (5 ms)
+[ RUN      ] getNextSpace.3
+[       OK ] getNextSpace.3 (5 ms)
+[ RUN      ] getNextSpace.4
+[       OK ] getNextSpace.4 (4 ms)
+[----------] 4 tests from getNextSpace (22 ms total)
+
+[----------] 3 tests from lessThan
+[ RUN      ] lessThan.1
+[       OK ] lessThan.1 (3 ms)
+[ RUN      ] lessThan.2
+[       OK ] lessThan.2 (3 ms)
+[ RUN      ] lessThan.3
+[       OK ] lessThan.3 (4 ms)
+[----------] 3 tests from lessThan (11 ms total)
+
+[----------] 1 test from printSpecies
+[ RUN      ] printSpecies.1
+[       OK ] printSpecies.1 (4 ms)
+[----------] 1 test from printSpecies (4 ms total)
+
+[----------] 3 tests from isSameSpecies
+[ RUN      ] isSameSpecies.1
+[       OK ] isSameSpecies.1 (4 ms)
+[ RUN      ] isSameSpecies.2
+[       OK ] isSameSpecies.2 (4 ms)
+[ RUN      ] isSameSpecies.3
+[       OK ] isSameSpecies.3 (5 ms)
+[----------] 3 tests from isSameSpecies (14 ms total)
+
+[----------] 3 tests from infect
+[ RUN      ] infect.1
+[       OK ] infect.1 (4 ms)
+[ RUN      ] infect.2
+[       OK ] infect.2 (6 ms)
+[ RUN      ] infect.3
+[       OK ] infect.3 (7 ms)
+[----------] 3 tests from infect (17 ms total)
+
+[----------] 4 tests from takeTurn
+[ RUN      ] takeTurn.1
+[       OK ] takeTurn.1 (24 ms)
+[ RUN      ] takeTurn.2
+[       OK ] takeTurn.2 (6 ms)
+[ RUN      ] takeTurn.3
+[       OK ] takeTurn.3 (6 ms)
+[ RUN      ] takeTurn.4
+[       OK ] takeTurn.4 (6 ms)
+[----------] 4 tests from takeTurn (43 ms total)
+
+[----------] 3 tests from positionAt
+[ RUN      ] positionAt.1
+[       OK ] positionAt.1 (4 ms)
+[ RUN      ] positionAt.2
+[       OK ] positionAt.2 (6 ms)
+[ RUN      ] positionAt.3
+[       OK ] positionAt.3 (7 ms)
+[----------] 3 tests from positionAt (17 ms total)
+
+[----------] 2 tests from getInstruction
+[ RUN      ] getInstruction.1
+[       OK ] getInstruction.1 (9 ms)
+[ RUN      ] getInstruction.2
+[       OK ] getInstruction.2 (3 ms)
+[----------] 2 tests from getInstruction (13 ms total)
+
+[----------] 1 test from printId
+[ RUN      ] printId.1
+[       OK ] printId.1 (3 ms)
+[----------] 1 test from printId (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 39 tests from 12 test cases ran. (349 ms total)
+[  PASSED  ] 39 tests.
