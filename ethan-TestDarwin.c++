@@ -3,6 +3,7 @@
 // --------
 
 #include <cstdlib>   // rand, srand
+#include <stdexcept> // invalid_argument, out_of_range
 
 #include "gtest/gtest.h"
 
@@ -259,9 +260,13 @@ TEST(Darwin, creature_is_enemy1) {
 }
 
 TEST(Darwin, creature_is_enemy2) {
-    Species sh('z');
-    Creature c(&sh, north);
-    ASSERT_TRUE(c.is_enemy('f'));
+    try {
+        Species sh('z');
+        Creature c(&sh, north);
+        ASSERT_TRUE(c.is_enemy('f'));
+    } catch (const invalid_argument& e) {
+        ASSERT_TRUE(true);
+    }
 }
 
 // ----
@@ -424,8 +429,12 @@ TEST(Darwin, species_get_id0) {
 }
 
 TEST(Darwin, species_get_id1) {
-    Species s('z');
-    ASSERT_TRUE(s.get_id() == 'z');
+    try {
+        Species s('z');
+        ASSERT_TRUE(s.get_id() == 'z');
+    } catch (const invalid_argument& e) {
+        ASSERT_TRUE(true);
+    }
 }
 
 // ----
