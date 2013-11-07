@@ -1,0 +1,35 @@
+Running main() from gtest_main.cc
+[==========] Running 13 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 13 tests from Darwin
+[ RUN      ] Darwin.turn1
+[       OK ] Darwin.turn1 (0 ms)
+[ RUN      ] Darwin.turn2
+[       OK ] Darwin.turn2 (0 ms)
+[ RUN      ] Darwin.species1
+[       OK ] Darwin.species1 (0 ms)
+[ RUN      ] Darwin.species2
+[       OK ] Darwin.species2 (0 ms)
+[ RUN      ] Darwin.species3
+[       OK ] Darwin.species3 (0 ms)
+[ RUN      ] Darwin.species_name
+[       OK ] Darwin.species_name (0 ms)
+[ RUN      ] Darwin.Creature1
+[       OK ] Darwin.Creature1 (0 ms)
+[ RUN      ] Darwin.Creature_infection
+[       OK ] Darwin.Creature_infection (0 ms)
+[ RUN      ] Darwin.Creature_position_ahead
+[       OK ] Darwin.Creature_position_ahead (0 ms)
+[ RUN      ] Darwin.Creature_check_around
+[       OK ] Darwin.Creature_check_around (0 ms)
+[ RUN      ] Darwin.GameController1
+[       OK ] Darwin.GameController1 (0 ms)
+[ RUN      ] Darwin.GameController2
+[       OK ] Darwin.GameController2 (0 ms)
+[ RUN      ] Darwin.GameController3
+[       OK ] Darwin.GameController3 (0 ms)
+[----------] 13 tests from Darwin (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 13 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 13 tests.
