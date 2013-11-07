@@ -108,19 +108,6 @@ int main () {
 	trap.add_instruction(CONTROL, GO, 0);
 	trap.add_instruction(ACTION, INFECT, 0);
 	trap.add_instruction(CONTROL, GO, 0);
-	
-	// ----
-	// best
-	// ----
-	Species best('b');
-	best.add_instruction(CONTROL, IF_ENEMY, 6);
-	best.add_instruction(CONTROL, IF_RANDOM, 5);
-	best.add_instruction(ACTION, HOP);
-	best.add_instruction(CONTROL, GO, 0);
-	best.add_instruction(ACTION, LEFT);
-	best.add_instruction(CONTROL, GO, 0);
-	best.add_instruction(ACTION, INFECT);
-	best.add_instruction(CONTROL, GO, 0);
 
 	// ----------
 	// darwin 8x8
