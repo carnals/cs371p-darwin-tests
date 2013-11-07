@@ -1,0 +1,181 @@
+Running main() from gtest_main.cc
+[==========] Running 83 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 83 tests from TestDarwin
+[ RUN      ] TestDarwin.addInstruction_1
+[       OK ] TestDarwin.addInstruction_1 (35 ms)
+[ RUN      ] TestDarwin.addInstruction_2
+[       OK ] TestDarwin.addInstruction_2 (8 ms)
+[ RUN      ] TestDarwin.addInstruction_3
+[       OK ] TestDarwin.addInstruction_3 (7 ms)
+[ RUN      ] TestDarwin.getInstructionAt_1
+[       OK ] TestDarwin.getInstructionAt_1 (7 ms)
+[ RUN      ] TestDarwin.getInstructionAt_2
+[       OK ] TestDarwin.getInstructionAt_2 (5 ms)
+[ RUN      ] TestDarwin.getInstructionAt_3
+[       OK ] TestDarwin.getInstructionAt_3 (5 ms)
+[ RUN      ] TestDarwin.getInstructionAt_4
+[       OK ] TestDarwin.getInstructionAt_4 (6 ms)
+[ RUN      ] TestDarwin.instructionSize_1
+[       OK ] TestDarwin.instructionSize_1 (3 ms)
+[ RUN      ] TestDarwin.instructionSize_2
+[       OK ] TestDarwin.instructionSize_2 (4 ms)
+[ RUN      ] TestDarwin.instructionSize_3
+[       OK ] TestDarwin.instructionSize_3 (3 ms)
+[ RUN      ] TestDarwin.instructionSize_4
+[       OK ] TestDarwin.instructionSize_4 (6 ms)
+[ RUN      ] TestDarwin.Creature_1
+[       OK ] TestDarwin.Creature_1 (20 ms)
+[ RUN      ] TestDarwin.Creature_2
+[       OK ] TestDarwin.Creature_2 (7 ms)
+[ RUN      ] TestDarwin.Creature_3
+[       OK ] TestDarwin.Creature_3 (5 ms)
+[ RUN      ] TestDarwin.Creature_4
+[       OK ] TestDarwin.Creature_4 (5 ms)
+[ RUN      ] TestDarwin.Creature_5
+[       OK ] TestDarwin.Creature_5 (6 ms)
+[ RUN      ] TestDarwin.Creature_6
+[       OK ] TestDarwin.Creature_6 (6 ms)
+[ RUN      ] TestDarwin.calcNextPos_1
+[       OK ] TestDarwin.calcNextPos_1 (21 ms)
+[ RUN      ] TestDarwin.calcNextPos_2
+[       OK ] TestDarwin.calcNextPos_2 (8 ms)
+[ RUN      ] TestDarwin.calcNextPos_3
+[       OK ] TestDarwin.calcNextPos_3 (8 ms)
+[ RUN      ] TestDarwin.calcNextPos_4
+[       OK ] TestDarwin.calcNextPos_4 (8 ms)
+[ RUN      ] TestDarwin.getInfected_1
+[       OK ] TestDarwin.getInfected_1 (17 ms)
+[ RUN      ] TestDarwin.getInfected_2
+[       OK ] TestDarwin.getInfected_2 (9 ms)
+[ RUN      ] TestDarwin.getInfected_3
+[       OK ] TestDarwin.getInfected_3 (8 ms)
+[ RUN      ] TestDarwin.getSpecies_1
+[       OK ] TestDarwin.getSpecies_1 (7 ms)
+[ RUN      ] TestDarwin.getSpecies_2
+[       OK ] TestDarwin.getSpecies_2 (6 ms)
+[ RUN      ] TestDarwin.getSpecies_3
+[       OK ] TestDarwin.getSpecies_3 (9 ms)
+[ RUN      ] TestDarwin.getName_1
+[       OK ] TestDarwin.getName_1 (6 ms)
+[ RUN      ] TestDarwin.getName_2
+[       OK ] TestDarwin.getName_2 (6 ms)
+[ RUN      ] TestDarwin.getName_3
+[       OK ] TestDarwin.getName_3 (9 ms)
+[ RUN      ] TestDarwin.hop_1
+[       OK ] TestDarwin.hop_1 (8 ms)
+[ RUN      ] TestDarwin.hop_2
+[       OK ] TestDarwin.hop_2 (7 ms)
+[ RUN      ] TestDarwin.hop_3
+[       OK ] TestDarwin.hop_3 (6 ms)
+[ RUN      ] TestDarwin.hop_4
+[       OK ] TestDarwin.hop_4 (6 ms)
+[ RUN      ] TestDarwin.left_1
+[       OK ] TestDarwin.left_1 (6 ms)
+[ RUN      ] TestDarwin.left_2
+[       OK ] TestDarwin.left_2 (6 ms)
+[ RUN      ] TestDarwin.left_3
+[       OK ] TestDarwin.left_3 (6 ms)
+[ RUN      ] TestDarwin.left_4
+[       OK ] TestDarwin.left_4 (6 ms)
+[ RUN      ] TestDarwin.right_1
+[       OK ] TestDarwin.right_1 (6 ms)
+[ RUN      ] TestDarwin.right_2
+[       OK ] TestDarwin.right_2 (5 ms)
+[ RUN      ] TestDarwin.right_3
+[       OK ] TestDarwin.right_3 (6 ms)
+[ RUN      ] TestDarwin.right_4
+[       OK ] TestDarwin.right_4 (6 ms)
+[ RUN      ] TestDarwin.moved_1
+[       OK ] TestDarwin.moved_1 (6 ms)
+[ RUN      ] TestDarwin.moved_2
+[       OK ] TestDarwin.moved_2 (6 ms)
+[ RUN      ] TestDarwin.hasMadeMove_1
+[       OK ] TestDarwin.hasMadeMove_1 (6 ms)
+[ RUN      ] TestDarwin.hasMadeMove_2
+[       OK ] TestDarwin.hasMadeMove_2 (6 ms)
+[ RUN      ] TestDarwin.hasMadeMove_3
+[       OK ] TestDarwin.hasMadeMove_3 (70 ms)
+[ RUN      ] TestDarwin.makeMove_1
+[       OK ] TestDarwin.makeMove_1 (11 ms)
+[ RUN      ] TestDarwin.makeMove_2
+[       OK ] TestDarwin.makeMove_2 (22 ms)
+[ RUN      ] TestDarwin.makeMove_3
+[       OK ] TestDarwin.makeMove_3 (12 ms)
+[ RUN      ] TestDarwin.makeMove_4
+[       OK ] TestDarwin.makeMove_4 (13 ms)
+[ RUN      ] TestDarwin.makeMove_5
+[       OK ] TestDarwin.makeMove_5 (13 ms)
+[ RUN      ] TestDarwin.makeMove_6
+[       OK ] TestDarwin.makeMove_6 (15 ms)
+[ RUN      ] TestDarwin.makeMove_7
+[       OK ] TestDarwin.makeMove_7 (19 ms)
+[ RUN      ] TestDarwin.Board_1
+[       OK ] TestDarwin.Board_1 (7 ms)
+[ RUN      ] TestDarwin.Board_2
+[       OK ] TestDarwin.Board_2 (5 ms)
+[ RUN      ] TestDarwin.Board_3
+[       OK ] TestDarwin.Board_3 (5 ms)
+[ RUN      ] TestDarwin.Board_4
+invalid_argument exception thrown
+[       OK ] TestDarwin.Board_4 (63 ms)
+[ RUN      ] TestDarwin.addCreature_1
+[       OK ] TestDarwin.addCreature_1 (12 ms)
+[ RUN      ] TestDarwin.addCreature_2
+[       OK ] TestDarwin.addCreature_2 (11 ms)
+[ RUN      ] TestDarwin.addCreature_3
+[       OK ] TestDarwin.addCreature_3 (12 ms)
+[ RUN      ] TestDarwin.addCreature_4
+Invalid_argument: Trying to add a Creature to an occupied spot
+[       OK ] TestDarwin.addCreature_4 (17 ms)
+[ RUN      ] TestDarwin.addCreature_5
+out_of_range: Trying to add a Creature to outside the grid in Board class
+[       OK ] TestDarwin.addCreature_5 (12 ms)
+[ RUN      ] TestDarwin.addCreature_6
+out_of_range: Trying to add a Creature to outside the grid in Board class
+[       OK ] TestDarwin.addCreature_6 (10 ms)
+[ RUN      ] TestDarwin.addCreature_7
+out_of_range: Trying to add a Creature to outside the grid in Board class
+[       OK ] TestDarwin.addCreature_7 (10 ms)
+[ RUN      ] TestDarwin.addCreature_8
+out_of_range: Trying to add a Creature to outside the grid in Board class
+[       OK ] TestDarwin.addCreature_8 (10 ms)
+[ RUN      ] TestDarwin.isMoveOk_1
+[       OK ] TestDarwin.isMoveOk_1 (11 ms)
+[ RUN      ] TestDarwin.isMoveOk_2
+[       OK ] TestDarwin.isMoveOk_2 (11 ms)
+[ RUN      ] TestDarwin.isMoveOk_3
+[       OK ] TestDarwin.isMoveOk_3 (14 ms)
+[ RUN      ] TestDarwin.isPosOnBoard_1
+[       OK ] TestDarwin.isPosOnBoard_1 (6 ms)
+[ RUN      ] TestDarwin.isPosOnBoard_2
+[       OK ] TestDarwin.isPosOnBoard_2 (5 ms)
+[ RUN      ] TestDarwin.isPosOnBoard_3
+[       OK ] TestDarwin.isPosOnBoard_3 (5 ms)
+[ RUN      ] TestDarwin.isPosOnBoard_4
+[       OK ] TestDarwin.isPosOnBoard_4 (6 ms)
+[ RUN      ] TestDarwin.isPosOnBoard_5
+[       OK ] TestDarwin.isPosOnBoard_5 (6 ms)
+[ RUN      ] TestDarwin.isPosOnBoard_6
+[       OK ] TestDarwin.isPosOnBoard_6 (5 ms)
+[ RUN      ] TestDarwin.if_wall_1
+[       OK ] TestDarwin.if_wall_1 (6 ms)
+[ RUN      ] TestDarwin.if_wall_2
+[       OK ] TestDarwin.if_wall_2 (6 ms)
+[ RUN      ] TestDarwin.if_wall_3
+[       OK ] TestDarwin.if_wall_3 (5 ms)
+[ RUN      ] TestDarwin.if_wall_4
+[       OK ] TestDarwin.if_wall_4 (5 ms)
+[ RUN      ] TestDarwin.if_wall_5
+[       OK ] TestDarwin.if_wall_5 (6 ms)
+[ RUN      ] TestDarwin.if_empty_1
+[       OK ] TestDarwin.if_empty_1 (6 ms)
+[ RUN      ] TestDarwin.if_empty_2
+[       OK ] TestDarwin.if_empty_2 (11 ms)
+[ RUN      ] TestDarwin.if_empty_3
+[       OK ] TestDarwin.if_empty_3 (6 ms)
+[----------] 83 tests from TestDarwin (858 ms total)
+
+[----------] Global test environment tear-down
+[==========] 83 tests from 1 test case ran. (902 ms total)
+[  PASSED  ] 83 tests.
