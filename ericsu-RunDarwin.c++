@@ -205,7 +205,7 @@ t
         world.addCreature(trap,2,6,SOUTH);
         world.addCreature(hopper,2,7,NORTH);
         world.addCreature(rover,0,0,WEST);
-        world.addCreature(trap,9,9,NORTH);
+        world.addCreature(trap,2,9,NORTH);
         
         world.print();
         for(int q = 0; q<10; q++) {
@@ -273,28 +273,28 @@ t
         srand(0);
         /*
         1x10 Darwin
-        Hopper,   facing east, at (0, 0)
-        Rover,    facing east, at (0, 1)
-        Hopper,   facing east, at (0, 2)
-        Rover,    facing east, at (0, 3)
-        Hopper,   facing east, at (0, 4)
-        Rover,    facing east, at (0, 5)
-        Hopper,   facing east, at (0, 6)
-        Rover,    facing east, at (0, 7)
-        Hopper,   facing east, at (0, 8)
+        Hopper,   facing north, at (0, 0)
+        Rover,    facing north, at (0, 1)
+        Hopper,   facing north, at (0, 2)
+        Rover,    facing north, at (0, 3)
+        Hopper,   facing north, at (0, 4)
+        Rover,    facing north, at (0, 5)
+        Hopper,   facing north, at (0, 6)
+        Rover,    facing north, at (0, 7)
+        Hopper,   facing north, at (0, 8)
         Simulate 10 moves.
         Print every grid.
         */
         Grid world = Grid(1,10);
-        world.addCreature(hopper,1,0,EAST);    // should fail
-        world.addCreature(rover,0,1,EAST);
-        world.addCreature(hopper,0,2,EAST);
-        world.addCreature(rover,0,3,EAST);
-        world.addCreature(hopper,0,4,EAST);
-        world.addCreature(rover,0,5,EAST);
-        world.addCreature(hopper,0,6,EAST);
-        world.addCreature(rover,0,7,EAST);
-        world.addCreature(hopper,0,8,EAST);
+        world.addCreature(hopper,0,0,NORTH);
+        world.addCreature(rover,0,1,NORTH);
+        world.addCreature(hopper,0,2,NORTH);
+        world.addCreature(rover,0,3,NORTH);
+        world.addCreature(hopper,0,4,NORTH);
+        world.addCreature(rover,0,5,NORTH);
+        world.addCreature(hopper,0,6,NORTH);
+        world.addCreature(rover,0,7,NORTH);
+        world.addCreature(hopper,0,8,NORTH);
 
         
         world.print();
@@ -394,6 +394,37 @@ t
         assert(false);}
 
 
+
+    // ----------
+    // darwin 10x10
+    // ----------
+
+    /* rover should change from cw to ccw, vice versa */
+    cout << "-1\n";
+    try {
+        cout << "*** Darwin 10x10 ***" << endl;
+        
+        /*10x10 Darwin
+        Rover,  facing east,  at (0, 0)
+        
+        Simulate 50 moves.
+        Print every grid.
+        */
+        Grid world = Grid(10,10);
+        world.addCreature(rover,0,0,EAST);
+        
+        world.print();
+        for(int a = 0; a<50; a++) {
+            world.takeTurn();
+            world.print();
+        }
+        }
+    catch (const invalid_argument&) {
+        assert(false);}
+    catch (const out_of_range&) {
+        assert(false);}
+
+
     // ----------
     // darwin 5x5
     // ----------
@@ -435,6 +466,7 @@ t
         Simulate 50 moves.
         Print every 5 grid.
         */
+        
         Grid world = Grid(5,5);
         world.addCreature(rover,0,0,EAST);
         world.addCreature(hopper,1,0,EAST);
@@ -664,7 +696,7 @@ t
     // ------------
 
     try {
-        cout << "*** Darwin 72x72 without Best ***" << endl;
+        // cout << "*** Darwin 72x72 without Best ***" << endl;
         srand(0);
         /*
         Randomly place the following creatures facing randomly.
@@ -693,7 +725,7 @@ t
     // ------------
 
     try {
-        cout << "*** Darwin 72x72 with Best ***" << endl;
+        // cout << "*** Darwin 72x72 with Best ***" << endl;
         srand(0);
         /*
         Randomly place the following creatures facing randomly.
@@ -717,5 +749,9 @@ t
         assert(false);}
     catch (const out_of_range&) {
         assert(false);}
+
+
+
+    
 
     return 0;}
