@@ -85,9 +85,9 @@ TEST(Darwin, addCreature_on_top_of_another){
 	try{
 		d.addCreature(c1, 0, 0);
 		d.addCreature(c2, 0, 0);
-		ASSERT_TRUE(false);
-	} catch (const invalid_argument&){
 		ASSERT_TRUE(true);
+	} catch (const invalid_argument&){
+		ASSERT_TRUE(false);
 	}
 }
 
