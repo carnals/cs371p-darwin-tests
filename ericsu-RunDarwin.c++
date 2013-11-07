@@ -243,7 +243,6 @@ t
     // ----------
     // darwin 5x5
     // ----------
-    cout << "-1\n";
     try {
         cout << "*** Darwin 5x5 ***" << endl;
         
@@ -331,7 +330,6 @@ t
     // ----------
 
     /* rover should change from cw to ccw, vice versa */
-    cout << "-1\n";
     try {
         cout << "*** Darwin 10x10 ***" << endl;
         
@@ -359,7 +357,6 @@ t
     // ----------
     // darwin 5x5
     // ----------
-    cout << "-1\n";
     try {
         cout << "*** Darwin 5x5 ***" << endl;
         
@@ -445,7 +442,6 @@ t
     // ----------
     // darwin 5x5
     // ----------
-    cout << "-1\n";
     try {
         cout << "*** Darwin 5x5 ***" << endl;
         
@@ -537,7 +533,6 @@ t
     // ----------
     // darwin 100x100
     // ----------
-    cout << "-1\n";
     try {
         cout << "*** Darwin 100x100 ***" << endl;
         
