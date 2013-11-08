@@ -187,7 +187,7 @@ int main () {
         x.addCreature(h4);
 
         for (int n = 1; n <= 5; n++) {
-            std::cout << "TURN #" << n << std::endl;
+            std::cout << "Turn = " << n << ".\n";
             //loop to print out
             std::cout << "  ";
             for (int i = 0; i < x._column; i++) {
@@ -252,7 +252,7 @@ int main () {
         x.addCreature(r1);
 
         for (int n = 1; n <= 5; n++) {
-            std::cout << "TURN #" << n << std::endl;
+            std::cout << "Turn = " << n << ".\n";
             //loop to print out
             std::cout << "  ";
             for (int i = 0; i < x._column; i++) {
@@ -343,7 +343,7 @@ int main () {
 
             //loop to print out
             if (n <= 10 || n % 100 == 0) {
-                std::cout << "TURN #" << n << std::endl;
+                std::cout << "Turn = " << n << ".\n";
                 std::cout << "  ";
                 for (int i = 0; i < x._column; i++) {
                     std::cout << i % 10;
@@ -443,7 +443,7 @@ int main () {
 
             //loop to print out
             if (n <= 10 || n % 100 == 0) {
-                std::cout << "TURN #" << n << std::endl;
+                std::cout << "Turn = " << n << ".\n";
                 std::cout << "  ";
                 for (int i = 0; i < x._column; i++) {
                     std::cout << i % 10;
@@ -506,7 +506,7 @@ int main () {
 
              //loop to print out
             if (n == 1 || n == 1000) {
-                std::cout << "TURN #" << n << std::endl;
+                std::cout << "Turn = " << n << ".\n";
                 std::cout << "  ";
                 for (int i = 0; i < x._column; i++) {
                     std::cout << i % 10;
@@ -571,7 +571,7 @@ int main () {
 
              //loop to print out
             if (n == 1 || n == 100) {
-                std::cout << "TURN #" << n << std::endl;
+                std::cout << "Turn = " << n << ".\n";
                 std::cout << "  ";
                 for (int i = 0; i < x._column; i++) {
                     std::cout << i % 10;
@@ -632,7 +632,7 @@ int main () {
         }
 
         for (int n = 1; n <= 15; n++) {
-            std::cout << "TURN #" << n << std::endl;
+            std::cout << "Turn = " << n << ".\n";
             std::cout << "  ";
             for (int i = 0; i < x._column; i++) {
                 std::cout << i % 10;
@@ -697,7 +697,7 @@ int main () {
         x.addCreature(t1);
 
         for (int n = 1; n <= 4; n++) {
-            std::cout << "TURN #" << n << std::endl;
+            std::cout << "Turn = " << n << ".\n";
             std::cout << "  ";
             for (int i = 0; i < x._column; i++) {
                 std::cout << i % 10;
@@ -766,7 +766,7 @@ int main () {
         x.addCreature(h4);
 
         for (int n = 1; n <= 5; n++) {
-            std::cout << "TURN #" << n << std::endl;
+            std::cout << "Turn = " << n << ".\n";
             std::cout << "  ";
             for (int i = 0; i < x._column; i++) {
                 std::cout << i % 10;
@@ -800,6 +800,5 @@ int main () {
         assert(false);}
     catch (const out_of_range&) {
         assert(false);}
-
     return 0;
 }
