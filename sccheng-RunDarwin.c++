@@ -117,9 +117,10 @@ int main () {
     // best
     // ----
 
-    /*
-     Need to write!!
-     */
+    
+    Species best('b');
+    best.add_best();
+    
 
     // ----------
     // darwin 8x8
@@ -226,6 +227,7 @@ int main () {
         Print the first 10 grids          (i.e. 0, 1, 2...9).
         Print every 100th grid after that (i.e. 100, 200, 300...1000).
         */
+        
         World w(72, 72);
         // Adding food
         for(int i = 0; i < 10; i++)
@@ -270,12 +272,12 @@ int main () {
         assert(false);}
     catch (const out_of_range&) {
         assert(false);}
-
+    
     // ------------
     // darwin 72x72
     // with best
     // ------------
-
+    
     try {
         cout << "*** Darwin 72x72 with Best ***" << endl;
         srand(0);
@@ -296,7 +298,55 @@ int main () {
         Print the first 10 grids          (i.e. 0, 1, 2...9).
         Print every 100th grid after that (i.e. 100, 200, 300...1000).
         */
+    
+        World w(72, 72);
+        // Adding food
+        for(int i = 0; i < 10; i++)
+        {
+          int randNum = rand() % 5184;
+          Creature c(food, rand() % 4);
+          w.addCreature(c, randNum / 72, randNum % 72);
         }
+        // Adding Hopper
+        for(int i = 0; i < 10; i++)
+        {
+          int randNum = rand() % 5184;
+          Creature c(hopper, rand() % 4);
+          w.addCreature(c, randNum / 72, randNum % 72);
+        }
+        // Adding Rover
+        for(int i = 0; i < 10; i++)
+        {
+          int randNum = rand() % 5184;
+          Creature c(rover, rand() % 4);
+          w.addCreature(c, randNum / 72, randNum % 72);
+        }
+        // Adding trap
+        for(int i = 0; i < 10; i++)
+        {
+          int randNum = rand() % 5184;
+          Creature c(trap, rand() % 4);
+          w.addCreature(c, randNum / 72, randNum % 72);
+        }
+        // Adding best
+        for(int i = 0; i < 10; i++)
+        {
+          int randNum = rand() % 5184;
+          Creature c(best, rand() % 4);
+          w.addCreature(c, randNum / 72, randNum % 72);
+        }
+        
+        //w.toString();
+        for(int i = 1; i <= 1000; i++)
+        {
+          if((i < 10) || (i % 100 == 0))
+          {
+            w.run(i);
+            //w.toString(); 
+          }
+        }     
+        w.numberSpecies();
+    }
     catch (const invalid_argument&) {
         assert(false);}
     catch (const out_of_range&) {
@@ -312,18 +362,17 @@ int main () {
         srand(0);
         /*
         Randomly place the following creatures facing randomly.
-        Call rand(), mod it with 5184 (10x10), and use that for the position
+        Call rand(), mod it with 100 (10x10), and use that for the position
         in a row-major order grid.
-        Call rand() again, mod it with 4 and use that for it's direction with
+        Call rand() again, mod it with 4 and use that for its direction with
         the ordering: west, north, east, south.
         Do that for each kind of creature.
-        10 Food
-        10 Hopper
-        10 Rover
-        10 Trap
-        Simulate 1000 moves.
-        Print the first 10 grids          (i.e. 0, 1, 2...9).
-        Print every 100th grid after that (i.e. 100, 200, 300...1000).
+        2 Food
+        2 Hopper
+        2 Rover
+        2 Trap
+        Simulate 15 moves.
+        Print each grid.
         */
         World w(10, 10);
         // Adding food
@@ -377,12 +426,10 @@ int main () {
         cout << "*** Darwin 2x2 ***" << endl;
         /*
         2x2 Darwin
-        Food,   facing east,  at (0, 0)
-        Hopper, facing north, at (3, 3)
-        Hopper, facing east,  at (3, 4)
-        Hopper, facing south, at (4, 4)
-        Hopper, facing west,  at (4, 3)
-        Food,   facing north, at (7, 7)
+        Rover,   facing east,  at (0, 0)
+        Hopper, facing north, at (0, 1)
+        Hopper, facing east,  at (1, 0)
+        Hopper, facing south, at (1, 1)
         Simulate 5 moves.
         Print every grid.
         */
@@ -416,12 +463,15 @@ int main () {
         cout << "*** Darwin 3x3 ***" << endl;
         /*
         3x3 Darwin
-        Food,   facing east,  at (0, 0)
-        Hopper, facing north, at (3, 3)
-        Hopper, facing east,  at (3, 4)
-        Hopper, facing south, at (4, 4)
-        Hopper, facing west,  at (4, 3)
-        Food,   facing north, at (7, 7)
+        Rover,   facing east,  at (1, 1)
+        Trap, facing west, at (0, 0)
+        Trap, facing east,  at (0, 2)
+        Trap, facing east, at (2, 2)
+        Trap, facing west,  at (2, 0)
+        Hopper, facing south, at (0, 1)
+        Hopper, facing north,  at (1, 0)
+        Hopper, facing north, at (1, 2)
+        Hopper, facing east,  at (2, 1)
         Simulate 5 moves.
         Print every grid.
         */
@@ -465,12 +515,15 @@ int main () {
         cout << "*** Darwin 3x3 ***" << endl;
         /*
         3x3 Darwin
-        Food,   facing east,  at (0, 0)
-        Hopper, facing north, at (3, 3)
-        Hopper, facing east,  at (3, 4)
-        Hopper, facing south, at (4, 4)
-        Hopper, facing west,  at (4, 3)
-        Food,   facing north, at (7, 7)
+        Rover,   facing north,  at (1, 1)
+        Trap, facing west, at (0, 0)
+        Rover, facing east,  at (0, 2)
+        Trap, facing south, at (2, 2)
+        Rover, facing west,  at (2, 0)
+        Hopper, facing south, at (0, 1)
+        Hopper, facing north,  at (1, 0)
+        Hopper, facing north, at (1, 2)
+        Hopper, facing east,  at (2, 1)
         Simulate 5 moves.
         Print every grid.
         */
@@ -513,15 +566,16 @@ int main () {
     try {
         cout << "*** Darwin 5x5 ***" << endl;
         /*
-        5x5 Darwin
-        Food,   facing east,  at (0, 0)
-        Hopper, facing north, at (3, 3)
-        Hopper, facing east,  at (3, 4)
-        Hopper, facing south, at (4, 4)
-        Hopper, facing west,  at (4, 3)
-        Food,   facing north, at (7, 7)
-        Simulate 5 moves.
-        Print every grid.
+        Randomly place the following creatures facing randomly.
+        Call rand(), mod it with 25 (5x5), and use that for the position
+        in a row-major order grid.
+        Call rand() again, mod it with 4 and use that for its direction with
+        the ordering: west, north, east, south.
+        Do that for each kind of creature.
+        5 Rover
+        3 Trap
+        Simulate 10 moves.
+        Print each grid.
         */
         World w(5, 5);
         // Adding Rover
