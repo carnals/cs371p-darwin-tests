@@ -1,0 +1,171 @@
+Running main() from gtest_main.cc
+[==========] Running 78 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 12 tests from TestDarwin
+[ RUN      ] TestDarwin.printBoard_1
+[       OK ] TestDarwin.printBoard_1 (54 ms)
+[ RUN      ] TestDarwin.printBoard_2
+[       OK ] TestDarwin.printBoard_2 (3 ms)
+[ RUN      ] TestDarwin.printBoard_3
+[       OK ] TestDarwin.printBoard_3 (3 ms)
+[ RUN      ] TestDarwin.Darwin_1
+[       OK ] TestDarwin.Darwin_1 (3 ms)
+[ RUN      ] TestDarwin.Darwin_2
+[       OK ] TestDarwin.Darwin_2 (3 ms)
+[ RUN      ] TestDarwin.Darwin_3
+[       OK ] TestDarwin.Darwin_3 (3 ms)
+[ RUN      ] TestDarwin.add_Creature1
+[       OK ] TestDarwin.add_Creature1 (13 ms)
+[ RUN      ] TestDarwin.add_Creature2
+[       OK ] TestDarwin.add_Creature2 (7 ms)
+[ RUN      ] TestDarwin.add_Creature3
+[       OK ] TestDarwin.add_Creature3 (11 ms)
+[ RUN      ] TestDarwin.run_game1
+[       OK ] TestDarwin.run_game1 (35 ms)
+[ RUN      ] TestDarwin.run_game2
+[       OK ] TestDarwin.run_game2 (8 ms)
+[ RUN      ] TestDarwin.run_game3
+[       OK ] TestDarwin.run_game3 (17 ms)
+[----------] 12 tests from TestDarwin (167 ms total)
+
+[----------] 51 tests from TestSpecies
+[ RUN      ] TestSpecies.Species_str_const1
+[       OK ] TestSpecies.Species_str_const1 (3 ms)
+[ RUN      ] TestSpecies.Species_str_const2
+[       OK ] TestSpecies.Species_str_const2 (5 ms)
+[ RUN      ] TestSpecies.Species_str_const3
+[       OK ] TestSpecies.Species_str_const3 (3 ms)
+[ RUN      ] TestSpecies.Species_DefaultConst
+[       OK ] TestSpecies.Species_DefaultConst (2 ms)
+[ RUN      ] TestSpecies.left1
+[       OK ] TestSpecies.left1 (7 ms)
+[ RUN      ] TestSpecies.left2
+[       OK ] TestSpecies.left2 (13 ms)
+[ RUN      ] TestSpecies.left3
+[       OK ] TestSpecies.left3 (8 ms)
+[ RUN      ] TestSpecies.infect1
+[       OK ] TestSpecies.infect1 (13 ms)
+[ RUN      ] TestSpecies.infect2
+[       OK ] TestSpecies.infect2 (10 ms)
+[ RUN      ] TestSpecies.infect3
+[       OK ] TestSpecies.infect3 (11 ms)
+[ RUN      ] TestSpecies.if_wall1
+[       OK ] TestSpecies.if_wall1 (11 ms)
+[ RUN      ] TestSpecies.if_wall2
+[       OK ] TestSpecies.if_wall2 (8 ms)
+[ RUN      ] TestSpecies.if_wall3
+[       OK ] TestSpecies.if_wall3 (6 ms)
+[ RUN      ] TestSpecies.if_enemy1
+[       OK ] TestSpecies.if_enemy1 (12 ms)
+[ RUN      ] TestSpecies.if_enemy2
+[       OK ] TestSpecies.if_enemy2 (10 ms)
+[ RUN      ] TestSpecies.if_enemy3
+[       OK ] TestSpecies.if_enemy3 (9 ms)
+[ RUN      ] TestSpecies.print1
+[       OK ] TestSpecies.print1 (3 ms)
+[ RUN      ] TestSpecies.print2
+[       OK ] TestSpecies.print2 (4 ms)
+[ RUN      ] TestSpecies.print3
+[       OK ] TestSpecies.print3 (7 ms)
+[ RUN      ] TestSpecies.hop_WEST
+[       OK ] TestSpecies.hop_WEST (6 ms)
+[ RUN      ] TestSpecies.hop_WALL
+[       OK ] TestSpecies.hop_WALL (6 ms)
+[ RUN      ] TestSpecies.hop_NORTH
+[       OK ] TestSpecies.hop_NORTH (6 ms)
+[ RUN      ] TestSpecies.hop_CREATURE
+[       OK ] TestSpecies.hop_CREATURE (8 ms)
+[ RUN      ] TestSpecies.hop_food
+[       OK ] TestSpecies.hop_food (10 ms)
+[ RUN      ] TestSpecies.hop_5
+[       OK ] TestSpecies.hop_5 (9 ms)
+[ RUN      ] TestSpecies.right_1
+[       OK ] TestSpecies.right_1 (6 ms)
+[ RUN      ] TestSpecies.right_2
+[       OK ] TestSpecies.right_2 (9 ms)
+[ RUN      ] TestSpecies.right_3
+[       OK ] TestSpecies.right_3 (8 ms)
+[ RUN      ] TestSpecies.right_4
+[       OK ] TestSpecies.right_4 (6 ms)
+[ RUN      ] TestSpecies.if_empty_1
+[       OK ] TestSpecies.if_empty_1 (9 ms)
+[ RUN      ] TestSpecies.if_empty_2
+[       OK ] TestSpecies.if_empty_2 (6 ms)
+[ RUN      ] TestSpecies.if_empty_Food
+[       OK ] TestSpecies.if_empty_Food (9 ms)
+[ RUN      ] TestSpecies.if_empty_Wall
+[       OK ] TestSpecies.if_empty_Wall (6 ms)
+[ RUN      ] TestSpecies.go_1
+[       OK ] TestSpecies.go_1 (3 ms)
+[ RUN      ] TestSpecies.go_2
+[       OK ] TestSpecies.go_2 (2 ms)
+[ RUN      ] TestSpecies.go_3
+[       OK ] TestSpecies.go_3 (3 ms)
+[ RUN      ] TestSpecies.peek1
+[       OK ] TestSpecies.peek1 (4 ms)
+[ RUN      ] TestSpecies.peek2
+[       OK ] TestSpecies.peek2 (4 ms)
+[ RUN      ] TestSpecies.peek3
+[       OK ] TestSpecies.peek3 (4 ms)
+[ RUN      ] TestSpecies.check_empty1
+[       OK ] TestSpecies.check_empty1 (6 ms)
+[ RUN      ] TestSpecies.check_empty2
+[       OK ] TestSpecies.check_empty2 (7 ms)
+[ RUN      ] TestSpecies.check_empty3
+[       OK ] TestSpecies.check_empty3 (7 ms)
+[ RUN      ] TestSpecies.check_wall_true
+[       OK ] TestSpecies.check_wall_true (6 ms)
+[ RUN      ] TestSpecies.check_wall_empty
+[       OK ] TestSpecies.check_wall_empty (5 ms)
+[ RUN      ] TestSpecies.check_wall_food
+[       OK ] TestSpecies.check_wall_food (8 ms)
+[ RUN      ] TestSpecies.addInstruction_1
+[       OK ] TestSpecies.addInstruction_1 (2 ms)
+[ RUN      ] TestSpecies.addInstruction_2
+[       OK ] TestSpecies.addInstruction_2 (3 ms)
+[ RUN      ] TestSpecies.addInstruction_3
+[       OK ] TestSpecies.addInstruction_3 (5 ms)
+[ RUN      ] TestSpecies.action_1
+[       OK ] TestSpecies.action_1 (8 ms)
+[ RUN      ] TestSpecies.action_2
+[       OK ] TestSpecies.action_2 (9 ms)
+[ RUN      ] TestSpecies.action_3
+[       OK ] TestSpecies.action_3 (12 ms)
+[----------] 51 tests from TestSpecies (359 ms total)
+
+[----------] 15 tests from TestCreature
+[ RUN      ] TestCreature.default_const1
+[       OK ] TestCreature.default_const1 (2 ms)
+[ RUN      ] TestCreature.default_const2
+[       OK ] TestCreature.default_const2 (3 ms)
+[ RUN      ] TestCreature.default_const3
+[       OK ] TestCreature.default_const3 (3 ms)
+[ RUN      ] TestCreature.print1
+[       OK ] TestCreature.print1 (3 ms)
+[ RUN      ] TestCreature.print2
+[       OK ] TestCreature.print2 (4 ms)
+[ RUN      ] TestCreature.print3
+[       OK ] TestCreature.print3 (7 ms)
+[ RUN      ] TestCreature.evolve1
+[       OK ] TestCreature.evolve1 (6 ms)
+[ RUN      ] TestCreature.evolve2
+[       OK ] TestCreature.evolve2 (14 ms)
+[ RUN      ] TestCreature.evolve3
+[       OK ] TestCreature.evolve3 (11 ms)
+[ RUN      ] TestCreature.takeTurn_1
+[       OK ] TestCreature.takeTurn_1 (7 ms)
+[ RUN      ] TestCreature.takeTurn_2
+[       OK ] TestCreature.takeTurn_2 (7 ms)
+[ RUN      ] TestCreature.takeTurn_3
+[       OK ] TestCreature.takeTurn_3 (9 ms)
+[ RUN      ] TestCreature.Creature_SpeciesConstructor_1
+[       OK ] TestCreature.Creature_SpeciesConstructor_1 (3 ms)
+[ RUN      ] TestCreature.Creature_SpeciesConstructor_2
+[       OK ] TestCreature.Creature_SpeciesConstructor_2 (6 ms)
+[ RUN      ] TestCreature.Creature_SpeciesConstructor_3
+[       OK ] TestCreature.Creature_SpeciesConstructor_3 (7 ms)
+[----------] 15 tests from TestCreature (92 ms total)
+
+[----------] Global test environment tear-down
+[==========] 78 tests from 3 test cases ran. (646 ms total)
+[  PASSED  ] 78 tests.
