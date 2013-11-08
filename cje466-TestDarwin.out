@@ -1,0 +1,41 @@
+Running main() from gtest_main.cc
+[==========] Running 16 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 16 tests from Darwin
+[ RUN      ] Darwin.addCreature_1
+[       OK ] Darwin.addCreature_1 (0 ms)
+[ RUN      ] Darwin.addCreature_2
+[       OK ] Darwin.addCreature_2 (0 ms)
+[ RUN      ] Darwin.addCreature_3
+[       OK ] Darwin.addCreature_3 (0 ms)
+[ RUN      ] Darwin.addCreature_4
+[       OK ] Darwin.addCreature_4 (0 ms)
+[ RUN      ] Darwin.giveEveryoneOneTurn_1
+[       OK ] Darwin.giveEveryoneOneTurn_1 (0 ms)
+[ RUN      ] Darwin.giveEveryoneOneTurn_2
+[       OK ] Darwin.giveEveryoneOneTurn_2 (0 ms)
+[ RUN      ] Darwin.giveEveryoneOneTurn_3
+[       OK ] Darwin.giveEveryoneOneTurn_3 (0 ms)
+[ RUN      ] Darwin.giveEveryoneOneTurn_4
+[       OK ] Darwin.giveEveryoneOneTurn_4 (0 ms)
+[ RUN      ] Darwin.giveEveryoneOneTurn_5
+[       OK ] Darwin.giveEveryoneOneTurn_5 (1 ms)
+[ RUN      ] Darwin.giveEveryoneOneTurn_6
+[       OK ] Darwin.giveEveryoneOneTurn_6 (0 ms)
+[ RUN      ] Darwin.creatureTurn_1
+[       OK ] Darwin.creatureTurn_1 (0 ms)
+[ RUN      ] Darwin.creatureTurn_2
+[       OK ] Darwin.creatureTurn_2 (0 ms)
+[ RUN      ] Darwin.creatureTurn_3
+[       OK ] Darwin.creatureTurn_3 (0 ms)
+[ RUN      ] Darwin.creatureTurn_4
+[       OK ] Darwin.creatureTurn_4 (0 ms)
+[ RUN      ] Darwin.creatureTurn_5
+[       OK ] Darwin.creatureTurn_5 (0 ms)
+[ RUN      ] Darwin.creatureTurn_6
+[       OK ] Darwin.creatureTurn_6 (0 ms)
+[----------] 16 tests from Darwin (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 16 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 16 tests.

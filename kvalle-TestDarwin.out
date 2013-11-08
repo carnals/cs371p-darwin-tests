@@ -1,0 +1,171 @@
+Running main() from gtest_main.cc
+[==========] Running 81 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 81 tests from Darwin
+[ RUN      ] Darwin.direction_west
+[       OK ] Darwin.direction_west (8 ms)
+[ RUN      ] Darwin.direction_north
+[       OK ] Darwin.direction_north (2 ms)
+[ RUN      ] Darwin.direction_east
+[       OK ] Darwin.direction_east (2 ms)
+[ RUN      ] Darwin.direction_south
+[       OK ] Darwin.direction_south (2 ms)
+[ RUN      ] Darwin.right_west
+[       OK ] Darwin.right_west (2 ms)
+[ RUN      ] Darwin.right_north
+[       OK ] Darwin.right_north (1 ms)
+[ RUN      ] Darwin.right_east
+[       OK ] Darwin.right_east (1 ms)
+[ RUN      ] Darwin.right_south
+[       OK ] Darwin.right_south (2 ms)
+[ RUN      ] Darwin.left_west
+[       OK ] Darwin.left_west (2 ms)
+[ RUN      ] Darwin.left_north
+[       OK ] Darwin.left_north (2 ms)
+[ RUN      ] Darwin.left_east
+[       OK ] Darwin.left_east (2 ms)
+[ RUN      ] Darwin.left_south
+[       OK ] Darwin.left_south (2 ms)
+[ RUN      ] Darwin.location_west_origin
+[       OK ] Darwin.location_west_origin (4 ms)
+[ RUN      ] Darwin.location_north_origin
+[       OK ] Darwin.location_north_origin (3 ms)
+[ RUN      ] Darwin.location_east_origin
+[       OK ] Darwin.location_east_origin (3 ms)
+[ RUN      ] Darwin.location_south_origin
+[       OK ] Darwin.location_south_origin (3 ms)
+[ RUN      ] Darwin.get_front_west
+[       OK ] Darwin.get_front_west (4 ms)
+[ RUN      ] Darwin.get_front_north
+[       OK ] Darwin.get_front_north (3 ms)
+[ RUN      ] Darwin.get_front_east
+[       OK ] Darwin.get_front_east (3 ms)
+[ RUN      ] Darwin.get_front_south
+[       OK ] Darwin.get_front_south (3 ms)
+[ RUN      ] Darwin.left2_west
+[       OK ] Darwin.left2_west (2 ms)
+[ RUN      ] Darwin.left2_north
+[       OK ] Darwin.left2_north (2 ms)
+[ RUN      ] Darwin.left2_east
+[       OK ] Darwin.left2_east (2 ms)
+[ RUN      ] Darwin.left2_south
+[       OK ] Darwin.left2_south (3 ms)
+[ RUN      ] Darwin.right2_west
+[       OK ] Darwin.right2_west (2 ms)
+[ RUN      ] Darwin.right2_north
+[       OK ] Darwin.right2_north (2 ms)
+[ RUN      ] Darwin.right2_east
+[       OK ] Darwin.right2_east (3 ms)
+[ RUN      ] Darwin.right2_south
+[       OK ] Darwin.right2_south (2 ms)
+[ RUN      ] Darwin.instruction_zero
+[       OK ] Darwin.instruction_zero (2 ms)
+[ RUN      ] Darwin.instruction_one
+[       OK ] Darwin.instruction_one (3 ms)
+[ RUN      ] Darwin.instruction_two
+[       OK ] Darwin.instruction_two (2 ms)
+[ RUN      ] Darwin.instruction_three
+[       OK ] Darwin.instruction_three (2 ms)
+[ RUN      ] Darwin.instruction_four
+[       OK ] Darwin.instruction_four (3 ms)
+[ RUN      ] Darwin.instruction_five
+[       OK ] Darwin.instruction_five (2 ms)
+[ RUN      ] Darwin.instruction_six
+[       OK ] Darwin.instruction_six (2 ms)
+[ RUN      ] Darwin.instruction_seven
+[       OK ] Darwin.instruction_seven (3 ms)
+[ RUN      ] Darwin.instruction_eight
+[       OK ] Darwin.instruction_eight (2 ms)
+[ RUN      ] Darwin.instruction_nine
+[       OK ] Darwin.instruction_nine (2 ms)
+[ RUN      ] Darwin.creature1
+[       OK ] Darwin.creature1 (8 ms)
+[ RUN      ] Darwin.creature2
+[       OK ] Darwin.creature2 (3 ms)
+[ RUN      ] Darwin.creature3
+[       OK ] Darwin.creature3 (4 ms)
+[ RUN      ] Darwin.creature4
+[       OK ] Darwin.creature4 (3 ms)
+[ RUN      ] Darwin.hop_west
+[       OK ] Darwin.hop_west (4 ms)
+[ RUN      ] Darwin.hop_north
+[       OK ] Darwin.hop_north (4 ms)
+[ RUN      ] Darwin.hop_east
+[       OK ] Darwin.hop_east (3 ms)
+[ RUN      ] Darwin.hop_south
+[       OK ] Darwin.hop_south (3 ms)
+[ RUN      ] Darwin.left3_west
+[       OK ] Darwin.left3_west (3 ms)
+[ RUN      ] Darwin.left3_north
+[       OK ] Darwin.left3_north (2 ms)
+[ RUN      ] Darwin.left3_east
+[       OK ] Darwin.left3_east (3 ms)
+[ RUN      ] Darwin.left3_south
+[       OK ] Darwin.left3_south (3 ms)
+[ RUN      ] Darwin.right3_west
+[       OK ] Darwin.right3_west (2 ms)
+[ RUN      ] Darwin.right3_north
+[       OK ] Darwin.right3_north (3 ms)
+[ RUN      ] Darwin.right3_east
+[       OK ] Darwin.right3_east (2 ms)
+[ RUN      ] Darwin.right3_south
+[       OK ] Darwin.right3_south (2 ms)
+[ RUN      ] Darwin.infect_west
+[       OK ] Darwin.infect_west (9 ms)
+[ RUN      ] Darwin.infect_north
+[       OK ] Darwin.infect_north (4 ms)
+[ RUN      ] Darwin.infect_east
+[       OK ] Darwin.infect_east (4 ms)
+[ RUN      ] Darwin.infect_south
+[       OK ] Darwin.infect_south (4 ms)
+[ RUN      ] Darwin.food_west
+[       OK ] Darwin.food_west (13 ms)
+[ RUN      ] Darwin.food_north
+[       OK ] Darwin.food_north (3 ms)
+[ RUN      ] Darwin.food_east
+[       OK ] Darwin.food_east (3 ms)
+[ RUN      ] Darwin.food_south
+[       OK ] Darwin.food_south (3 ms)
+[ RUN      ] Darwin.hopper_west
+[       OK ] Darwin.hopper_west (4 ms)
+[ RUN      ] Darwin.hopper_north
+[       OK ] Darwin.hopper_north (3 ms)
+[ RUN      ] Darwin.hopper_east
+[       OK ] Darwin.hopper_east (3 ms)
+[ RUN      ] Darwin.hopper_south
+[       OK ] Darwin.hopper_south (3 ms)
+[ RUN      ] Darwin.rover_west
+[       OK ] Darwin.rover_west (7 ms)
+[ RUN      ] Darwin.rover_north
+[       OK ] Darwin.rover_north (3 ms)
+[ RUN      ] Darwin.rover_east
+[       OK ] Darwin.rover_east (3 ms)
+[ RUN      ] Darwin.rover_south
+[       OK ] Darwin.rover_south (3 ms)
+[ RUN      ] Darwin.trap_west
+[       OK ] Darwin.trap_west (6 ms)
+[ RUN      ] Darwin.trap_north
+[       OK ] Darwin.trap_north (3 ms)
+[ RUN      ] Darwin.trap_east
+[       OK ] Darwin.trap_east (3 ms)
+[ RUN      ] Darwin.trap_south
+[       OK ] Darwin.trap_south (3 ms)
+[ RUN      ] Darwin.elephant_west
+[       OK ] Darwin.elephant_west (8 ms)
+[ RUN      ] Darwin.elephant_north
+[       OK ] Darwin.elephant_north (3 ms)
+[ RUN      ] Darwin.elephant_east
+[       OK ] Darwin.elephant_east (4 ms)
+[ RUN      ] Darwin.elephant_south
+[       OK ] Darwin.elephant_south (3 ms)
+[ RUN      ] Darwin.board1
+[       OK ] Darwin.board1 (29 ms)
+[ RUN      ] Darwin.board2
+[       OK ] Darwin.board2 (5 ms)
+[ RUN      ] Darwin.board3
+[       OK ] Darwin.board3 (3 ms)
+[----------] 81 tests from Darwin (307 ms total)
+
+[----------] Global test environment tear-down
+[==========] 81 tests from 1 test case ran. (333 ms total)
+[  PASSED  ] 81 tests.

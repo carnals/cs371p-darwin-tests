@@ -1,0 +1,144 @@
+Running main() from gtest_main.cc
+[==========] Running 66 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 18 tests from Species
+[ RUN      ] Species.string_constructor1
+[       OK ] Species.string_constructor1 (23 ms)
+[ RUN      ] Species.string_constructor2
+[       OK ] Species.string_constructor2 (2 ms)
+[ RUN      ] Species.string_constructor3
+[       OK ] Species.string_constructor3 (6 ms)
+[ RUN      ] Species.string_constructor4
+[       OK ] Species.string_constructor4 (3 ms)
+[ RUN      ] Species.add_instruction1
+[       OK ] Species.add_instruction1 (4 ms)
+[ RUN      ] Species.add_instruction2
+[       OK ] Species.add_instruction2 (5 ms)
+[ RUN      ] Species.add_instruction3
+[       OK ] Species.add_instruction3 (2 ms)
+[ RUN      ] Species.add_instruction4
+[       OK ] Species.add_instruction4 (2 ms)
+[ RUN      ] Species.getInstruction1
+[       OK ] Species.getInstruction1 (2 ms)
+[ RUN      ] Species.getInstruction2
+[       OK ] Species.getInstruction2 (2 ms)
+[ RUN      ] Species.getInstruction3
+[       OK ] Species.getInstruction3 (2 ms)
+[ RUN      ] Species.getInstruction4
+[       OK ] Species.getInstruction4 (2 ms)
+[ RUN      ] Species.getInstruction5
+[       OK ] Species.getInstruction5 (2 ms)
+[ RUN      ] Species.getInstruction6
+[       OK ] Species.getInstruction6 (2 ms)
+[ RUN      ] Species.numInstructions1
+[       OK ] Species.numInstructions1 (2 ms)
+[ RUN      ] Species.numInstructions2
+[       OK ] Species.numInstructions2 (2 ms)
+[ RUN      ] Species.numInstructions3
+[       OK ] Species.numInstructions3 (2 ms)
+[ RUN      ] Species.numInstructions4
+[       OK ] Species.numInstructions4 (3 ms)
+[----------] 18 tests from Species (83 ms total)
+
+[----------] 48 tests from Creature
+[ RUN      ] Creature.addInstruction5
+[       OK ] Creature.addInstruction5 (2 ms)
+[ RUN      ] Creature.creature_constructor1
+[       OK ] Creature.creature_constructor1 (2 ms)
+[ RUN      ] Creature.creature_constructor2
+[       OK ] Creature.creature_constructor2 (2 ms)
+[ RUN      ] Creature.creature_constructor3
+[       OK ] Creature.creature_constructor3 (2 ms)
+[ RUN      ] Creature.creature_constructor4
+[       OK ] Creature.creature_constructor4 (2 ms)
+[ RUN      ] Creature.eligible1
+[       OK ] Creature.eligible1 (2 ms)
+[ RUN      ] Creature.eligible2
+[       OK ] Creature.eligible2 (2 ms)
+[ RUN      ] Creature.eligible3
+[       OK ] Creature.eligible3 (2 ms)
+[ RUN      ] Creature.eligible4
+[       OK ] Creature.eligible4 (2 ms)
+[ RUN      ] Creature.toggleEligible1
+[       OK ] Creature.toggleEligible1 (2 ms)
+[ RUN      ] Creature.toggleEligible2
+[       OK ] Creature.toggleEligible2 (3 ms)
+[ RUN      ] Creature.toggleEligible3
+[       OK ] Creature.toggleEligible3 (2 ms)
+[ RUN      ] Creature.toggleEligible4
+[       OK ] Creature.toggleEligible4 (2 ms)
+[ RUN      ] Creature.nextInstruction1
+[       OK ] Creature.nextInstruction1 (2 ms)
+[ RUN      ] Creature.nextInstruction2
+[       OK ] Creature.nextInstruction2 (2 ms)
+[ RUN      ] Creature.nextInstruction3
+[       OK ] Creature.nextInstruction3 (2 ms)
+[ RUN      ] Creature.nextInstruction4
+[       OK ] Creature.nextInstruction4 (2 ms)
+[ RUN      ] Creature.peekInstruction1
+[       OK ] Creature.peekInstruction1 (2 ms)
+[ RUN      ] Creature.peekInstruction2
+[       OK ] Creature.peekInstruction2 (2 ms)
+[ RUN      ] Creature.peekInstruction3
+[       OK ] Creature.peekInstruction3 (3 ms)
+[ RUN      ] Creature.peekInstruction4
+[       OK ] Creature.peekInstruction4 (2 ms)
+[ RUN      ] Creature.modPC1
+[       OK ] Creature.modPC1 (3 ms)
+[ RUN      ] Creature.modPC2
+[       OK ] Creature.modPC2 (3 ms)
+[ RUN      ] Creature.modPC3
+[       OK ] Creature.modPC3 (3 ms)
+[ RUN      ] Creature.incrementPC1
+[       OK ] Creature.incrementPC1 (3 ms)
+[ RUN      ] Creature.incrementPC2
+[       OK ] Creature.incrementPC2 (2 ms)
+[ RUN      ] Creature.incrementPC3
+[       OK ] Creature.incrementPC3 (2 ms)
+[ RUN      ] Creature.incrementPC4
+[       OK ] Creature.incrementPC4 (2 ms)
+[ RUN      ] Creature.frontSpot1
+[       OK ] Creature.frontSpot1 (4 ms)
+[ RUN      ] Creature.frontSpot2
+[       OK ] Creature.frontSpot2 (3 ms)
+[ RUN      ] Creature.frontSpot3
+[       OK ] Creature.frontSpot3 (3 ms)
+[ RUN      ] Creature.frontSpot4
+[       OK ] Creature.frontSpot4 (2 ms)
+[ RUN      ] Creature.turnLeft1
+[       OK ] Creature.turnLeft1 (3 ms)
+[ RUN      ] Creature.turnLeft2
+[       OK ] Creature.turnLeft2 (2 ms)
+[ RUN      ] Creature.turnLeft3
+[       OK ] Creature.turnLeft3 (3 ms)
+[ RUN      ] Creature.turnLeft4
+[       OK ] Creature.turnLeft4 (2 ms)
+[ RUN      ] Creature.turnRight1
+[       OK ] Creature.turnRight1 (2 ms)
+[ RUN      ] Creature.turnRight2
+[       OK ] Creature.turnRight2 (3 ms)
+[ RUN      ] Creature.turnRight3
+[       OK ] Creature.turnRight3 (2 ms)
+[ RUN      ] Creature.turnRight4
+[       OK ] Creature.turnRight4 (3 ms)
+[ RUN      ] Creature.getInfected1
+[       OK ] Creature.getInfected1 (3 ms)
+[ RUN      ] Creature.getInfected2
+[       OK ] Creature.getInfected2 (3 ms)
+[ RUN      ] Creature.getInfected3
+[       OK ] Creature.getInfected3 (3 ms)
+[ RUN      ] Creature.getInfected4
+[       OK ] Creature.getInfected4 (3 ms)
+[ RUN      ] Creature.toSymbol1
+[       OK ] Creature.toSymbol1 (2 ms)
+[ RUN      ] Creature.toSymbol2
+[       OK ] Creature.toSymbol2 (2 ms)
+[ RUN      ] Creature.toSymbol3
+[       OK ] Creature.toSymbol3 (2 ms)
+[ RUN      ] Creature.toSymbol4
+[       OK ] Creature.toSymbol4 (2 ms)
+[----------] 48 tests from Creature (125 ms total)
+
+[----------] Global test environment tear-down
+[==========] 66 tests from 2 test cases ran. (235 ms total)
+[  PASSED  ] 66 tests.
