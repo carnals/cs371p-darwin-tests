@@ -448,6 +448,57 @@ TEST(Darwin, get_next_position_4) {
   ASSERT_TRUE(world.isInBounds(ni, nj));
 }
 
+
+
+TEST(Darwin, get_next_position_5) {
+  WorldState world(3, 3);
+
+  int i = 0, j = 1;
+  int ni, nj;
+  
+  world.getNextPosition(i, j, ni, nj, EAST);
+  ASSERT_TRUE(ni == 0);
+  ASSERT_TRUE(nj == 2);
+  ASSERT_TRUE(world.isInBounds(ni, nj));
+}
+
+TEST(Darwin, get_next_position_6) {
+  WorldState world(3, 3);
+
+  int i = 0, j = 1;
+  int ni, nj;
+  
+  world.getNextPosition(i, j, ni, nj, WEST);
+  ASSERT_TRUE(ni == 0);
+  ASSERT_TRUE(nj == 0);
+  ASSERT_TRUE(world.isInBounds(ni, nj));
+}
+
+TEST(Darwin, get_next_position_7) {
+  WorldState world(3, 3);
+
+  int i = 0, j = 2;
+  int ni, nj;
+  
+  world.getNextPosition(i, j, ni, nj, WEST);
+  ASSERT_TRUE(ni == 0);
+  ASSERT_TRUE(nj == 1);
+  ASSERT_TRUE(world.isInBounds(ni, nj));
+}
+
+
+TEST(Darwin, get_next_position_8) {
+  WorldState world(3, 3);
+
+  int i = 2, j = 1;
+  int ni, nj;
+  
+  world.getNextPosition(i, j, ni, nj, WEST);
+  ASSERT_TRUE(ni == 2);
+  ASSERT_TRUE(nj == 0);
+  ASSERT_TRUE(world.isInBounds(ni, nj));
+}
+
 TEST(Darwin, put_in_bounds_1) {
   WorldState world(3, 3);
 
