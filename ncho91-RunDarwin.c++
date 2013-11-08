@@ -3,7 +3,8 @@
 // Copyright (C) 2013
 // Glenn P. Downing
 // -----------------------------
-
+/* Noah Cho, ncho91
+   Richard Lage, polt
 /*
 To run the program:
     % g++ -pedantic -std=c++0x -Wall Darwin.c++ RunDarwin.c++ -o RunDarwin
@@ -30,7 +31,6 @@ To document the program:
 #include <cstdlib>   // rand, srand
 #include <iostream>  // cout, endl
 #include <stdexcept> // invalid_argument, out_of_range
-#include <time.h>
 #include "Darwin.h"
 // ----
 // main
@@ -187,11 +187,17 @@ int main () {
         x.addCreature(h4);
 
         for (int n = 1; n <= 5; n++) {
-
+            std::cout << "TURN #" << n << std::endl;
             //loop to print out
+            std::cout << "  ";
+            for (int i = 0; i < x._column; i++) {
+                std::cout << i % 10;
+            }
+            std::cout << std::endl;
             for (int i = 0; i < x._row; i++) {
+                std::cout << i % 10 << " ";
                 for (int j = 0; j < x._column; j++) {
-                    std::cout << x.grid[i][j]._s._c << " ";
+                    std::cout << x.grid[i][j]._s._c;
                 }
                 std::cout << std::endl;
             }
@@ -246,11 +252,17 @@ int main () {
         x.addCreature(r1);
 
         for (int n = 1; n <= 5; n++) {
-
+            std::cout << "TURN #" << n << std::endl;
             //loop to print out
+            std::cout << "  ";
+            for (int i = 0; i < x._column; i++) {
+                std::cout << i % 10;
+            }
+            std::cout << std::endl;
             for (int i = 0; i < x._row; i++) {
+                std::cout << i % 10 << " ";
                 for (int j = 0; j < x._column; j++) {
-                    std::cout << x.grid[i][j]._s._c << " ";
+                    std::cout << x.grid[i][j]._s._c;
                 }
                 std::cout << std::endl;
             }
@@ -283,7 +295,7 @@ int main () {
 
     try {
         cout << "*** Darwin 72x72 without Best ***" << endl;
-        srand(time(NULL));
+        srand(0);
         /*
         Randomly place the following creatures facing randomly.
         Call rand(), mod it with 5184 (72x72), and use that for the position
@@ -331,9 +343,16 @@ int main () {
 
             //loop to print out
             if (n <= 10 || n % 100 == 0) {
+                std::cout << "TURN #" << n << std::endl;
+                std::cout << "  ";
+                for (int i = 0; i < x._column; i++) {
+                    std::cout << i % 10;
+                }
+                std::cout << std::endl;
                 for (int i = 0; i < x._row; i++) {
+                    std::cout << i % 10 << " ";
                     for (int j = 0; j < x._column; j++) {
-                        std::cout << x.grid[i][j]._s._c << " ";
+                        std::cout << x.grid[i][j]._s._c;
                     }
                     std::cout << std::endl;
                 }
@@ -368,7 +387,7 @@ int main () {
 
     try {
         cout << "*** Darwin 72x72 with Best ***" << endl;
-        srand(time(NULL));
+        srand(0);
         /*
         Randomly place the following creatures facing randomly.
         Call rand(), mod it with 5184 (72x72), and use that for the position
@@ -424,9 +443,16 @@ int main () {
 
             //loop to print out
             if (n <= 10 || n % 100 == 0) {
+                std::cout << "TURN #" << n << std::endl;
+                std::cout << "  ";
+                for (int i = 0; i < x._column; i++) {
+                    std::cout << i % 10;
+                }
+                std::cout << std::endl;
                 for (int i = 0; i < x._row; i++) {
+                    std::cout << i % 10 << " ";
                     for (int j = 0; j < x._column; j++) {
-                        std::cout << x.grid[i][j]._s._c << " ";
+                        std::cout << x.grid[i][j]._s._c;
                     }
                     std::cout << std::endl;
                 }
@@ -461,7 +487,7 @@ int main () {
 
     try {
         cout << "*** Darwin 1000x1 without Best ***" << endl;
-        srand(time(NULL));
+        srand(0);
         /*
         1 Rover
         1 Food
@@ -480,9 +506,16 @@ int main () {
 
              //loop to print out
             if (n == 1 || n == 1000) {
+                std::cout << "TURN #" << n << std::endl;
+                std::cout << "  ";
+                for (int i = 0; i < x._column; i++) {
+                    std::cout << i % 10;
+                }
+                std::cout << std::endl;
                 for (int i = 0; i < x._row; i++) {
+                    std::cout << i % 10 << " ";
                     for (int j = 0; j < x._column; j++) {
-                        std::cout << x.grid[i][j]._s._c << " ";
+                        std::cout << x.grid[i][j]._s._c;
                     }
                     std::cout << std::endl;
                 }
@@ -517,7 +550,7 @@ int main () {
 
     try {
         cout << "*** Darwin 40x40 without Best ***" << endl;
-        srand(time(NULL));
+        srand(0);
         /* 
         (50^2) - 1 Food
         1 Trap
@@ -538,9 +571,16 @@ int main () {
 
              //loop to print out
             if (n == 1 || n == 100) {
+                std::cout << "TURN #" << n << std::endl;
+                std::cout << "  ";
+                for (int i = 0; i < x._column; i++) {
+                    std::cout << i % 10;
+                }
+                std::cout << std::endl;
                 for (int i = 0; i < x._row; i++) {
+                    std::cout << i % 10 << " ";
                     for (int j = 0; j < x._column; j++) {
-                        std::cout << x.grid[i][j]._s._c << " ";
+                        std::cout << x.grid[i][j]._s._c;
                     }
                     std::cout << std::endl;
                 }
@@ -574,7 +614,7 @@ int main () {
 
     try {
         cout << "*** Darwin 30x30 without Best ***" << endl;
-        srand(time(NULL));
+        srand(0);
         /* 
         Hoppers all around the perimeter of the grid.
         They all move towards each other.
@@ -592,10 +632,16 @@ int main () {
         }
 
         for (int n = 1; n <= 15; n++) {
-
+            std::cout << "TURN #" << n << std::endl;
+            std::cout << "  ";
+            for (int i = 0; i < x._column; i++) {
+                std::cout << i % 10;
+            }
+            std::cout << std::endl;
             for (int i = 0; i < x._row; i++) {
+                std::cout << i % 10 << " ";
                 for (int j = 0; j < x._column; j++) {
-                    std::cout << x.grid[i][j]._s._c << " ";
+                    std::cout << x.grid[i][j]._s._c;
                 }
                 std::cout << std::endl;
             }
@@ -628,7 +674,7 @@ int main () {
 
     try {
         cout << "*** Darwin 3x3 without Best ***" << endl;
-        srand(time(NULL));
+        srand(0);
         /* 
         1 Trap
         1 Rover
@@ -651,10 +697,16 @@ int main () {
         x.addCreature(t1);
 
         for (int n = 1; n <= 4; n++) {
-
+            std::cout << "TURN #" << n << std::endl;
+            std::cout << "  ";
+            for (int i = 0; i < x._column; i++) {
+                std::cout << i % 10;
+            }
+            std::cout << std::endl;
             for (int i = 0; i < x._row; i++) {
+                std::cout << i % 10 << " ";
                 for (int j = 0; j < x._column; j++) {
-                    std::cout << x.grid[i][j]._s._c << " ";
+                    std::cout << x.grid[i][j]._s._c;
                 }
                 std::cout << std::endl;
             }
@@ -687,7 +739,7 @@ int main () {
 
     try {
         cout << "*** Darwin 10x10 without Best ***" << endl;
-        srand(time(NULL));
+        srand(0);
         /* 
         4 Hoppers
         Outer perimeter of Traps
@@ -714,10 +766,16 @@ int main () {
         x.addCreature(h4);
 
         for (int n = 1; n <= 5; n++) {
-
+            std::cout << "TURN #" << n << std::endl;
+            std::cout << "  ";
+            for (int i = 0; i < x._column; i++) {
+                std::cout << i % 10;
+            }
+            std::cout << std::endl;
             for (int i = 0; i < x._row; i++) {
+                std::cout << i % 10 << " ";
                 for (int j = 0; j < x._column; j++) {
-                    std::cout << x.grid[i][j]._s._c << " ";
+                    std::cout << x.grid[i][j]._s._c;
                 }
                 std::cout << std::endl;
             }
@@ -743,4 +801,5 @@ int main () {
     catch (const out_of_range&) {
         assert(false);}
 
-    return 0;}
+    return 0;
+}
