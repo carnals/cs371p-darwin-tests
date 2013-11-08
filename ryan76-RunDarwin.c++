@@ -115,15 +115,15 @@ int main () {
     trap.addInstruction(ACTION, INFECT, 4);
     trap.addInstruction(CONTROL, go, 0);
     
-    // ----------
-    // darwin 8x8
-    // ----------
+    // -------------
+    // darwin 10x10
+    // -------------
 
     try {
-        cout << "*** Darwin 8x8 ***" << endl;
+        cout << "*** Darwin 10x10 ***" << endl;
         
         /*
-        8x8 Darwin
+        10x10 Darwin
         Food,   facing east,  at (0, 0)
         Hopper, facing north, at (3, 3)
         Hopper, facing east,  at (3, 4)
@@ -134,7 +134,7 @@ int main () {
         Print every grid.
         */
         
-        Darwin x(8, 8);
+        Darwin x(10, 10);
         
         Creature f1(food, EAST);
         x.addCreature(f1, 0, 0);
@@ -161,11 +161,11 @@ int main () {
         assert(false);}
 
 // ----------
-// darwin 7x9
+// darwin 6x6
 // ----------
 
     try {
-        cout << "*** Darwin 7x9 ***" << endl;
+        cout << "*** Darwin 6x6 ***" << endl;
         srand(0);
         
         /*
@@ -173,7 +173,7 @@ int main () {
         Trap,   facing south, at (0, 0)
         Hopper, facing east,  at (3, 2)
         Rover,  facing north, at (5, 4)
-        Trap,   facing west,  at (6, 8)
+        Trap,   facing west,  at (6, 6)
         Simulate 5 moves.
         Print every grid.
         */
@@ -187,7 +187,7 @@ int main () {
         Creature r2(rover, NORTH);
         x.addCreature(r2, 5, 4);
         Creature t2(trap, WEST);
-        x.addCreature(t2, 6, 8);
+        x.addCreature(t2, 6, 6);
         
         for (int i = 0; i <= 5; i++) {
             x.printGrid();
@@ -276,3 +276,5 @@ int main () {
         assert(false);}
     catch (const out_of_range&) {
         assert(false);}
+        
+return 0;}

@@ -1,0 +1,127 @@
+Running main() from gtest_main.cc
+[==========] Running 59 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 59 tests from Darwin
+[ RUN      ] Darwin.inst1
+[       OK ] Darwin.inst1 (8 ms)
+[ RUN      ] Darwin.inst4
+[       OK ] Darwin.inst4 (2 ms)
+[ RUN      ] Darwin.inst2
+[       OK ] Darwin.inst2 (2 ms)
+[ RUN      ] Darwin.inst3
+[       OK ] Darwin.inst3 (2 ms)
+[ RUN      ] Darwin.inst5
+[       OK ] Darwin.inst5 (5 ms)
+[ RUN      ] Darwin.inst6
+[       OK ] Darwin.inst6 (2 ms)
+[ RUN      ] Darwin.inst7
+[       OK ] Darwin.inst7 (2 ms)
+[ RUN      ] Darwin.inst8
+[       OK ] Darwin.inst8 (3 ms)
+[ RUN      ] Darwin.inst9
+[       OK ] Darwin.inst9 (2 ms)
+[ RUN      ] Darwin.spec1
+[       OK ] Darwin.spec1 (13 ms)
+[ RUN      ] Darwin.spec2
+[       OK ] Darwin.spec2 (3 ms)
+[ RUN      ] Darwin.spec3
+[       OK ] Darwin.spec3 (2 ms)
+[ RUN      ] Darwin.spec4
+[       OK ] Darwin.spec4 (3 ms)
+[ RUN      ] Darwin.spec11
+[       OK ] Darwin.spec11 (3 ms)
+[ RUN      ] Darwin.spec5
+[       OK ] Darwin.spec5 (5 ms)
+[ RUN      ] Darwin.spec6
+[       OK ] Darwin.spec6 (3 ms)
+[ RUN      ] Darwin.spec7
+[       OK ] Darwin.spec7 (3 ms)
+[ RUN      ] Darwin.spec8
+[       OK ] Darwin.spec8 (3 ms)
+[ RUN      ] Darwin.spec9
+[       OK ] Darwin.spec9 (3 ms)
+[ RUN      ] Darwin.spec10
+[       OK ] Darwin.spec10 (4 ms)
+[ RUN      ] Darwin.spec12
+[       OK ] Darwin.spec12 (4 ms)
+[ RUN      ] Darwin.spec13
+[       OK ] Darwin.spec13 (2 ms)
+[ RUN      ] Darwin.creat1
+[       OK ] Darwin.creat1 (2 ms)
+[ RUN      ] Darwin.creat2
+[       OK ] Darwin.creat2 (2 ms)
+[ RUN      ] Darwin.creat3
+[       OK ] Darwin.creat3 (2 ms)
+[ RUN      ] Darwin.creat4
+[       OK ] Darwin.creat4 (2 ms)
+[ RUN      ] Darwin.creat5
+[       OK ] Darwin.creat5 (2 ms)
+[ RUN      ] Darwin.creat6
+[       OK ] Darwin.creat6 (2 ms)
+[ RUN      ] Darwin.creat7
+[       OK ] Darwin.creat7 (2 ms)
+[ RUN      ] Darwin.creat8
+[       OK ] Darwin.creat8 (2 ms)
+[ RUN      ] Darwin.creat9
+[       OK ] Darwin.creat9 (2 ms)
+[ RUN      ] Darwin.creat10
+[       OK ] Darwin.creat10 (2 ms)
+[ RUN      ] Darwin.creat11
+[       OK ] Darwin.creat11 (2 ms)
+[ RUN      ] Darwin.creat12
+[       OK ] Darwin.creat12 (2 ms)
+[ RUN      ] Darwin.creat13
+[       OK ] Darwin.creat13 (2 ms)
+[ RUN      ] Darwin.creat14
+[       OK ] Darwin.creat14 (2 ms)
+[ RUN      ] Darwin.creat15
+[       OK ] Darwin.creat15 (2 ms)
+[ RUN      ] Darwin.creat16
+[       OK ] Darwin.creat16 (2 ms)
+[ RUN      ] Darwin.creat17
+[       OK ] Darwin.creat17 (3 ms)
+[ RUN      ] Darwin.creat18
+[       OK ] Darwin.creat18 (2 ms)
+[ RUN      ] Darwin.creat19
+[       OK ] Darwin.creat19 (2 ms)
+[ RUN      ] Darwin.creat20
+[       OK ] Darwin.creat20 (2 ms)
+[ RUN      ] Darwin.creat21
+[       OK ] Darwin.creat21 (2 ms)
+[ RUN      ] Darwin.creat22
+[       OK ] Darwin.creat22 (2 ms)
+[ RUN      ] Darwin.creat23
+[       OK ] Darwin.creat23 (2 ms)
+[ RUN      ] Darwin.creat24
+[       OK ] Darwin.creat24 (2 ms)
+[ RUN      ] Darwin.creat27
+[       OK ] Darwin.creat27 (4 ms)
+[ RUN      ] Darwin.creat25
+[       OK ] Darwin.creat25 (3 ms)
+[ RUN      ] Darwin.creat26
+[       OK ] Darwin.creat26 (5 ms)
+[ RUN      ] Darwin.creat28
+[       OK ] Darwin.creat28 (5 ms)
+[ RUN      ] Darwin.darw1
+[       OK ] Darwin.darw1 (5 ms)
+[ RUN      ] Darwin.darw6
+[       OK ] Darwin.darw6 (17 ms)
+[ RUN      ] Darwin.darw2
+[       OK ] Darwin.darw2 (4 ms)
+[ RUN      ] Darwin.darw3
+[       OK ] Darwin.darw3 (4 ms)
+[ RUN      ] Darwin.darw4
+[       OK ] Darwin.darw4 (4 ms)
+[ RUN      ] Darwin.darw5
+[       OK ] Darwin.darw5 (11 ms)
+[ RUN      ] Darwin.darw7
+[       OK ] Darwin.darw7 (6 ms)
+[ RUN      ] Darwin.darw8
+[       OK ] Darwin.darw8 (12 ms)
+[ RUN      ] Darwin.darw9
+[       OK ] Darwin.darw9 (20 ms)
+[----------] 59 tests from Darwin (244 ms total)
+
+[----------] Global test environment tear-down
+[==========] 59 tests from 1 test case ran. (272 ms total)
+[  PASSED  ] 59 tests.
