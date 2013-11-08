@@ -1,0 +1,125 @@
+Running main() from gtest_main.cc
+[==========] Running 58 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 58 tests from Darwin
+[ RUN      ] Darwin.species_constructor_trap
+[       OK ] Darwin.species_constructor_trap (13 ms)
+[ RUN      ] Darwin.species_constructor_best
+[       OK ] Darwin.species_constructor_best (3 ms)
+[ RUN      ] Darwin.species_constructor_blank
+[       OK ] Darwin.species_constructor_blank (2 ms)
+[ RUN      ] Darwin.species_addInstruction_single
+[       OK ] Darwin.species_addInstruction_single (12 ms)
+[ RUN      ] Darwin.species_addInstruction_double
+[       OK ] Darwin.species_addInstruction_double (6 ms)
+[ RUN      ] Darwin.species_addInstruction_triple
+[       OK ] Darwin.species_addInstruction_triple (6 ms)
+[ RUN      ] Darwin.species_getInstruction_single
+[       OK ] Darwin.species_getInstruction_single (3 ms)
+[ RUN      ] Darwin.species_getInstruction_double
+[       OK ] Darwin.species_getInstruction_double (4 ms)
+[ RUN      ] Darwin.species_getInstruction_triple
+[       OK ] Darwin.species_getInstruction_triple (6 ms)
+[ RUN      ] Darwin.species_indexAfter_single
+[       OK ] Darwin.species_indexAfter_single (2 ms)
+[ RUN      ] Darwin.species_indexAfter_double
+[       OK ] Darwin.species_indexAfter_double (3 ms)
+[ RUN      ] Darwin.species_indexAfter_triple
+[       OK ] Darwin.species_indexAfter_triple (5 ms)
+[ RUN      ] Darwin.species_isEmpty_empty
+[       OK ] Darwin.species_isEmpty_empty (2 ms)
+[ RUN      ] Darwin.species_isEmpty_notEmpty
+[       OK ] Darwin.species_isEmpty_notEmpty (2 ms)
+[ RUN      ] Darwin.species_isEmpty_notEmpty2
+[       OK ] Darwin.species_isEmpty_notEmpty2 (2 ms)
+[ RUN      ] Darwin.species_ne_emptyAndNotEmpty
+[       OK ] Darwin.species_ne_emptyAndNotEmpty (4 ms)
+[ RUN      ] Darwin.species_ne_same
+[       OK ] Darwin.species_ne_same (3 ms)
+[ RUN      ] Darwin.species_ne_differentSpecies
+[       OK ] Darwin.species_ne_differentSpecies (2 ms)
+[ RUN      ] Darwin.creature_constructor_hopper
+[       OK ] Darwin.creature_constructor_hopper (13 ms)
+[ RUN      ] Darwin.creature_constructor_food
+[       OK ] Darwin.creature_constructor_food (5 ms)
+[ RUN      ] Darwin.creature_constructor_blank
+[       OK ] Darwin.creature_constructor_blank (8 ms)
+[ RUN      ] Darwin.creature_nextInstruction_hopper
+[       OK ] Darwin.creature_nextInstruction_hopper (6 ms)
+[ RUN      ] Darwin.creature_nextInstruction_food
+[       OK ] Darwin.creature_nextInstruction_food (5 ms)
+[ RUN      ] Darwin.creature_nextInstruction_trap
+[       OK ] Darwin.creature_nextInstruction_trap (9 ms)
+[ RUN      ] Darwin.creature_go_hopper
+[       OK ] Darwin.creature_go_hopper (4 ms)
+[ RUN      ] Darwin.creature_go_food
+[       OK ] Darwin.creature_go_food (4 ms)
+[ RUN      ] Darwin.creature_go_trap
+[       OK ] Darwin.creature_go_trap (6 ms)
+[ RUN      ] Darwin.creature_hasMovedThisTurn_oneInstruction
+[       OK ] Darwin.creature_hasMovedThisTurn_oneInstruction (4 ms)
+[ RUN      ] Darwin.creature_hasMovedThisTurn_manyInstructions
+[       OK ] Darwin.creature_hasMovedThisTurn_manyInstructions (5 ms)
+[ RUN      ] Darwin.creature_allowMovement_allow
+[       OK ] Darwin.creature_allowMovement_allow (3 ms)
+[ RUN      ] Darwin.creature_allowMovement_allowAfterPreviousMovement
+[       OK ] Darwin.creature_allowMovement_allowAfterPreviousMovement (5 ms)
+[ RUN      ] Darwin.creature_isEmpty_empty
+[       OK ] Darwin.creature_isEmpty_empty (2 ms)
+[ RUN      ] Darwin.creature_isEmpty_notEmpty
+[       OK ] Darwin.creature_isEmpty_notEmpty (2 ms)
+[ RUN      ] Darwin.creature_turnLeft_fromEast
+[       OK ] Darwin.creature_turnLeft_fromEast (4 ms)
+[ RUN      ] Darwin.creature_turnLeft_fromNorth
+[       OK ] Darwin.creature_turnLeft_fromNorth (3 ms)
+[ RUN      ] Darwin.creature_turnLeft_fromWest
+[       OK ] Darwin.creature_turnLeft_fromWest (4 ms)
+[ RUN      ] Darwin.creature_turnLeft_fromSouth
+[       OK ] Darwin.creature_turnLeft_fromSouth (3 ms)
+[ RUN      ] Darwin.creature_turnRight_fromEast
+[       OK ] Darwin.creature_turnRight_fromEast (3 ms)
+[ RUN      ] Darwin.creature_turnRight_fromNorth
+[       OK ] Darwin.creature_turnRight_fromNorth (3 ms)
+[ RUN      ] Darwin.creature_turnRight_fromWest
+[       OK ] Darwin.creature_turnRight_fromWest (3 ms)
+[ RUN      ] Darwin.creature_turnRight_fromSouth
+[       OK ] Darwin.creature_turnRight_fromSouth (4 ms)
+[ RUN      ] Darwin.creature_isFacing_East
+[       OK ] Darwin.creature_isFacing_East (2 ms)
+[ RUN      ] Darwin.creature_isFacing_North
+[       OK ] Darwin.creature_isFacing_North (2 ms)
+[ RUN      ] Darwin.creature_isFacing_West
+[       OK ] Darwin.creature_isFacing_West (3 ms)
+[ RUN      ] Darwin.creature_isFacing_South
+[       OK ] Darwin.creature_isFacing_South (3 ms)
+[ RUN      ] Darwin.creature_remove_blank
+[       OK ] Darwin.creature_remove_blank (7 ms)
+[ RUN      ] Darwin.creature_remove_food
+[       OK ] Darwin.creature_remove_food (5 ms)
+[ RUN      ] Darwin.creature_turnInto_hopperToTrap
+[       OK ] Darwin.creature_turnInto_hopperToTrap (9 ms)
+[ RUN      ] Darwin.creature_ne_emptyAndNotEmpty
+[       OK ] Darwin.creature_ne_emptyAndNotEmpty (4 ms)
+[ RUN      ] Darwin.creature_ne_same
+[       OK ] Darwin.creature_ne_same (4 ms)
+[ RUN      ] Darwin.creature_ne_differentSpecies
+[       OK ] Darwin.creature_ne_differentSpecies (4 ms)
+[ RUN      ] Darwin.darwin_constructor_1x1
+[       OK ] Darwin.darwin_constructor_1x1 (21 ms)
+[ RUN      ] Darwin.darwin_constructor_8x8
+[       OK ] Darwin.darwin_constructor_8x8 (8 ms)
+[ RUN      ] Darwin.darwin_constructor_4x98
+[       OK ] Darwin.darwin_constructor_4x98 (14 ms)
+[ RUN      ] Darwin.darwin_addCreature_1x1
+[       OK ] Darwin.darwin_addCreature_1x1 (6 ms)
+[ RUN      ] Darwin.darwin_addCreature_2x2
+[       OK ] Darwin.darwin_addCreature_2x2 (5 ms)
+[ RUN      ] Darwin.darwin_addCreature_4x98
+[       OK ] Darwin.darwin_addCreature_4x98 (15 ms)
+[ RUN      ] Darwin.darwin_addCreature_1x1_conflict
+[       OK ] Darwin.darwin_addCreature_1x1_conflict (6 ms)
+[----------] 58 tests from Darwin (324 ms total)
+
+[----------] Global test environment tear-down
+[==========] 58 tests from 1 test case ran. (352 ms total)
+[  PASSED  ] 58 tests.
