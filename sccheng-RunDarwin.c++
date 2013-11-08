@@ -336,13 +336,13 @@ int main () {
           w.addCreature(c, randNum / 72, randNum % 72);
         }
         
-        //w.toString();
+        w.toString();
         for(int i = 1; i <= 1000; i++)
         {
           if((i < 10) || (i % 100 == 0))
           {
             w.run(i);
-            //w.toString(); 
+            w.toString(); 
           }
         }     
         w.numberSpecies();
