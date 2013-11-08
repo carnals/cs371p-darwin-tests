@@ -1,0 +1,298 @@
+Running main() from gtest_main.cc
+[==========] Running 135 tests from 7 test cases.
+[----------] Global test environment set-up.
+[----------] 3 tests from Creature
+[ RUN      ] Creature.construct_with_invalid_species
+[       OK ] Creature.construct_with_invalid_species (44 ms)
+[ RUN      ] Creature.turn_left_4_times
+[       OK ] Creature.turn_left_4_times (5 ms)
+[ RUN      ] Creature.turn_right_4_times
+[       OK ] Creature.turn_right_4_times (4 ms)
+[----------] 3 tests from Creature (62 ms total)
+
+[----------] 19 tests from Food
+[ RUN      ] Food.construct
+[       OK ] Food.construct (4 ms)
+[ RUN      ] Food.construct_with_turn_counter
+[       OK ] Food.construct_with_turn_counter (4 ms)
+[ RUN      ] Food.construct_without_turn_counter
+[       OK ] Food.construct_without_turn_counter (4 ms)
+[ RUN      ] Food.if_enemy_when_same_species
+[       OK ] Food.if_enemy_when_same_species (2 ms)
+[ RUN      ] Food.if_enemy_when_enemy
+[       OK ] Food.if_enemy_when_enemy (3 ms)
+[ RUN      ] Food.if_enemy_when_empty
+[       OK ] Food.if_enemy_when_empty (2 ms)
+[ RUN      ] Food.if_enemy_when_wall
+[       OK ] Food.if_enemy_when_wall (2 ms)
+[ RUN      ] Food.if_empty_when_full
+[       OK ] Food.if_empty_when_full (3 ms)
+[ RUN      ] Food.if_empty_when_empty
+[       OK ] Food.if_empty_when_empty (2 ms)
+[ RUN      ] Food.if_wall_when_empty
+[       OK ] Food.if_wall_when_empty (3 ms)
+[ RUN      ] Food.if_wall_when_wall
+[       OK ] Food.if_wall_when_wall (2 ms)
+[ RUN      ] Food.if_wall_when_creature
+[       OK ] Food.if_wall_when_creature (2 ms)
+[ RUN      ] Food.if_rand
+[       OK ] Food.if_rand (6 ms)
+[ RUN      ] Food.go_to_10
+[       OK ] Food.go_to_10 (2 ms)
+[ RUN      ] Food.operator_override
+[       OK ] Food.operator_override (5 ms)
+[ RUN      ] Food.food_instructions_when_move_is_valid
+[       OK ] Food.food_instructions_when_move_is_valid (5 ms)
+[ RUN      ] Food.food_instructions_multiple_times
+[       OK ] Food.food_instructions_multiple_times (7 ms)
+[ RUN      ] Food.next_action_when_already_moved
+[       OK ] Food.next_action_when_already_moved (3 ms)
+[ RUN      ] Food.next_action_when_valid
+[       OK ] Food.next_action_when_valid (4 ms)
+[----------] 19 tests from Food (67 ms total)
+
+[----------] 19 tests from Hopper
+[ RUN      ] Hopper.construct
+[       OK ] Hopper.construct (3 ms)
+[ RUN      ] Hopper.construct_with_turn_counter
+[       OK ] Hopper.construct_with_turn_counter (4 ms)
+[ RUN      ] Hopper.construct_without_turn_counter
+[       OK ] Hopper.construct_without_turn_counter (4 ms)
+[ RUN      ] Hopper.if_enemy_when_same_species
+[       OK ] Hopper.if_enemy_when_same_species (2 ms)
+[ RUN      ] Hopper.if_enemy_when_enemy
+[       OK ] Hopper.if_enemy_when_enemy (3 ms)
+[ RUN      ] Hopper.if_enemy_when_empty
+[       OK ] Hopper.if_enemy_when_empty (2 ms)
+[ RUN      ] Hopper.if_enemy_when_wall
+[       OK ] Hopper.if_enemy_when_wall (2 ms)
+[ RUN      ] Hopper.if_empty_when_full
+[       OK ] Hopper.if_empty_when_full (3 ms)
+[ RUN      ] Hopper.if_empty_when_empty
+[       OK ] Hopper.if_empty_when_empty (2 ms)
+[ RUN      ] Hopper.if_wall_when_empty
+[       OK ] Hopper.if_wall_when_empty (2 ms)
+[ RUN      ] Hopper.if_wall_when_wall
+[       OK ] Hopper.if_wall_when_wall (3 ms)
+[ RUN      ] Hopper.if_wall_when_creature
+[       OK ] Hopper.if_wall_when_creature (2 ms)
+[ RUN      ] Hopper.if_rand
+[       OK ] Hopper.if_rand (4 ms)
+[ RUN      ] Hopper.go_to_10
+[       OK ] Hopper.go_to_10 (2 ms)
+[ RUN      ] Hopper.operator_override
+[       OK ] Hopper.operator_override (2 ms)
+[ RUN      ] Hopper.hopper_instructions_when_move_is_valid
+[       OK ] Hopper.hopper_instructions_when_move_is_valid (5 ms)
+[ RUN      ] Hopper.hopper_instructions_multiple_times
+[       OK ] Hopper.hopper_instructions_multiple_times (7 ms)
+[ RUN      ] Hopper.next_action_when_already_moved
+[       OK ] Hopper.next_action_when_already_moved (3 ms)
+[ RUN      ] Hopper.next_action_when_valid
+[       OK ] Hopper.next_action_when_valid (3 ms)
+[----------] 19 tests from Hopper (59 ms total)
+
+[----------] 20 tests from Trap
+[ RUN      ] Trap.construct
+[       OK ] Trap.construct (3 ms)
+[ RUN      ] Trap.construct_with_turn_counter
+[       OK ] Trap.construct_with_turn_counter (4 ms)
+[ RUN      ] Trap.construct_without_turn_counter
+[       OK ] Trap.construct_without_turn_counter (4 ms)
+[ RUN      ] Trap.if_enemy_when_same_species
+[       OK ] Trap.if_enemy_when_same_species (2 ms)
+[ RUN      ] Trap.if_enemy_when_enemy
+[       OK ] Trap.if_enemy_when_enemy (2 ms)
+[ RUN      ] Trap.if_enemy_when_empty
+[       OK ] Trap.if_enemy_when_empty (2 ms)
+[ RUN      ] Trap.if_enemy_when_wall
+[       OK ] Trap.if_enemy_when_wall (2 ms)
+[ RUN      ] Trap.if_empty_when_full
+[       OK ] Trap.if_empty_when_full (2 ms)
+[ RUN      ] Trap.if_empty_when_empty
+[       OK ] Trap.if_empty_when_empty (2 ms)
+[ RUN      ] Trap.if_wall_when_empty
+[       OK ] Trap.if_wall_when_empty (2 ms)
+[ RUN      ] Trap.if_wall_when_wall
+[       OK ] Trap.if_wall_when_wall (2 ms)
+[ RUN      ] Trap.if_wall_when_creature
+[       OK ] Trap.if_wall_when_creature (2 ms)
+[ RUN      ] Trap.if_rand
+[       OK ] Trap.if_rand (4 ms)
+[ RUN      ] Trap.go_to_10
+[       OK ] Trap.go_to_10 (2 ms)
+[ RUN      ] Trap.operator_override
+[       OK ] Trap.operator_override (2 ms)
+[ RUN      ] Trap.trap_instructions_when_empty
+[       OK ] Trap.trap_instructions_when_empty (6 ms)
+[ RUN      ] Trap.trap_instructions_with_enemy
+[       OK ] Trap.trap_instructions_with_enemy (4 ms)
+[ RUN      ] Trap.trap_instructions_multiple_times
+[       OK ] Trap.trap_instructions_multiple_times (7 ms)
+[ RUN      ] Trap.next_action_when_already_moved
+[       OK ] Trap.next_action_when_already_moved (4 ms)
+[ RUN      ] Trap.next_action_when_valid
+[       OK ] Trap.next_action_when_valid (3 ms)
+[----------] 20 tests from Trap (64 ms total)
+
+[----------] 20 tests from Rover
+[ RUN      ] Rover.construct
+[       OK ] Rover.construct (3 ms)
+[ RUN      ] Rover.construct_with_turn_counter
+[       OK ] Rover.construct_with_turn_counter (4 ms)
+[ RUN      ] Rover.construct_without_turn_counter
+[       OK ] Rover.construct_without_turn_counter (4 ms)
+[ RUN      ] Rover.if_enemy_when_same_species
+[       OK ] Rover.if_enemy_when_same_species (2 ms)
+[ RUN      ] Rover.if_enemy_when_enemy
+[       OK ] Rover.if_enemy_when_enemy (3 ms)
+[ RUN      ] Rover.if_enemy_when_empty
+[       OK ] Rover.if_enemy_when_empty (2 ms)
+[ RUN      ] Rover.if_enemy_when_wall
+[       OK ] Rover.if_enemy_when_wall (2 ms)
+[ RUN      ] Rover.if_empty_when_full
+[       OK ] Rover.if_empty_when_full (3 ms)
+[ RUN      ] Rover.if_empty_when_empty
+[       OK ] Rover.if_empty_when_empty (2 ms)
+[ RUN      ] Rover.if_wall_when_empty
+[       OK ] Rover.if_wall_when_empty (2 ms)
+[ RUN      ] Rover.if_wall_when_wall
+[       OK ] Rover.if_wall_when_wall (3 ms)
+[ RUN      ] Rover.if_wall_when_creature
+[       OK ] Rover.if_wall_when_creature (2 ms)
+[ RUN      ] Rover.if_rand
+[       OK ] Rover.if_rand (4 ms)
+[ RUN      ] Rover.go_to_10
+[       OK ] Rover.go_to_10 (2 ms)
+[ RUN      ] Rover.operator_override
+[       OK ] Rover.operator_override (2 ms)
+[ RUN      ] Rover.rover_instructions_when_empty
+[       OK ] Rover.rover_instructions_when_empty (6 ms)
+[ RUN      ] Rover.rover_instructions_with_enemy
+[       OK ] Rover.rover_instructions_with_enemy (4 ms)
+[ RUN      ] Rover.rover_instructions_when_rand
+1
+[       OK ] Rover.rover_instructions_when_rand (13 ms)
+[ RUN      ] Rover.next_action_when_already_moved
+[       OK ] Rover.next_action_when_already_moved (3 ms)
+[ RUN      ] Rover.next_action_when_valid
+[       OK ] Rover.next_action_when_valid (4 ms)
+[----------] 20 tests from Rover (70 ms total)
+
+[----------] 17 tests from Best
+[ RUN      ] Best.construct
+[       OK ] Best.construct (4 ms)
+[ RUN      ] Best.construct_with_turn_counter
+[       OK ] Best.construct_with_turn_counter (4 ms)
+[ RUN      ] Best.construct_without_turn_counter
+[       OK ] Best.construct_without_turn_counter (3 ms)
+[ RUN      ] Best.if_enemy_when_same_species
+[       OK ] Best.if_enemy_when_same_species (2 ms)
+[ RUN      ] Best.if_enemy_when_enemy
+[       OK ] Best.if_enemy_when_enemy (2 ms)
+[ RUN      ] Best.if_enemy_when_empty
+[       OK ] Best.if_enemy_when_empty (3 ms)
+[ RUN      ] Best.if_enemy_when_wall
+[       OK ] Best.if_enemy_when_wall (2 ms)
+[ RUN      ] Best.if_empty_when_full
+[       OK ] Best.if_empty_when_full (2 ms)
+[ RUN      ] Best.if_empty_when_empty
+[       OK ] Best.if_empty_when_empty (3 ms)
+[ RUN      ] Best.if_wall_when_empty
+[       OK ] Best.if_wall_when_empty (2 ms)
+[ RUN      ] Best.if_wall_when_wall
+[       OK ] Best.if_wall_when_wall (2 ms)
+[ RUN      ] Best.if_wall_when_creature
+[       OK ] Best.if_wall_when_creature (2 ms)
+[ RUN      ] Best.if_rand
+[       OK ] Best.if_rand (4 ms)
+[ RUN      ] Best.go_to_10
+[       OK ] Best.go_to_10 (2 ms)
+[ RUN      ] Best.operator_override
+[       OK ] Best.operator_override (2 ms)
+[ RUN      ] Best.next_action_when_already_moved
+[       OK ] Best.next_action_when_already_moved (4 ms)
+[ RUN      ] Best.next_action_when_valid
+[       OK ] Best.next_action_when_valid (4 ms)
+[----------] 17 tests from Best (49 ms total)
+
+[----------] 37 tests from World
+[ RUN      ] World.construct_10x10_world
+[       OK ] World.construct_10x10_world (19 ms)
+[ RUN      ] World.construct_2x3_world
+[       OK ] World.construct_2x3_world (3 ms)
+[ RUN      ] World.construct_100x1_world
+[       OK ] World.construct_100x1_world (5 ms)
+[ RUN      ] World.operator_override_after_2x2_constructor
+[       OK ] World.operator_override_after_2x2_constructor (8 ms)
+[ RUN      ] World.operator_override_after_1x11_constructor
+[       OK ] World.operator_override_after_1x11_constructor (3 ms)
+[ RUN      ] World.operator_override_after_11x1_constructor
+[       OK ] World.operator_override_after_11x1_constructor (2 ms)
+[ RUN      ] World.operator_override_with_data
+[       OK ] World.operator_override_with_data (7 ms)
+[ RUN      ] World.add_creatures_with_turn_counter
+[       OK ] World.add_creatures_with_turn_counter (23 ms)
+[ RUN      ] World.add_creatures_without_turn_counter
+[       OK ] World.add_creatures_without_turn_counter (16 ms)
+[ RUN      ] World.add_creature_on_top_of_another
+[       OK ] World.add_creature_on_top_of_another (9 ms)
+[ RUN      ] World.add_creature_with_negative_i
+[       OK ] World.add_creature_with_negative_i (4 ms)
+[ RUN      ] World.add_creature_with_negative_j
+[       OK ] World.add_creature_with_negative_j (3 ms)
+[ RUN      ] World.add_creature_with_i_exceeding_size
+[       OK ] World.add_creature_with_i_exceeding_size (2 ms)
+[ RUN      ] World.add_creature_with_j_exceeding_size
+[       OK ] World.add_creature_with_j_exceeding_size (2 ms)
+[ RUN      ] World.count_species_with_empty_world
+[       OK ] World.count_species_with_empty_world (4 ms)
+[ RUN      ] World.count_species_when_0_of_given_species
+[       OK ] World.count_species_when_0_of_given_species (4 ms)
+[ RUN      ] World.count_species_with_muliple_species
+[       OK ] World.count_species_with_muliple_species (4 ms)
+[ RUN      ] World.count_species_with_invalid_species
+[       OK ] World.count_species_with_invalid_species (2 ms)
+[ RUN      ] World.build_border_with_species
+[       OK ] World.build_border_with_species (9 ms)
+[ RUN      ] World.build_border_with_walls
+[       OK ] World.build_border_with_walls (4 ms)
+[ RUN      ] World.build_border_with_mix
+[       OK ] World.build_border_with_mix (4 ms)
+[ RUN      ] World.validate_action_with_nothing
+[       OK ] World.validate_action_with_nothing (6 ms)
+[ RUN      ] World.validate_action_with_left
+[       OK ] World.validate_action_with_left (5 ms)
+[ RUN      ] World.validate_action_with_right
+[       OK ] World.validate_action_with_right (4 ms)
+[ RUN      ] World.validate_action_with_valid_hop
+[       OK ] World.validate_action_with_valid_hop (8 ms)
+[ RUN      ] World.validate_action_with_invalid_hop_into_wall
+[       OK ] World.validate_action_with_invalid_hop_into_wall (6 ms)
+[ RUN      ] World.validate_action_with_invalid_hop_into_creature
+[       OK ] World.validate_action_with_invalid_hop_into_creature (10 ms)
+[ RUN      ] World.validate_action_with_valid_infect
+[       OK ] World.validate_action_with_valid_infect (10 ms)
+[ RUN      ] World.validate_action_with_invalid_infect_of_same_species
+[       OK ] World.validate_action_with_invalid_infect_of_same_species (8 ms)
+[ RUN      ] World.validate_action_with_invalid_infect_of_empty
+[       OK ] World.validate_action_with_invalid_infect_of_empty (6 ms)
+[ RUN      ] World.validate_action_rover_infect_best
+[       OK ] World.validate_action_rover_infect_best (8 ms)
+[ RUN      ] World.validate_action_best_infect_rover
+[       OK ] World.validate_action_best_infect_rover (8 ms)
+[ RUN      ] World.next_turn_with_empty_world
+[       OK ] World.next_turn_with_empty_world (7 ms)
+[ RUN      ] World.next_turn_with_multiple_hops
+[       OK ] World.next_turn_with_multiple_hops (12 ms)
+[ RUN      ] World.next_turn_with_multiple_infects
+[       OK ] World.next_turn_with_multiple_infects (11 ms)
+[ RUN      ] World.next_turn_rover_infect_best
+[       OK ] World.next_turn_rover_infect_best (5 ms)
+[ RUN      ] World.next_turn_best_infect_rover
+[       OK ] World.next_turn_best_infect_rover (6 ms)
+[----------] 37 tests from World (264 ms total)
+
+[----------] Global test environment tear-down
+[==========] 135 tests from 7 test cases ran. (665 ms total)
+[  PASSED  ] 135 tests.

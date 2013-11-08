@@ -131,10 +131,11 @@ int main () {
     // ----
 
 
-     
+
     //START MY TESTS 
     try{
         cout << "*** Darwin 10X10 Test I ***" << endl;
+        srand(0);
         Board game4 (10, 10);
         Creature f1 (food, "f", south, 5, 5);
         Creature h1 (hopper, "h", north, 3, 5);

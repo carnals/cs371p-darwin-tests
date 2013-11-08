@@ -148,10 +148,10 @@ int main () {
         cout << "*** Darwin 5x5" << endl;
         /*
         5x5 Darwin
-        Trap,   facing north, at (2, 2)
+        Trap,   facing north, at (2, 3)
         Rover,  facing north, at (4, 2)
         Rover,  facing east,  at (3, 1)
-        Rover,  facing west,  at (0, 4)
+        Rover,  facing south,  at (0, 4)
         Hopper, facing east,  at (4, 0)
         Simulate 7 moves.
         Print every grid.

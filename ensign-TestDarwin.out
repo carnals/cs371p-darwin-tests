@@ -1,0 +1,138 @@
+Running main() from gtest_main.cc
+[==========] Running 60 tests from 4 test cases.
+[----------] Global test environment set-up.
+[----------] 22 tests from Darwin
+[ RUN      ] Darwin.constructor_big
+[       OK ] Darwin.constructor_big (87 ms)
+[ RUN      ] Darwin.constructor_empty
+[       OK ] Darwin.constructor_empty (3 ms)
+[ RUN      ] Darwin.constructor_invalid
+[       OK ] Darwin.constructor_invalid (38 ms)
+[ RUN      ] Darwin.addCreature_normal
+[       OK ] Darwin.addCreature_normal (6 ms)
+[ RUN      ] Darwin.addCreature_on_top_of_another
+[       OK ] Darwin.addCreature_on_top_of_another (3 ms)
+[ RUN      ] Darwin.addCreature_fill_grid
+[       OK ] Darwin.addCreature_fill_grid (3 ms)
+[ RUN      ] Darwin.runTurn1
+[       OK ] Darwin.runTurn1 (5 ms)
+[ RUN      ] Darwin.runTurn2
+[       OK ] Darwin.runTurn2 (2 ms)
+[ RUN      ] Darwin.nextCoordinate_normal
+[       OK ] Darwin.nextCoordinate_normal (3 ms)
+[ RUN      ] Darwin.nextCoordinate_boundary
+[       OK ] Darwin.nextCoordinate_boundary (3 ms)
+[ RUN      ] Darwin.nextCoordinate_out_of_bounds
+[       OK ] Darwin.nextCoordinate_out_of_bounds (3 ms)
+[ RUN      ] Darwin.isEmpty_true
+[       OK ] Darwin.isEmpty_true (3 ms)
+[ RUN      ] Darwin.isEmpty_false
+[       OK ] Darwin.isEmpty_false (3 ms)
+[ RUN      ] Darwin.isEmpty_invalid
+[       OK ] Darwin.isEmpty_invalid (3 ms)
+[ RUN      ] Darwin.isEnemy_true
+[       OK ] Darwin.isEnemy_true (7 ms)
+[ RUN      ] Darwin.isEnemy_false
+[       OK ] Darwin.isEnemy_false (4 ms)
+[ RUN      ] Darwin.isEnemy_invalid
+[       OK ] Darwin.isEnemy_invalid (3 ms)
+[ RUN      ] Darwin.infect_success1
+[       OK ] Darwin.infect_success1 (6 ms)
+[ RUN      ] Darwin.infect_success2
+[       OK ] Darwin.infect_success2 (4 ms)
+[ RUN      ] Darwin.infect_success3
+[       OK ] Darwin.infect_success3 (4 ms)
+[ RUN      ] Darwin.infect_failure_invalid
+[       OK ] Darwin.infect_failure_invalid (3 ms)
+[ RUN      ] Darwin.infect_failure_empty
+[       OK ] Darwin.infect_failure_empty (2 ms)
+[----------] 22 tests from Darwin (209 ms total)
+
+[----------] 27 tests from Creature
+[ RUN      ] Creature.default_constructor_normal
+[       OK ] Creature.default_constructor_normal (3 ms)
+[ RUN      ] Creature.constructor_normal
+[       OK ] Creature.constructor_normal (2 ms)
+[ RUN      ] Creature.constructor_invalid_direction
+[       OK ] Creature.constructor_invalid_direction (3 ms)
+[ RUN      ] Creature.performInstruction_hop
+[       OK ] Creature.performInstruction_hop (14 ms)
+[ RUN      ] Creature.performInstruction_hop_wall
+[       OK ] Creature.performInstruction_hop_wall (3 ms)
+[ RUN      ] Creature.performInstruction_left_normal
+[       OK ] Creature.performInstruction_left_normal (3 ms)
+[ RUN      ] Creature.performInstruction_left_reset
+[       OK ] Creature.performInstruction_left_reset (3 ms)
+[ RUN      ] Creature.performInstruction_right_normal
+[       OK ] Creature.performInstruction_right_normal (3 ms)
+[ RUN      ] Creature.performInstruction_right_reset
+[       OK ] Creature.performInstruction_right_reset (3 ms)
+[ RUN      ] Creature.performInstruction_infect_normal
+[       OK ] Creature.performInstruction_infect_normal (7 ms)
+[ RUN      ] Creature.performInstruction_infect_wall
+[       OK ] Creature.performInstruction_infect_wall (4 ms)
+[ RUN      ] Creature.performInstruction_if_empty_true
+[       OK ] Creature.performInstruction_if_empty_true (7 ms)
+[ RUN      ] Creature.performInstruction_if_empty_false
+[       OK ] Creature.performInstruction_if_empty_false (5 ms)
+[ RUN      ] Creature.performInstruction_if_wall_true
+[       OK ] Creature.performInstruction_if_wall_true (5 ms)
+[ RUN      ] Creature.performInstruction_if_wall_false
+[       OK ] Creature.performInstruction_if_wall_false (4 ms)
+[ RUN      ] Creature.performInstruction_if_enemy_true
+[       OK ] Creature.performInstruction_if_enemy_true (6 ms)
+[ RUN      ] Creature.performInstruction_if_enemy_false
+[       OK ] Creature.performInstruction_if_enemy_false (7 ms)
+[ RUN      ] Creature.performInstruction_go_lots
+[       OK ] Creature.performInstruction_go_lots (4 ms)
+[ RUN      ] Creature.infectOther_test_species
+[       OK ] Creature.infectOther_test_species (4 ms)
+[ RUN      ] Creature.infectOther_test_pc
+[       OK ] Creature.infectOther_test_pc (2 ms)
+[ RUN      ] Creature.infectOther_test_ally
+[       OK ] Creature.infectOther_test_ally (3 ms)
+[ RUN      ] Creature.isAlly_true
+[       OK ] Creature.isAlly_true (2 ms)
+[ RUN      ] Creature.isAlly_false
+[       OK ] Creature.isAlly_false (3 ms)
+[ RUN      ] Creature.isValid_true
+[       OK ] Creature.isValid_true (2 ms)
+[ RUN      ] Creature.isValid_false
+[       OK ] Creature.isValid_false (2 ms)
+[ RUN      ] Creature.toString_normal
+[       OK ] Creature.toString_normal (2 ms)
+[ RUN      ] Creature.toString_empty
+[       OK ] Creature.toString_empty (2 ms)
+[----------] 27 tests from Creature (110 ms total)
+
+[----------] 9 tests from Species
+[ RUN      ] Species.constructor_normal
+[       OK ] Species.constructor_normal (3 ms)
+[ RUN      ] Species.addInstruction_control_normal
+[       OK ] Species.addInstruction_control_normal (3 ms)
+[ RUN      ] Species.addInstruction_action_normal
+[       OK ] Species.addInstruction_action_normal (2 ms)
+[ RUN      ] Species.addInstruction_invalid_arg
+[       OK ] Species.addInstruction_invalid_arg (2 ms)
+[ RUN      ] Species.currentInstruction_normal
+[       OK ] Species.currentInstruction_normal (4 ms)
+[ RUN      ] Species.currentInstruction_invalid
+[       OK ] Species.currentInstruction_invalid (2 ms)
+[ RUN      ] Species.size_empty
+[       OK ] Species.size_empty (2 ms)
+[ RUN      ] Species.size_not_empty
+[       OK ] Species.size_not_empty (3 ms)
+[ RUN      ] Species.toString_normal
+[       OK ] Species.toString_normal (2 ms)
+[----------] 9 tests from Species (24 ms total)
+
+[----------] 2 tests from Instruction
+[ RUN      ] Instruction.constructor_normal
+[       OK ] Instruction.constructor_normal (2 ms)
+[ RUN      ] Instruction.constructor_invalid
+[       OK ] Instruction.constructor_invalid (3 ms)
+[----------] 2 tests from Instruction (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 60 tests from 4 test cases ran. (374 ms total)
+[  PASSED  ] 60 tests.
