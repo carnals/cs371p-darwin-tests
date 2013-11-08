@@ -253,7 +253,7 @@ int main () {
 
     //  Test Case #4
     try {
-        cout << "*** Darwin 72x72 without Best ***" << endl;
+        cout << "*** Darwin 72x72 with Best ***" << endl;
         srand(0);
         /*
         Randomly place the following creatures facing randomly.
