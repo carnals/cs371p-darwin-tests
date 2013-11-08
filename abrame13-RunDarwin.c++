@@ -87,27 +87,6 @@ int main() {
 	trap.addInstruction(I_GO, 0);
 
 
-	// ----
-	// best
-	// ----
-
-	Species best('b');
-	best.addInstruction(I_ENEMY, 9);
-	best.addInstruction(I_EMPTY, 7);
-	best.addInstruction(I_RANDOM, 3);
-
-	best.addInstruction(I_LEFT);
-	best.addInstruction(I_GO, 0);
-
-	best.addInstruction(I_RIGHT);
-	best.addInstruction(I_GO, 0);
-
-	best.addInstruction(I_HOP);
-	best.addInstruction(I_GO, 0);
-	best.addInstruction(I_INFECT);
-	best.addInstruction(I_GO, 0);
-
-
 
 
 	// ----------
@@ -266,102 +245,6 @@ int main() {
 	  assert(false);}
 	catch (const out_of_range&) {
 	  assert(false);}
-
-  // ------------
-  // darwin 72x72
-  // with best
-  // ------------
-
-  try {
-    cout << "*** Darwin 72x72 with Best ***" << endl;
-    srand(0);
-    /*
-		Randomly place the following creatures facing randomly.
-		Call rand(), mod it with 5184 (72x72), and use that for the position
-		in a row-major order grid.
-		Call rand() again, mod it with 4 and use that for it's direction with
-		the ordering: 0:west, 1:north, 2:east, 3:south.
-		Do that for each kind of creature.
-		10 Food
-		10 Hopper
-		10 Rover
-		10 Trap
-		10 Best
-		Simulate 1000 moves.
-		Best MUST outnumber ALL other species for the bonus pts.
-		Print the first 10 grids (i.e. 0, 1, 2...9).
-		Print every 100th grid after that (i.e. 100, 200, 300...1000).
-		*/
-
-		Darwin game(72, 72);
-		int r;
-		int row, col;
-		int dir;
-		int i;
-
-		// place foods
-		for (i = 0; i < 10; i++) {
-			r = rand() % 5184;
-			row = r / 72;
-			col = r % 72;
-			dir = rand() % 4;
-			game.addCreature(Creature(&food, dir), row, col);
-		}
-
-		// place hoppers
-		for (i = 0; i < 10; i++) {
-			r = rand() % 5184;
-			row = r / 72;
-			col = r % 72;
-			dir = rand() % 4;
-			game.addCreature(Creature(&hopper, dir), row, col);
-		}
-
-		// place rovers
-		for (i = 0; i < 10; i++) {
-			r = rand() % 5184;
-			row = r / 72;
-			col = r % 72;
-			dir = rand() % 4;
-			game.addCreature(Creature(&rover, dir), row, col);
-		}
-
-		// place traps
-		for (i = 0; i < 10; i++) {
-			r = rand() % 5184;
-			row = r / 72;
-			col = r % 72;
-			dir = rand() % 4;
-			game.addCreature(Creature(&trap, dir), row, col);
-		}
-
-		// place bests
-		for (i = 0; i < 10; i++) {
-			r = rand() % 5184;
-			row = r / 72;
-			col = r % 72;
-			dir = rand() % 4;
-			game.addCreature(Creature(&best, dir), row, col);
-		}
-
-		// do the sim
-		game.print(cout);
-
-		for (i = 1; i <= 1000; i++){
-			game.play();
-
-			//print sometimes
-			if (i % 100 == 0 || i < 10)
-				game.print(cout);
-		}
-
-
-  }
-	catch (const invalid_argument&) {
-	  assert(false);}
-	catch (const out_of_range&) {
-	  assert(false);}
-
 
 
   // my tests
