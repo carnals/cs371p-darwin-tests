@@ -1,3 +1,12 @@
+// ------------------------------------
+// Name: Oluwadara Oke
+// cs user id: daraoke
+// ------------------------------------
+
+// ------------------------------------
+// Name: Victor Aguilar
+// cs user id: vaa292
+// ------------------------------------
 // -----------------------------
 // projects/darwin/RunDarwin.c++
 // Copyright (C) 2013
@@ -5,22 +14,22 @@
 // -----------------------------
 
 /*
-To run the program:
-    % g++ -pedantic -std=c++0x -Wall Darwin.c++ RunDarwin.c++ -o RunDarwin
-    % valgrind RunDarwin > RunDarwin.out
-
-To configure Doxygen:
-    doxygen -g
-That creates the file Doxyfile.
-Make the following edits:
-    EXTRACT_ALL            = YES
-    EXTRACT_PRIVATE        = YES
-    EXTRACT_STATIC         = YES
-    GENERATE_LATEX         = NO
-
-To document the program:
-    doxygen Doxyfile
-*/
+ T o run the *program:
+ % g++ -pedantic -std=c++0x -Wall Darwin.c++ RunDarwin.c++ -o RunDarwin
+ % valgrind RunDarwin > RunDarwin.out
+ 
+ To configure Doxygen:
+ doxygen -g
+ That creates the file Doxyfile.
+ Make the following edits:
+ EXTRACT_ALL            = YES
+ EXTRACT_PRIVATE        = YES
+ EXTRACT_STATIC         = YES
+ GENERATE_LATEX         = NO
+ 
+ To document the program:
+ doxygen Doxyfile
+ */
 
 // --------
 // includes
@@ -36,86 +45,86 @@ To document the program:
 // ----
 
 int main () {
-    using namespace std;
-
-	// ----
-	// food
-	// ----
-
-	/*
-	 0: left
-	 1: go 0
-// --------
-	*/
-	
-	Species food('f');
-	food.add_instruction(ACTION, LEFT, 0);
-	food.add_instruction(CONTROL, GO, 0);
-	// ------
-	// hopper
-	// ------
-
-	/*
-	 0: hop
-	 1: go 0
-	*/
-	Species hopper('h');
-	hopper.add_instruction(ACTION, HOP, 0);
-	hopper.add_instruction(CONTROL, GO, 0);
-	// -----
-	// rover
-	// -----
-
-	/*
-	 0: if_enemy 9
-	 1: if_empty 7
-	 2: if_random 5
-	 3: left
-	 4: go 0
-	 5: right
-	 7: hop
-	 6: go 0
-	 8: go 0
-	 9: infect
-	10: go 0
-	*/
-	Species rover('r');
-	rover.add_instruction(CONTROL, IF_ENEMY, 9);
-	rover.add_instruction(CONTROL, IF_EMPTY, 7);
-	rover.add_instruction(CONTROL, IF_RANDOM, 5);
-	rover.add_instruction(ACTION, LEFT, 0);
-	rover.add_instruction(CONTROL, GO, 0);
-	rover.add_instruction(ACTION, RIGHT, 0);
-	rover.add_instruction(CONTROL, GO, 0);
-	rover.add_instruction(ACTION, HOP, 0);
-	rover.add_instruction(CONTROL, GO, 0);
-	rover.add_instruction(ACTION, INFECT, 0);
-	rover.add_instruction(CONTROL, GO, 0);
-	// ----
-	// trap
-	// ----
-
-	/*
-	 0: if_enemy 3
-	 1: left
-	 2: go 0
-	 3: infect
-	 4: go 0
-	*/
-	Species trap('t');
-	trap.add_instruction(CONTROL, IF_ENEMY, 3);
-	trap.add_instruction(ACTION, LEFT, 0);
-	trap.add_instruction(CONTROL, GO, 0);
-	trap.add_instruction(ACTION, INFECT, 0);
-	trap.add_instruction(CONTROL, GO, 0);
-
+  using namespace std;
+  
+  // ----
+  // food
+  // ----
+  
+  /*
+   0 : left   *
+   1: go 0
+   // --------
+   */
+  
+  Species food('f');
+  food.add_instruction(ACTION, LEFT, 0);
+  food.add_instruction(CONTROL, GO, 0);
+  // ------
+  // hopper
+  // ------
+  
+  /*
+   0 : hop    *
+   1: go 0
+   */
+  Species hopper('h');
+  hopper.add_instruction(ACTION, HOP, 0);
+  hopper.add_instruction(CONTROL, GO, 0);
+  // -----
+  // rover
+  // -----
+  
+  /*
+   0 : if_enem*y 9
+   1: if_empty 7
+   2: if_random 5
+   3: left
+   4: go 0
+   5: right
+   7: hop
+   6: go 0
+   8: go 0
+   9: infect
+   10: go 0
+   */
+  Species rover('r');
+  rover.add_instruction(CONTROL, IF_ENEMY, 9);
+  rover.add_instruction(CONTROL, IF_EMPTY, 7);
+  rover.add_instruction(CONTROL, IF_RANDOM, 5);
+  rover.add_instruction(ACTION, LEFT, 0);
+  rover.add_instruction(CONTROL, GO, 0);
+  rover.add_instruction(ACTION, RIGHT, 0);
+  rover.add_instruction(CONTROL, GO, 0);
+  rover.add_instruction(ACTION, HOP, 0);
+  rover.add_instruction(CONTROL, GO, 0);
+  rover.add_instruction(ACTION, INFECT, 0);
+  rover.add_instruction(CONTROL, GO, 0);
+  // ----
+  // trap
+  // ----
+  
+  /*
+   0 : if_enem*y 3
+   1: left
+   2: go 0
+   3: infect
+   4: go 0
+   */
+  Species trap('t');
+  trap.add_instruction(CONTROL, IF_ENEMY, 3);
+  trap.add_instruction(ACTION, LEFT, 0);
+  trap.add_instruction(CONTROL, GO, 0);
+  trap.add_instruction(ACTION, INFECT, 0);
+  trap.add_instruction(CONTROL, GO, 0);
+ 
 	// ----------
 	// darwin 8x8
 	// ----------
 
 	try {
 		cout << "*** Darwin 8x8 ***" << endl;
-			/*
+		/*
 		8x8 Darwin
 		Food,   facing east,  at (0, 0)
 		Hopper, facing north, at (3, 3)
@@ -135,9 +144,10 @@ int main () {
 		world1.add_creature(hopper, WEST, 4, 3);
 		world1.add_creature(food, NORTH, 7, 7);
 	
+		world1.print_grid();
 		for (int i = 0; i < 5; i++) {
-			world1.print_grid();
 			world1.step();
+			world1.print_grid();
 		}
 		}
 	catch (const invalid_argument&) {
@@ -168,10 +178,10 @@ int main () {
 		world2.add_creature(hopper, EAST, 3, 2);
 		world2.add_creature(rover, NORTH, 5, 4);
 		world2.add_creature(trap, WEST, 6, 8);
-
-		for (int i = 0; i < 6; i++) {
-			world2.print_grid();
+		world2.print_grid();
+		for (int i = 0; i < 5; i++) {
 			world2.step();
+			world2.print_grid();
 		}
 		}
 	catch (const invalid_argument&) {
@@ -198,8 +208,8 @@ int main () {
          Rover,  facing east,  at (2,10)
          Hopper, facing south, at (1, 3)
          Trap,   facing west,  at (6, 8)
-         Simulate 5 moves.
-         Print every grid.
+         Simulate 20 moves.
+         Print every 5th move
          */
         
 		DarwinWorld world3(10, 15);
@@ -237,7 +247,7 @@ int main () {
          Hopper, facing west,  at (9, 0)
          Rover,  facing north, at (0, 9)
          Trap,   facing south, at (9, 9)
-         Simulate 5 moves.
+         Simulate 10 moves.
          Print every grid.
          */
         
@@ -247,10 +257,10 @@ int main () {
 		world4.add_creature(rover, NORTH, 0, 9);
         world4.add_creature(trap, SOUTH, 9, 9);
 
-        
-		for (int i = 0; i < 6; i++) {
-			world4.print_grid();
+        world4.print_grid();
+		for (int i = 0; i < 10; i++) {
 			world4.step();
+			world4.print_grid();
 		}
     }
 	catch (const invalid_argument&) {
@@ -281,19 +291,51 @@ int main () {
 		world5.add_creature(trap, SOUTH, 0, 0);
 		world5.add_creature(hopper, WEST, 0, 1);
 		world5.add_creature(rover, NORTH, 1, 0);
-		world5.add_creature(trap, WEST, 1, 1);
+        world5.add_creature(trap, WEST, 1, 1);
 
-        
+        world5.print_grid();
 		for (int i = 0; i < 5; i++) {
-			world5.print_grid();
 			world5.step();
+			world5.print_grid();
 		}
     }
 	catch (const invalid_argument&) {
 		assert(false);}
 	catch (const out_of_range&) {
 		assert(false);}
-
+	// ----------
+	// darwin 1x1
+	// ----------
+		  
+		  try {
+		    cout << "*** Darwin 1x7 ***" << endl;
+		    srand(0);
+		    
+		    /*
+		     1 x 7 Darwin*
+		     Trap,   facing south, at (0, 0)
+		     Rover,   facing east, at (0, 3)
+		     Hopper, facing west,  at (0, 5)
+		     Simulate 5 moves.
+		     Print every grid.
+		     */
+		    
+		    DarwinWorld world(1, 7);
+		    world.add_creature(trap, SOUTH, 0, 0);
+		    world.add_creature(rover, EAST, 0, 3);
+		    world.add_creature(hopper, WEST, 0, 5);
+		    
+		    world.print_grid();
+		    for (int i = 0; i < 5; i++) {
+		      world.step();
+		      world.print_grid();
+		    }
+		  }
+		  catch (const invalid_argument&) {
+		    assert(false);}
+		    catch (const out_of_range&) {
+		      assert(false);}
+		      
 	// ------------
 	// darwin 72x72
 	// without best
@@ -406,12 +448,13 @@ int main () {
 	    int y = pos / 72;
 	    world7.add_creature(hopper, dir, x, y);
         }
+
         for (int i = 0; i < 10; i++) {
             int dir = rand() % 4;
             int pos = rand() % 5184;
 	    int x = pos % 72;
 	    int y = pos / 72;
-	    world7.add_creature(rover, dir, x, y);
+	    world7.add_creature(best, dir, x, y);
         }
         for (int i = 0; i < 10; i++) {
             int dir = rand() % 4;
@@ -425,8 +468,10 @@ int main () {
             int pos = rand() % 5184;
 	    int x = pos % 72;
 	    int y = pos / 72;
-	    world7.add_creature(best, dir, x, y);
+	    world7.add_creature(rover, dir, x, y);
         }
+
+
         
 	for (int i = 0; i < 10; i++) {
 	world7.print_grid();
@@ -434,7 +479,7 @@ int main () {
 	}
 	
 	for (int i = 10; i < 1001; i++) {
-	if (i % 100 == 0) {world7.print_grid();}
+	if (i % 100 == 0) world7.print_grid();
 	world7.step();
 	}
 		}
@@ -442,7 +487,5 @@ int main () {
 		assert(false);}
 	catch (const out_of_range&) {
 		assert(false);}
-
-	return 0;}
-
-
+			      
+			      return 0;}
