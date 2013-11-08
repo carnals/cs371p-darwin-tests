@@ -88,6 +88,8 @@ int main () {
      4: go 0
     */
 
+     Species b(best);
+
     // ----------
     // darwin 8x8
     // ----------
@@ -147,6 +149,62 @@ int main () {
         Simulate 5 moves.
         Print every grid.
         */
+    }
+    catch (const invalid_argument&) {
+        assert(false);}
+    catch (const out_of_range&) {
+        assert(false);}
+
+    // ----------
+    // darwin 8x8 with best
+    // ----------
+
+    try {
+        cout << "*** Darwin 8x8 with best ***" << endl;
+        srand(0);
+
+        Grid gr(8, 8);
+        Creature tempCr;
+
+        Creature food1(f, east, &gr);
+        gr.setGridLocation(0, 0, food1);
+
+        Creature hopper1(h, north, &gr);
+        gr.setGridLocation(3, 3, hopper1);
+
+        Creature hopper2(h, east, &gr);
+        gr.setGridLocation(3, 4, hopper2);
+
+        Creature hopper3(h, south, &gr);
+        gr.setGridLocation(4, 4, hopper3);
+
+        Creature hopper4(h, west, &gr);
+        gr.setGridLocation(4, 3, hopper4);
+
+        Creature food2(f, north, &gr);
+        gr.setGridLocation(7, 7, food2);
+
+        Creature best1(b, north, &gr);
+        gr.setGridLocation(3, 6, best1);
+
+        int i = 0;
+        
+        std::cout << "Turn = " << i << '.' << std::endl;
+        gr.printGrid();
+
+        while (i < 5) {
+            for (int r = 0; r < gr.getRowSize(); r++) {
+                for (int c = 0; c < gr.getColSize(); c++) {
+                    tempCr = gr.getCreature(r, c);
+                    if (tempCr.checkTurn(i) && gr.checkGridLocation(r,c) != '.') {
+                        tempCr.RunInstruction();
+                    }
+                }
+            }
+            i++;            
+            std::cout << "Turn = " << i << '.' << std::endl;
+            gr.printGrid();
+        }
     }
     catch (const invalid_argument&) {
         assert(false);}
