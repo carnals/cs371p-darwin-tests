@@ -1,0 +1,123 @@
+Running main() from gtest_main.cc
+[==========] Running 57 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 57 tests from Darwin
+[ RUN      ] Darwin.basic_math
+[       OK ] Darwin.basic_math (8 ms)
+[ RUN      ] Darwin.brain_execute_hopper
+[       OK ] Darwin.brain_execute_hopper (46 ms)
+[ RUN      ] Darwin.brain_execute_turner
+[       OK ] Darwin.brain_execute_turner (11 ms)
+[ RUN      ] Darwin.brain_execute_branching
+[       OK ] Darwin.brain_execute_branching (34 ms)
+[ RUN      ] Darwin.brain_print
+[       OK ] Darwin.brain_print (6 ms)
+[ RUN      ] Darwin.brain_print_default
+[       OK ] Darwin.brain_print_default (2 ms)
+[ RUN      ] Darwin.brain_add_instruction
+[       OK ] Darwin.brain_add_instruction (4 ms)
+[ RUN      ] Darwin.brain_add_instruction_param
+[       OK ] Darwin.brain_add_instruction_param (3 ms)
+[ RUN      ] Darwin.brain_sanity_check_no_instr
+[       OK ] Darwin.brain_sanity_check_no_instr (38 ms)
+[ RUN      ] Darwin.brain_sanity_check_out_of_bounds
+[       OK ] Darwin.brain_sanity_check_out_of_bounds (4 ms)
+[ RUN      ] Darwin.brain_sanity_check_bad_go
+[       OK ] Darwin.brain_sanity_check_bad_go (4 ms)
+[ RUN      ] Darwin.brain_sanity_check_negative_go
+[       OK ] Darwin.brain_sanity_check_negative_go (4 ms)
+[ RUN      ] Darwin.brain_sanity_check_bad_rand
+[       OK ] Darwin.brain_sanity_check_bad_rand (6 ms)
+[ RUN      ] Darwin.brain_sanity_check_bad_if_wall_self
+[       OK ] Darwin.brain_sanity_check_bad_if_wall_self (14 ms)
+[ RUN      ] Darwin.brain_sanity_check_bad_if_enemy_self
+[       OK ] Darwin.brain_sanity_check_bad_if_enemy_self (3 ms)
+[ RUN      ] Darwin.brain_sanity_check_bad_if_empty_self
+[       OK ] Darwin.brain_sanity_check_bad_if_empty_self (3 ms)
+[ RUN      ] Darwin.brain_sanity_check_simple_go_loop
+[       OK ] Darwin.brain_sanity_check_simple_go_loop (3 ms)
+[ RUN      ] Darwin.brain_sanity_check_simple_rand_loop
+[       OK ] Darwin.brain_sanity_check_simple_rand_loop (7 ms)
+[ RUN      ] Darwin.brain_sanity_check_fake_rand_loop
+[       OK ] Darwin.brain_sanity_check_fake_rand_loop (17 ms)
+[ RUN      ] Darwin.brain_sanity_check_potential_loop
+[       OK ] Darwin.brain_sanity_check_potential_loop (32 ms)
+[ RUN      ] Darwin.brain_sanity_check_almost_potential_loop
+[       OK ] Darwin.brain_sanity_check_almost_potential_loop (4 ms)
+[ RUN      ] Darwin.brain_sanity_check_potential_out_of_bounds
+[       OK ] Darwin.brain_sanity_check_potential_out_of_bounds (3 ms)
+[ RUN      ] Darwin.brain_sanity_check_long_go_loop
+[       OK ] Darwin.brain_sanity_check_long_go_loop (5 ms)
+[ RUN      ] Darwin.brain_sanity_check_long_rand_loop
+[       OK ] Darwin.brain_sanity_check_long_rand_loop (927 ms)
+[ RUN      ] Darwin.creature_take_turn_hop
+[       OK ] Darwin.creature_take_turn_hop (7 ms)
+[ RUN      ] Darwin.creature_take_turn_infect
+[       OK ] Darwin.creature_take_turn_infect (13 ms)
+[ RUN      ] Darwin.creature_take_turn_pc
+[       OK ] Darwin.creature_take_turn_pc (10 ms)
+[ RUN      ] Darwin.creature_is_enemy
+[       OK ] Darwin.creature_is_enemy (4 ms)
+[ RUN      ] Darwin.creature_is_enemy_ally
+[       OK ] Darwin.creature_is_enemy_ally (6 ms)
+[ RUN      ] Darwin.creature_xfacing_left
+[       OK ] Darwin.creature_xfacing_left (5 ms)
+[ RUN      ] Darwin.creature_xfacing_right
+[       OK ] Darwin.creature_xfacing_right (5 ms)
+[ RUN      ] Darwin.creature_yfacing_left
+[       OK ] Darwin.creature_yfacing_left (5 ms)
+[ RUN      ] Darwin.creature_yfacing_right
+[       OK ] Darwin.creature_yfacing_right (6 ms)
+[ RUN      ] Darwin.creature_print
+[       OK ] Darwin.creature_print (4 ms)
+[ RUN      ] Darwin.creature_print_infect
+[       OK ] Darwin.creature_print_infect (5 ms)
+[ RUN      ] Darwin.creature_is_at
+[       OK ] Darwin.creature_is_at (2 ms)
+[ RUN      ] Darwin.creature_is_at_loc
+[       OK ] Darwin.creature_is_at_loc (2 ms)
+[ RUN      ] Darwin.creature_is_at_move
+[       OK ] Darwin.creature_is_at_move (3 ms)
+[ RUN      ] Darwin.creature_compare_same
+[       OK ] Darwin.creature_compare_same (2 ms)
+[ RUN      ] Darwin.creature_compare_same_loc
+[       OK ] Darwin.creature_compare_same_loc (3 ms)
+[ RUN      ] Darwin.creature_compare_diff_x
+[       OK ] Darwin.creature_compare_diff_x (4 ms)
+[ RUN      ] Darwin.creature_compare_diff_y
+[       OK ] Darwin.creature_compare_diff_y (3 ms)
+[ RUN      ] Darwin.creature_compare_diff_both
+[       OK ] Darwin.creature_compare_diff_both (3 ms)
+[ RUN      ] Darwin.world_takeTurns_empty
+[       OK ] Darwin.world_takeTurns_empty (189 ms)
+[ RUN      ] Darwin.world_takeTurns_hoppers
+[       OK ] Darwin.world_takeTurns_hoppers (1048 ms)
+[ RUN      ] Darwin.world_takeTurns_varied
+[       OK ] Darwin.world_takeTurns_varied (2948 ms)
+[ RUN      ] Darwin.world_addcreature
+[       OK ] Darwin.world_addcreature (4 ms)
+[ RUN      ] Darwin.world_addCreature_obstacle
+[       OK ] Darwin.world_addCreature_obstacle (7 ms)
+[ RUN      ] Darwin.world_addCreature_out_of_bounds
+[       OK ] Darwin.world_addCreature_out_of_bounds (3 ms)
+[ RUN      ] Darwin.world_print
+[       OK ] Darwin.world_print (11 ms)
+[ RUN      ] Darwin.world_print_moving
+[       OK ] Darwin.world_print_moving (4 ms)
+[ RUN      ] Darwin.world_print_infect
+[       OK ] Darwin.world_print_infect (6 ms)
+[ RUN      ] Darwin.world_print_add
+[       OK ] Darwin.world_print_add (6 ms)
+[ RUN      ] Darwin.world_in_bounds
+[       OK ] Darwin.world_in_bounds (4 ms)
+[ RUN      ] Darwin.world_in_bounds_south
+[       OK ] Darwin.world_in_bounds_south (5 ms)
+[ RUN      ] Darwin.world_is_empty
+[       OK ] Darwin.world_is_empty (6 ms)
+[ RUN      ] Darwin.world_sort_creatures
+[       OK ] Darwin.world_sort_creatures (6 ms)
+[----------] 57 tests from Darwin (5550 ms total)
+
+[----------] Global test environment tear-down
+[==========] 57 tests from 1 test case ran. (5576 ms total)
+[  PASSED  ] 57 tests.
