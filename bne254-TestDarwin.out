@@ -1,7 +1,49 @@
 Running main() from gtest_main.cc
-[==========] Running 39 tests from 1 test case.
+[==========] Running 60 tests from 1 test case.
 [----------] Global test environment set-up.
-[----------] 39 tests from Darwin
+[----------] 60 tests from Darwin
+[ RUN      ] Darwin.turnLeft0
+[       OK ] Darwin.turnLeft0 (0 ms)
+[ RUN      ] Darwin.turnLeft1
+[       OK ] Darwin.turnLeft1 (0 ms)
+[ RUN      ] Darwin.turnLeft2
+[       OK ] Darwin.turnLeft2 (0 ms)
+[ RUN      ] Darwin.turnRight0
+[       OK ] Darwin.turnRight0 (0 ms)
+[ RUN      ] Darwin.turnRight1
+[       OK ] Darwin.turnRight1 (0 ms)
+[ RUN      ] Darwin.turnRight2
+[       OK ] Darwin.turnRight2 (0 ms)
+[ RUN      ] Darwin.getpc0
+[       OK ] Darwin.getpc0 (0 ms)
+[ RUN      ] Darwin.getpc1
+[       OK ] Darwin.getpc1 (0 ms)
+[ RUN      ] Darwin.getpc2
+[       OK ] Darwin.getpc2 (0 ms)
+[ RUN      ] Darwin.go_to0
+[       OK ] Darwin.go_to0 (0 ms)
+[ RUN      ] Darwin.go_to1
+[       OK ] Darwin.go_to1 (0 ms)
+[ RUN      ] Darwin.go_to2
+[       OK ] Darwin.go_to2 (0 ms)
+[ RUN      ] Darwin.X0
+[       OK ] Darwin.X0 (0 ms)
+[ RUN      ] Darwin.X1
+[       OK ] Darwin.X1 (0 ms)
+[ RUN      ] Darwin.X2
+[       OK ] Darwin.X2 (0 ms)
+[ RUN      ] Darwin.Y0
+[       OK ] Darwin.Y0 (0 ms)
+[ RUN      ] Darwin.Y1
+[       OK ] Darwin.Y1 (0 ms)
+[ RUN      ] Darwin.Y2
+[       OK ] Darwin.Y2 (0 ms)
+[ RUN      ] Darwin.getRace0
+[       OK ] Darwin.getRace0 (0 ms)
+[ RUN      ] Darwin.getRace1
+[       OK ] Darwin.getRace1 (0 ms)
+[ RUN      ] Darwin.getRace2
+[       OK ] Darwin.getRace2 (0 ms)
 [ RUN      ] Darwin.generate0
 [       OK ] Darwin.generate0 (0 ms)
 [ RUN      ] Darwin.generate1
@@ -17,7 +59,7 @@ Running main() from gtest_main.cc
 [ RUN      ] Darwin.if_wall3
 [       OK ] Darwin.if_wall3 (0 ms)
 [ RUN      ] Darwin.if_empty0
-[       OK ] Darwin.if_empty0 (0 ms)
+[       OK ] Darwin.if_empty0 (1 ms)
 [ RUN      ] Darwin.if_empty1
 [       OK ] Darwin.if_empty1 (0 ms)
 [ RUN      ] Darwin.if_empty3
@@ -75,13 +117,13 @@ Running main() from gtest_main.cc
 [ RUN      ] Darwin.infect1
 [       OK ] Darwin.infect1 (0 ms)
 [ RUN      ] Darwin.run0
-[       OK ] Darwin.run0 (0 ms)
+[       OK ] Darwin.run0 (1 ms)
 [ RUN      ] Darwin.run1
 [       OK ] Darwin.run1 (0 ms)
 [ RUN      ] Darwin.run2
 [       OK ] Darwin.run2 (0 ms)
-[----------] 39 tests from Darwin (6 ms total)
+[----------] 60 tests from Darwin (8 ms total)
 
 [----------] Global test environment tear-down
-[==========] 39 tests from 1 test case ran. (6 ms total)
-[  PASSED  ] 39 tests.
+[==========] 60 tests from 1 test case ran. (8 ms total)
+[  PASSED  ] 60 tests.

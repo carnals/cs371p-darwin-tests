@@ -13,6 +13,129 @@
 
 #include "Darwin.h"
 
+TEST(Darwin, turnLeft0) {
+	Creature c("FOOD", "N", 0, 0);
+	c.turnLeft();
+	assert(c.getDirection().compare("W") == 0);
+}
+
+TEST(Darwin, turnLeft1) {
+	Creature c("ROVER", "W", 0, 0);
+	c.turnLeft();
+	assert(c.getDirection().compare("S") == 0);
+}
+
+TEST(Darwin, turnLeft2) {
+	Creature c("TRAP", "S", 0, 0);
+	c.turnLeft();
+	assert(c.getDirection().compare("E") == 0);
+}
+
+TEST(Darwin, turnRight0) {
+	Creature c("FOOD", "N", 0, 0);
+	c.turnRight();
+	assert(c.getDirection().compare("E") == 0);
+}
+
+TEST(Darwin, turnRight1) {
+	Creature c("ROVER", "E", 0, 0);
+	c.turnRight();
+	assert(c.getDirection().compare("S") == 0);
+}
+
+TEST(Darwin, turnRight2) {
+	Creature c("TRAP", "S", 0, 0);
+	c.turnRight();
+	assert(c.getDirection().compare("W") == 0);
+}
+
+TEST(Darwin, getpc0) {
+	Creature c("FOOD", "S", 0, 0);
+	c.incrementPC();
+	assert(c.getpc() == 1);
+}
+
+TEST(Darwin, getpc1) {
+	Creature c("TRAP", "S", 0, 0);
+	c.incrementPC();
+	c.incrementPC();
+	c.incrementPC();
+	assert(c.getpc() == 3);
+}
+
+TEST(Darwin, getpc2) {
+	Creature c("ROVER", "S", 0, 0);
+	c.incrementPC();
+	c.incrementPC();
+	c.incrementPC();
+	c.incrementPC();
+	c.incrementPC();
+	assert(c.getpc() == 5);
+}
+
+TEST(Darwin, go_to0) {
+	Creature c("FOOD", "N", 0, 0);
+	c.go_to(5);
+	assert(c.getpc() == 5);
+}
+
+TEST(Darwin, go_to1) {
+	Creature c("ROVER", "N", 0, 0);
+	c.go_to(8);
+	assert(c.getpc() == 8);
+}
+
+TEST(Darwin, go_to2) {
+	Creature c("BEST", "N", 0, 0);
+	c.go_to(10);
+	assert(c.getpc() == 10);
+}
+
+TEST(Darwin, X0) {
+	Creature c("BEST", "N", 3, 5);
+	assert(c.X() == 3);
+}
+
+TEST(Darwin, X1) {
+	Creature c("BEST", "N", 7, 7);
+	assert(c.X() == 7);
+}
+
+TEST(Darwin, X2) {
+	Creature c("BEST", "N", 72, 72);
+	assert(c.X() == 72);
+}
+
+TEST(Darwin, Y0) {
+	Creature c("TRAP", "N", 3, 5);
+	assert(c.Y() == 5);
+}
+
+TEST(Darwin, Y1) {
+	Creature c("ROVER", "N", 8, 7);
+	assert(c.Y() == 7);
+}
+
+TEST(Darwin, Y2) {
+	Creature c("BEST", "N", 512, 512);
+	assert(c.Y() == 512);
+}
+
+TEST(Darwin, getRace0) {
+	Food f("S", 0, 0);
+	assert(f.getRace().compare("f") == 0);
+}
+
+TEST(Darwin, getRace1) {
+	Best b("E", 0, 0);
+	assert(b.getRace().compare("b") == 0);
+}
+
+TEST(Darwin, getRace2) {
+	Rover r("W", 0, 0);
+	assert(r.getRace().compare("r") == 0);
+}
+
 TEST(Darwin, generate0) {
 	Environment zoo(2, 2, 4);
 	zoo.generate("FOOD", "N", 0, 0);
@@ -190,7 +313,7 @@ TEST(Darwin, die0) {
 	Environment zoo(4, 4, 4);
 	zoo.generate("FOOD", "N", 0, 0);
 	zoo.habitat[0][0].die();
-	assert(zoo.habitat[0][0].getRace().compare("`") == 0);
+	assert(zoo.habitat[0][0].getRace().compare(".") == 0);
 }
 
 
@@ -198,21 +321,21 @@ TEST(Darwin, die1) {
 	Environment zoo(4, 4, 4);
 	zoo.generate("FOOD", "N", 0, 0);
 	zoo.habitat[0][0].die();
-	assert(zoo.habitat[0][0].getRace().compare("`") == 0);
+	assert(zoo.habitat[0][0].getRace().compare(".") == 0);
 }
 
 TEST(Darwin, die2) {
 	Environment zoo(4, 4, 4);
 	zoo.generate("TRAP", "N", 1, 1);
 	zoo.habitat[1][1].die();
-	assert(zoo.habitat[1][1].getRace().compare("`") == 0);
+	assert(zoo.habitat[1][1].getRace().compare(".") == 0);
 }
 
 TEST(Darwin, die3) {
 	Environment zoo(4, 4, 4);
 	zoo.generate("ROVER", "N", 3, 3);
 	zoo.habitat[3][3].die();
-	assert(zoo.habitat[3][3].getRace().compare("`") == 0);
+	assert(zoo.habitat[3][3].getRace().compare(".") == 0);
 }
 
 TEST(Darwin, left0) {
@@ -357,6 +480,14 @@ TEST(Darwin, run1) {
 	assert(zoo.habitat[0][2].getRace().compare("t") == 0);
 	assert(zoo.habitat[0][3].getRace().compare("t") == 0);
 }
+
+TEST(Darwin, run2) {
+	Environment zoo(4, 4, 16);
+	zoo.generate("ROVER", "S", 0, 0);
+	zoo.generate("ROVER", "S", 0, 3);
+	zoo.run(-1);
+}
+
 
 // looking at Downing's run()
 /*

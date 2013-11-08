@@ -207,7 +207,7 @@ int main () {
          d.generate("FOOD", "N", 4, 5);
          d.generate("FOOD", "N", 5, 2);
          d.generate("FOOD", "N", 6, 3);
-         d.run(1);
+         d.run(10);
     // }
     // catch (const invalid_argument&) {
     //     assert(false);}
@@ -403,7 +403,7 @@ int main () {
 
     try {
         cout << "*** Darwin 72x72 with Best ***" << endl;
-        srand(0);
+        srand(0); 
         /*
 	Randomly place the following creatures facing randomly.
 	Call rand(), mod it with 5184 (72x72), and use that for the position
@@ -421,6 +421,117 @@ int main () {
 	Print the first 10 grids (i.e. 0, 1, 2...9).
 	Print every 100th grid after that (i.e. 100, 200, 300...1000).
 	*/
+		Environment zoo(72, 72, 1000);
+		for (int i = 0; i < 10; i++) { //ADD 10 FOOD
+			int cell = rand() % 5184;
+			int x = cell / 72;
+			int y = cell % 72;
+			int dir = rand() % 4;
+	    string direction = "";
+	    if(dir == 0) direction = "W";
+	    if(dir == 1) direction = "N";
+	    if(dir == 2) direction = "E";
+	    if(dir == 3) direction = "S";
+	    
+	    if(zoo.habitat[x][y].getRace().compare(".") == 0)
+	    {
+				zoo.generate("FOOD", direction, x, y);
+	    }
+	    else
+	    {
+				i -= 1;
+	    }
+	    
+			}
+	
+        for (int i = 0; i < 10; i++) { //ADD 10 ROVERS
+            int cell = rand() % 5184;
+            int x = cell / 72;
+            int y = cell % 72;
+            int dir = rand() % 4;
+	    string direction = "";
+	    if(dir == 0) direction = "W";
+	    if(dir == 1) direction = "N";
+	    if(dir == 2) direction = "E";
+	    if(dir == 3) direction = "S";
+	    
+	    if(zoo.habitat[x][y].getRace().compare(".") == 0)
+	    {
+		zoo.generate("HOPPER", direction, x, y);
+	    }
+	    else
+	    {
+		i-=1;
+	    }
+	}
+	
+	for (int i = 0; i < 10; i++) {//ADD 10 ROVERS
+            int cell = rand() % 5184;
+            int x = cell / 72;
+            int y = cell % 72;
+            int dir = rand() % 4;
+	    string direction = "";
+	    if(dir == 0) direction = "W";
+	    if(dir == 1) direction = "N";
+	    if(dir == 2) direction = "E";
+	    if(dir == 3) direction = "S";
+	    
+	    if(zoo.habitat[x][y].getRace().compare(".") == 0)
+	    {
+		zoo.generate("ROVER", direction, x, y);
+	    }
+	    else
+	    {
+		i-=1;
+	    }
+	}
+	
+	
+	for (int i = 0; i < 10; i++) {//ADD 10 ROVERS
+            int cell = rand() % 5184;
+            int x = cell / 72;
+            int y = cell % 72;
+            int dir = rand() % 4;
+	    string direction = "";
+	    if(dir == 0) direction = "W";
+	    if(dir == 1) direction = "N";
+	    if(dir == 2) direction = "E";
+	    if(dir == 3) direction = "S";
+	    
+	    if(zoo.habitat[x][y].getRace().compare(".") == 0)
+	    {
+		zoo.generate("TRAP", direction, x, y);
+	    }
+	    else
+	    {
+		i-=1;
+	    }
+	   
+        }
+
+	for (int i = 0; i < 10; i++) {//ADD 10 ROVERS
+            int cell = rand() % 5184;
+            int x = cell / 72;
+            int y = cell % 72;
+            int dir = rand() % 4;
+	    string direction = "";
+	    if(dir == 0) direction = "W";
+	    if(dir == 1) direction = "N";
+	    if(dir == 2) direction = "E";
+	    if(dir == 3) direction = "S";
+	    
+	    if(zoo.habitat[x][y].getRace().compare(".") == 0)
+	    {
+		zoo.generate("BEST", direction, x, y);
+	    }
+	    else
+	    {
+		i-=1;
+	    }
+	   
+        }
+
+         zoo.run(-2);
 		}
 	    catch (const invalid_argument&) {
 		assert(false);}
@@ -428,6 +539,3 @@ int main () {
 		assert(false);}
 
 	    return 0;}
-
-
-   
