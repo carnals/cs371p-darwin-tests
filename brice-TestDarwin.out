@@ -1,0 +1,71 @@
+Running main() from gtest_main.cc
+[==========] Running 31 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 31 tests from Darwin
+[ RUN      ] Darwin.execute1
+[       OK ] Darwin.execute1 (0 ms)
+[ RUN      ] Darwin.execute2
+[       OK ] Darwin.execute2 (0 ms)
+[ RUN      ] Darwin.execute3
+[       OK ] Darwin.execute3 (0 ms)
+[ RUN      ] Darwin.execute4
+[       OK ] Darwin.execute4 (0 ms)
+[ RUN      ] Darwin.execute5
+[       OK ] Darwin.execute5 (0 ms)
+[ RUN      ] Darwin.execute6
+[       OK ] Darwin.execute6 (0 ms)
+[ RUN      ] Darwin.execute7
+[       OK ] Darwin.execute7 (0 ms)
+[ RUN      ] Darwin.execute8
+[       OK ] Darwin.execute8 (0 ms)
+[ RUN      ] Darwin.add1
+[       OK ] Darwin.add1 (1 ms)
+[ RUN      ] Darwin.add2
+[       OK ] Darwin.add2 (0 ms)
+[ RUN      ] Darwin.add3
+[       OK ] Darwin.add3 (0 ms)
+[ RUN      ] Darwin.add4
+[       OK ] Darwin.add4 (0 ms)
+[ RUN      ] Darwin.add5
+[       OK ] Darwin.add5 (0 ms)
+[ RUN      ] Darwin.add6
+[       OK ] Darwin.add6 (0 ms)
+[ RUN      ] Darwin.add7
+[       OK ] Darwin.add7 (0 ms)
+[ RUN      ] Darwin.add8
+[       OK ] Darwin.add8 (0 ms)
+[ RUN      ] Darwin.reset
+[       OK ] Darwin.reset (0 ms)
+[ RUN      ] Darwin.is_enemy1
+[       OK ] Darwin.is_enemy1 (1 ms)
+[ RUN      ] Darwin.is_enemy2
+[       OK ] Darwin.is_enemy2 (0 ms)
+[ RUN      ] Darwin.is_enemy3
+[       OK ] Darwin.is_enemy3 (0 ms)
+[ RUN      ] Darwin.is_enemy4
+[       OK ] Darwin.is_enemy4 (1 ms)
+[ RUN      ] Darwin.is_enemy5
+[       OK ] Darwin.is_enemy5 (0 ms)
+[ RUN      ] Darwin.is_enemy6
+[       OK ] Darwin.is_enemy6 (0 ms)
+[ RUN      ] Darwin.is_wall1
+[       OK ] Darwin.is_wall1 (0 ms)
+[ RUN      ] Darwin.is_wall2
+[       OK ] Darwin.is_wall2 (0 ms)
+[ RUN      ] Darwin.is_wall3
+[       OK ] Darwin.is_wall3 (0 ms)
+[ RUN      ] Darwin.is_wall4
+[       OK ] Darwin.is_wall4 (1 ms)
+[ RUN      ] Darwin.is_wall5
+[       OK ] Darwin.is_wall5 (0 ms)
+[ RUN      ] Darwin.is_wall6
+[       OK ] Darwin.is_wall6 (0 ms)
+[ RUN      ] Darwin.is_wall7
+[       OK ] Darwin.is_wall7 (0 ms)
+[ RUN      ] Darwin.is_wall8
+[       OK ] Darwin.is_wall8 (0 ms)
+[----------] 31 tests from Darwin (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 31 tests from 1 test case ran. (4 ms total)
+[  PASSED  ] 31 tests.
