@@ -1,0 +1,85 @@
+Running main() from gtest_main.cc
+[==========] Running 37 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 37 tests from Darwin
+[ RUN      ] Darwin.Sdefault_constructor1
+[       OK ] Darwin.Sdefault_constructor1 (10 ms)
+[ RUN      ] Darwin.Sdefault_constructor2
+[       OK ] Darwin.Sdefault_constructor2 (1 ms)
+[ RUN      ] Darwin.Sconstructor1
+[       OK ] Darwin.Sconstructor1 (2 ms)
+[ RUN      ] Darwin.Sconstructor2
+[       OK ] Darwin.Sconstructor2 (1 ms)
+[ RUN      ] Darwin.Sconstructor3
+[       OK ] Darwin.Sconstructor3 (2 ms)
+[ RUN      ] Darwin.addInstruction1
+[       OK ] Darwin.addInstruction1 (16 ms)
+[ RUN      ] Darwin.addInstruction2
+[       OK ] Darwin.addInstruction2 (9 ms)
+[ RUN      ] Darwin.addInstruction3
+[       OK ] Darwin.addInstruction3 (18 ms)
+[ RUN      ] Darwin.Cdefault_constructor1
+[       OK ] Darwin.Cdefault_constructor1 (5 ms)
+[ RUN      ] Darwin.Cdefault_constructor2
+[       OK ] Darwin.Cdefault_constructor2 (2 ms)
+[ RUN      ] Darwin.Cconstructor1
+[       OK ] Darwin.Cconstructor1 (11 ms)
+[ RUN      ] Darwin.Cconstructor2
+[       OK ] Darwin.Cconstructor2 (3 ms)
+[ RUN      ] Darwin.instruction1
+[       OK ] Darwin.instruction1 (8 ms)
+[ RUN      ] Darwin.instruction2
+[       OK ] Darwin.instruction2 (10 ms)
+[ RUN      ] Darwin.instruction3
+[       OK ] Darwin.instruction3 (19 ms)
+[ RUN      ] Darwin.Gconstructor1
+[       OK ] Darwin.Gconstructor1 (29 ms)
+[ RUN      ] Darwin.Gconstructor2
+[       OK ] Darwin.Gconstructor2 (121 ms)
+[ RUN      ] Darwin.add1
+[       OK ] Darwin.add1 (11 ms)
+[ RUN      ] Darwin.add2
+[       OK ] Darwin.add2 (35 ms)
+[ RUN      ] Darwin.wall1
+[       OK ] Darwin.wall1 (5 ms)
+[ RUN      ] Darwin.wall2
+[       OK ] Darwin.wall2 (6 ms)
+[ RUN      ] Darwin.wall3
+[       OK ] Darwin.wall3 (4 ms)
+[ RUN      ] Darwin.wall4
+[       OK ] Darwin.wall4 (5 ms)
+[ RUN      ] Darwin.wall5
+[       OK ] Darwin.wall5 (4 ms)
+[ RUN      ] Darwin.wall6
+[       OK ] Darwin.wall6 (5 ms)
+[ RUN      ] Darwin.empty1
+[       OK ] Darwin.empty1 (5 ms)
+[ RUN      ] Darwin.empty2
+[       OK ] Darwin.empty2 (6 ms)
+[ RUN      ] Darwin.empty3
+[       OK ] Darwin.empty3 (5 ms)
+[ RUN      ] Darwin.enemy1
+[       OK ] Darwin.enemy1 (5 ms)
+[ RUN      ] Darwin.enemy2
+[       OK ] Darwin.enemy2 (7 ms)
+[ RUN      ] Darwin.enemy3
+[       OK ] Darwin.enemy3 (4 ms)
+[ RUN      ] Darwin.doInstruction1
+[       OK ] Darwin.doInstruction1 (9 ms)
+[ RUN      ] Darwin.doInstruction2
+[       OK ] Darwin.doInstruction2 (13 ms)
+[ RUN      ] Darwin.doInstruction3
+[       OK ] Darwin.doInstruction3 (18 ms)
+[ RUN      ] Darwin.turn1
+[       OK ] Darwin.turn1 (15 ms)
+[ RUN      ] Darwin.turn2
+[       OK ] Darwin.turn2 (10 ms)
+[ RUN      ] Darwin.turn3
+0
+10
+[       OK ] Darwin.turn3 (21 ms)
+[----------] 37 tests from Darwin (476 ms total)
+
+[----------] Global test environment tear-down
+[==========] 37 tests from 1 test case ran. (504 ms total)
+[  PASSED  ] 37 tests.
