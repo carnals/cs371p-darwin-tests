@@ -302,11 +302,11 @@ int main () {
         Print the first 10 grids          (i.e. 0, 1, 2...9).
         Print every 100th grid after that (i.e. 100, 200, 300...1000).
         */
-        }
-    catch (const invalid_argument&) {
-        assert(false);}
-    catch (const out_of_range&) {
-        assert(false);}
+    //     }
+    // catch (const invalid_argument&) {
+    //     assert(false);}
+    // catch (const out_of_range&) {
+    //     assert(false);}
 
 
   // ------------
