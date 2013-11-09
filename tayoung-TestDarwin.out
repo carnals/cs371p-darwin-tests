@@ -1,0 +1,98 @@
+Running main() from gtest_main.cc
+[==========] Running 43 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 3 tests from TestDarwin
+[ RUN      ] TestDarwin.construct1
+[       OK ] TestDarwin.construct1 (34 ms)
+[ RUN      ] TestDarwin.construct2
+[       OK ] TestDarwin.construct2 (3 ms)
+[ RUN      ] TestDarwin.add_creature1
+[       OK ] TestDarwin.add_creature1 (42 ms)
+[----------] 3 tests from TestDarwin (90 ms total)
+
+[----------] 40 tests from TestCreature
+[ RUN      ] TestCreature.construct1
+[       OK ] TestCreature.construct1 (2 ms)
+[ RUN      ] TestCreature.construct2
+[       OK ] TestCreature.construct2 (4 ms)
+[ RUN      ] TestCreature.construct3
+[       OK ] TestCreature.construct3 (4 ms)
+[ RUN      ] TestCreature.copyassign1
+[       OK ] TestCreature.copyassign1 (3 ms)
+[ RUN      ] TestCreature.copyassign2
+[       OK ] TestCreature.copyassign2 (6 ms)
+[ RUN      ] TestCreature.copyassign3
+[       OK ] TestCreature.copyassign3 (2 ms)
+[ RUN      ] TestCreature.hop1
+[       OK ] TestCreature.hop1 (4 ms)
+[ RUN      ] TestCreature.hop2
+[       OK ] TestCreature.hop2 (5 ms)
+[ RUN      ] TestCreature.hop3
+[       OK ] TestCreature.hop3 (5 ms)
+[ RUN      ] TestCreature.hop4
+[       OK ] TestCreature.hop4 (5 ms)
+[ RUN      ] TestCreature.hop5
+[       OK ] TestCreature.hop5 (13 ms)
+[ RUN      ] TestCreature.hop6
+[       OK ] TestCreature.hop6 (5 ms)
+[ RUN      ] TestCreature.hop7
+[       OK ] TestCreature.hop7 (5 ms)
+[ RUN      ] TestCreature.hop8
+[       OK ] TestCreature.hop8 (4 ms)
+[ RUN      ] TestCreature.left1
+[       OK ] TestCreature.left1 (3 ms)
+[ RUN      ] TestCreature.left2
+[       OK ] TestCreature.left2 (4 ms)
+[ RUN      ] TestCreature.left3
+[       OK ] TestCreature.left3 (4 ms)
+[ RUN      ] TestCreature.left4
+[       OK ] TestCreature.left4 (4 ms)
+[ RUN      ] TestCreature.right1
+[       OK ] TestCreature.right1 (3 ms)
+[ RUN      ] TestCreature.right2
+[       OK ] TestCreature.right2 (3 ms)
+[ RUN      ] TestCreature.right3
+[       OK ] TestCreature.right3 (4 ms)
+[ RUN      ] TestCreature.right4
+[       OK ] TestCreature.right4 (4 ms)
+[ RUN      ] TestCreature.infect1
+[       OK ] TestCreature.infect1 (17 ms)
+[ RUN      ] TestCreature.infect2
+[       OK ] TestCreature.infect2 (9 ms)
+[ RUN      ] TestCreature.infect3
+[       OK ] TestCreature.infect3 (8 ms)
+[ RUN      ] TestCreature.infect4
+[       OK ] TestCreature.infect4 (8 ms)
+[ RUN      ] TestCreature.if_empty1
+[       OK ] TestCreature.if_empty1 (8 ms)
+[ RUN      ] TestCreature.if_empty2
+[       OK ] TestCreature.if_empty2 (6 ms)
+[ RUN      ] TestCreature.if_enemy1
+[       OK ] TestCreature.if_enemy1 (6 ms)
+[ RUN      ] TestCreature.if_enemy2
+[       OK ] TestCreature.if_enemy2 (7 ms)
+[ RUN      ] TestCreature.if_enemy3
+[       OK ] TestCreature.if_enemy3 (7 ms)
+[ RUN      ] TestCreature.if_enemy4
+[       OK ] TestCreature.if_enemy4 (6 ms)
+[ RUN      ] TestCreature.if_enemy5
+[       OK ] TestCreature.if_enemy5 (7 ms)
+[ RUN      ] TestCreature.if_wall1
+[       OK ] TestCreature.if_wall1 (6 ms)
+[ RUN      ] TestCreature.if_wall2
+[       OK ] TestCreature.if_wall2 (5 ms)
+[ RUN      ] TestCreature.if_wall3
+[       OK ] TestCreature.if_wall3 (5 ms)
+[ RUN      ] TestCreature.if_wall4
+[       OK ] TestCreature.if_wall4 (5 ms)
+[ RUN      ] TestCreature.go1
+[       OK ] TestCreature.go1 (7 ms)
+[ RUN      ] TestCreature.execute_instruction1
+[       OK ] TestCreature.execute_instruction1 (7 ms)
+[ RUN      ] TestCreature.execute_instruction2
+[       OK ] TestCreature.execute_instruction2 (7 ms)
+[----------] 40 tests from TestCreature (232 ms total)
+
+[----------] Global test environment tear-down
+[==========] 43 tests from 2 test cases ran. (350 ms total)
+[  PASSED  ] 43 tests.
