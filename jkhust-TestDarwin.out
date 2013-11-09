@@ -1,0 +1,177 @@
+Running main() from gtest_main.cc
+[==========] Running 81 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 38 tests from Creature
+[ RUN      ] Creature.sameSpec_1
+[       OK ] Creature.sameSpec_1 (15 ms)
+[ RUN      ] Creature.sameSpec_2
+[       OK ] Creature.sameSpec_2 (3 ms)
+[ RUN      ] Creature.sameSpec_3
+[       OK ] Creature.sameSpec_3 (3 ms)
+[ RUN      ] Creature.sameSpec_4
+[       OK ] Creature.sameSpec_4 (3 ms)
+[ RUN      ] Creature.setCoord_getCoord_1
+[       OK ] Creature.setCoord_getCoord_1 (3 ms)
+[ RUN      ] Creature.setCoord_getCoord_2
+[       OK ] Creature.setCoord_getCoord_2 (3 ms)
+[ RUN      ] Creature.setCoord_getCoord_3
+[       OK ] Creature.setCoord_getCoord_3 (3 ms)
+[ RUN      ] Creature.setInstr_getInstr_1
+[       OK ] Creature.setInstr_getInstr_1 (3 ms)
+[ RUN      ] Creature.setInstr_getInstr_2
+[       OK ] Creature.setInstr_getInstr_2 (4 ms)
+[ RUN      ] Creature.setInstr_getInstr_3
+[       OK ] Creature.setInstr_getInstr_3 (8 ms)
+[ RUN      ] Creature.draw_food
+[       OK ] Creature.draw_food (8 ms)
+[ RUN      ] Creature.draw_rover
+[       OK ] Creature.draw_rover (3 ms)
+[ RUN      ] Creature.draw_trap
+[       OK ] Creature.draw_trap (4 ms)
+[ RUN      ] Creature.draw_hopper
+[       OK ] Creature.draw_hopper (4 ms)
+[ RUN      ] Creature.toString_1
+[       OK ] Creature.toString_1 (9 ms)
+[ RUN      ] Creature.toString_2
+[       OK ] Creature.toString_2 (4 ms)
+[ RUN      ] Creature.toString_3
+[       OK ] Creature.toString_3 (4 ms)
+[ RUN      ] Creature.toString_4
+[       OK ] Creature.toString_4 (4 ms)
+[ RUN      ] Creature.toString_5
+[       OK ] Creature.toString_5 (4 ms)
+[ RUN      ] Creature.turnLeft_1
+[       OK ] Creature.turnLeft_1 (8 ms)
+[ RUN      ] Creature.turnLeft_2
+[       OK ] Creature.turnLeft_2 (5 ms)
+[ RUN      ] Creature.turnLeft_3
+[       OK ] Creature.turnLeft_3 (5 ms)
+[ RUN      ] Creature.turnLeft_4
+[       OK ] Creature.turnLeft_4 (5 ms)
+[ RUN      ] Creature.turnRight_1
+[       OK ] Creature.turnRight_1 (5 ms)
+[ RUN      ] Creature.turnRight_2
+[       OK ] Creature.turnRight_2 (5 ms)
+[ RUN      ] Creature.turnRight_3
+[       OK ] Creature.turnRight_3 (5 ms)
+[ RUN      ] Creature.turnRight_4
+[       OK ] Creature.turnRight_4 (6 ms)
+[ RUN      ] Creature.operatorLess_1
+[       OK ] Creature.operatorLess_1 (3 ms)
+[ RUN      ] Creature.operatorLess_2
+[       OK ] Creature.operatorLess_2 (3 ms)
+[ RUN      ] Creature.operatorLess_3
+[       OK ] Creature.operatorLess_3 (4 ms)
+[ RUN      ] Creature.operatorLess_4
+[       OK ] Creature.operatorLess_4 (3 ms)
+[ RUN      ] Creature.operatorLess_5
+[       OK ] Creature.operatorLess_5 (3 ms)
+[ RUN      ] Creature.tally_1
+[       OK ] Creature.tally_1 (4 ms)
+[ RUN      ] Creature.tally_2
+[       OK ] Creature.tally_2 (3 ms)
+[ RUN      ] Creature.tally_3
+[       OK ] Creature.tally_3 (4 ms)
+[ RUN      ] Creature.tally_4
+[       OK ] Creature.tally_4 (3 ms)
+[ RUN      ] Creature.hopper_1
+[       OK ] Creature.hopper_1 (47 ms)
+[ RUN      ] Creature.hopper_2
+[       OK ] Creature.hopper_2 (5 ms)
+[----------] 38 tests from Creature (247 ms total)
+
+[----------] 42 tests from World
+[ RUN      ] World.ctor_1
+[       OK ] World.ctor_1 (3 ms)
+[ RUN      ] World.ctor_2
+[       OK ] World.ctor_2 (3 ms)
+[ RUN      ] World.ctor_3
+[       OK ] World.ctor_3 (3 ms)
+[ RUN      ] World.randomCoord_1
+[       OK ] World.randomCoord_1 (7 ms)
+[ RUN      ] World.toCoord_1
+[       OK ] World.toCoord_1 (3 ms)
+[ RUN      ] World.toCoord_2
+[       OK ] World.toCoord_2 (3 ms)
+[ RUN      ] World.toCoord_3
+[       OK ] World.toCoord_3 (4 ms)
+[ RUN      ] World.toCoord_4
+[       OK ] World.toCoord_4 (3 ms)
+[ RUN      ] World.inBounds_1
+[       OK ] World.inBounds_1 (9 ms)
+[ RUN      ] World.inBounds_2
+[       OK ] World.inBounds_2 (10 ms)
+[ RUN      ] World.inBounds_3
+[       OK ] World.inBounds_3 (11 ms)
+[ RUN      ] World.inBounds_4
+[       OK ] World.inBounds_4 (15 ms)
+[ RUN      ] World.outputBoard_Empty1
+[       OK ] World.outputBoard_Empty1 (9 ms)
+[ RUN      ] World.outputBoard_Empty2
+[       OK ] World.outputBoard_Empty2 (4 ms)
+[ RUN      ] World.outputBoard_Empty3
+[       OK ] World.outputBoard_Empty3 (4 ms)
+[ RUN      ] World.addCreature_1
+[       OK ] World.addCreature_1 (3 ms)
+[ RUN      ] World.addCreature_2
+[       OK ] World.addCreature_2 (10 ms)
+[ RUN      ] World.outputCreatures_1
+[       OK ] World.outputCreatures_1 (4 ms)
+[ RUN      ] World.outputCreatures_2
+[       OK ] World.outputCreatures_2 (4 ms)
+[ RUN      ] World.outputCreatures_3
+[       OK ] World.outputCreatures_3 (5 ms)
+[ RUN      ] World.outputCreatures_4
+[       OK ] World.outputCreatures_4 (10 ms)
+[ RUN      ] World.isValid_1
+[       OK ] World.isValid_1 (3 ms)
+[ RUN      ] World.isValid_2
+[       OK ] World.isValid_2 (5 ms)
+[ RUN      ] World.isValid_3
+[       OK ] World.isValid_3 (4 ms)
+[ RUN      ] World.outputBoard_withCreatures1
+[       OK ] World.outputBoard_withCreatures1 (6 ms)
+[ RUN      ] World.outputBoard_withCreatures2
+[       OK ] World.outputBoard_withCreatures2 (6 ms)
+[ RUN      ] World.outputBoard_withCreatures3
+[       OK ] World.outputBoard_withCreatures3 (6 ms)
+[ RUN      ] World.outputTotals_1
+[       OK ] World.outputTotals_1 (6 ms)
+[ RUN      ] World.outputTotals_2
+[       OK ] World.outputTotals_2 (7 ms)
+[ RUN      ] World.outputTotals_3
+[       OK ] World.outputTotals_3 (10 ms)
+[ RUN      ] World.runTurn_food
+[       OK ] World.runTurn_food (7 ms)
+[ RUN      ] World.runTurn_twoFood
+[       OK ] World.runTurn_twoFood (7 ms)
+[ RUN      ] World.runTurn_twoFood2
+[       OK ] World.runTurn_twoFood2 (15 ms)
+[ RUN      ] World.runTurn_hopper_horizontal
+[       OK ] World.runTurn_hopper_horizontal (39 ms)
+[ RUN      ] World.runTurn_hopperIntoFood
+[       OK ] World.runTurn_hopperIntoFood (10 ms)
+[ RUN      ] World.runTurn_hopperRaceCond
+[       OK ] World.runTurn_hopperRaceCond (16 ms)
+[ RUN      ] World.runTurn_infectHopper
+[       OK ] World.runTurn_infectHopper (23 ms)
+[ RUN      ] World.runTurn_infectTrap
+[       OK ] World.runTurn_infectTrap (12 ms)
+[ RUN      ] World.runTurn_infectTrap2
+[       OK ] World.runTurn_infectTrap2 (21 ms)
+[ RUN      ] World.enemies_1
+[       OK ] World.enemies_1 (6 ms)
+[ RUN      ] World.enemies_2
+[       OK ] World.enemies_2 (5 ms)
+[ RUN      ] World.enemies_3
+[       OK ] World.enemies_3 (6 ms)
+[----------] 42 tests from World (355 ms total)
+
+[----------] 1 test from Darwin
+[ RUN      ] Darwin.accept_1
+[       OK ] Darwin.accept_1 (21 ms)
+[----------] 1 test from Darwin (21 ms total)
+
+[----------] Global test environment tear-down
+[==========] 81 tests from 3 test cases ran. (668 ms total)
+[  PASSED  ] 81 tests.
