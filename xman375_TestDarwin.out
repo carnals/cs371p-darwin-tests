@@ -1,0 +1,9 @@
+Running main() from gtest_main.cc
+[==========] Running 11 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 11 tests from Darwin
+[ RUN      ] Darwin.instructions
+[       OK ] Darwin.instructions (35 ms)
+[ RUN      ] Darwin.instructions2
+[       OK ] Darwin.instructions2 (3 ms)
+[ RUN      ] Darwin.instructions3
