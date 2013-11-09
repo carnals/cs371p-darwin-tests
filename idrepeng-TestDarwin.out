@@ -1,0 +1,237 @@
+Running main() from gtest_main.cc
+[==========] Running 102 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 102 tests from Darwin
+[ RUN      ] Darwin.print_grid_1
+Turn = 0.
+  01234
+0 f....
+1 .....
+2 ..f..
+3 ...f.
+4 .....
+
+[       OK ] Darwin.print_grid_1 (41 ms)
+[ RUN      ] Darwin.print_grid_2
+Turn = 0.
+  01234
+0 r....
+1 .....
+2 ..f..
+3 ...t.
+4 .....
+
+[       OK ] Darwin.print_grid_2 (15 ms)
+[ RUN      ] Darwin.print_grid_3
+Turn = 0.
+  01234
+0 .....
+1 .....
+2 ..t..
+3 ...h.
+4 ....r
+
+[       OK ] Darwin.print_grid_3 (17 ms)
+[ RUN      ] Darwin.check_1
+[       OK ] Darwin.check_1 (8 ms)
+[ RUN      ] Darwin.check_2
+[       OK ] Darwin.check_2 (7 ms)
+[ RUN      ] Darwin.check_3
+[       OK ] Darwin.check_3 (8 ms)
+[ RUN      ] Darwin.set_1
+[       OK ] Darwin.set_1 (7 ms)
+[ RUN      ] Darwin.set_2
+[       OK ] Darwin.set_2 (7 ms)
+[ RUN      ] Darwin.set_3
+[       OK ] Darwin.set_3 (7 ms)
+[ RUN      ] Darwin.move_1
+[       OK ] Darwin.move_1 (8 ms)
+[ RUN      ] Darwin.move_2
+[       OK ] Darwin.move_2 (7 ms)
+[ RUN      ] Darwin.move_3
+[       OK ] Darwin.move_3 (7 ms)
+[ RUN      ] Darwin.in_bounds_1
+[       OK ] Darwin.in_bounds_1 (8 ms)
+[ RUN      ] Darwin.in_bounds_2
+[       OK ] Darwin.in_bounds_2 (7 ms)
+[ RUN      ] Darwin.in_bounds_3
+[       OK ] Darwin.in_bounds_3 (8 ms)
+[ RUN      ] Darwin.comp_coords_1
+[       OK ] Darwin.comp_coords_1 (2 ms)
+[ RUN      ] Darwin.comp_coords_2
+[       OK ] Darwin.comp_coords_2 (2 ms)
+[ RUN      ] Darwin.comp_coords_3
+[       OK ] Darwin.comp_coords_3 (2 ms)
+[ RUN      ] Darwin.comp_coords_4
+[       OK ] Darwin.comp_coords_4 (3 ms)
+[ RUN      ] Darwin.comp_coords_5
+[       OK ] Darwin.comp_coords_5 (2 ms)
+[ RUN      ] Darwin.comp_coords_6
+[       OK ] Darwin.comp_coords_6 (2 ms)
+[ RUN      ] Darwin.creature_1
+[       OK ] Darwin.creature_1 (3 ms)
+[ RUN      ] Darwin.creature_2
+[       OK ] Darwin.creature_2 (2 ms)
+[ RUN      ] Darwin.creature_3
+[       OK ] Darwin.creature_3 (3 ms)
+[ RUN      ] Darwin.creature_4
+[       OK ] Darwin.creature_4 (2 ms)
+[ RUN      ] Darwin.creature_5
+[       OK ] Darwin.creature_5 (3 ms)
+[ RUN      ] Darwin.creature_6
+[       OK ] Darwin.creature_6 (2 ms)
+[ RUN      ] Darwin.creature_7
+[       OK ] Darwin.creature_7 (3 ms)
+[ RUN      ] Darwin.creature_8
+[       OK ] Darwin.creature_8 (2 ms)
+[ RUN      ] Darwin.creature_9
+[       OK ] Darwin.creature_9 (3 ms)
+[ RUN      ] Darwin.creature_10
+[       OK ] Darwin.creature_10 (2 ms)
+[ RUN      ] Darwin.creature_11
+[       OK ] Darwin.creature_11 (2 ms)
+[ RUN      ] Darwin.creature_12
+[       OK ] Darwin.creature_12 (2 ms)
+[ RUN      ] Darwin.act_1
+[       OK ] Darwin.act_1 (10 ms)
+[ RUN      ] Darwin.act_2
+[       OK ] Darwin.act_2 (8 ms)
+[ RUN      ] Darwin.act_3
+[       OK ] Darwin.act_3 (8 ms)
+[ RUN      ] Darwin.act_4
+[       OK ] Darwin.act_4 (8 ms)
+[ RUN      ] Darwin.act_5
+[       OK ] Darwin.act_5 (8 ms)
+[ RUN      ] Darwin.act_6
+[       OK ] Darwin.act_6 (8 ms)
+[ RUN      ] Darwin.is_same_coord_1
+[       OK ] Darwin.is_same_coord_1 (1 ms)
+[ RUN      ] Darwin.is_same_coord_2
+[       OK ] Darwin.is_same_coord_2 (1 ms)
+[ RUN      ] Darwin.is_same_coord_3
+[       OK ] Darwin.is_same_coord_3 (2 ms)
+[ RUN      ] Darwin.is_same_coord_4
+[       OK ] Darwin.is_same_coord_4 (2 ms)
+[ RUN      ] Darwin.is_same_coord_5
+[       OK ] Darwin.is_same_coord_5 (2 ms)
+[ RUN      ] Darwin.is_same_coord_6
+[       OK ] Darwin.is_same_coord_6 (1 ms)
+[ RUN      ] Darwin.is_same_coord_7
+[       OK ] Darwin.is_same_coord_7 (2 ms)
+[ RUN      ] Darwin.is_same_coord_8
+[       OK ] Darwin.is_same_coord_8 (2 ms)
+[ RUN      ] Darwin.is_same_coord_9
+[       OK ] Darwin.is_same_coord_9 (2 ms)
+[ RUN      ] Darwin.is_same_species_1
+[       OK ] Darwin.is_same_species_1 (2 ms)
+[ RUN      ] Darwin.is_same_species_2
+[       OK ] Darwin.is_same_species_2 (2 ms)
+[ RUN      ] Darwin.is_same_species_3
+[       OK ] Darwin.is_same_species_3 (1 ms)
+[ RUN      ] Darwin.is_same_species_4
+[       OK ] Darwin.is_same_species_4 (2 ms)
+[ RUN      ] Darwin.is_same_species_5
+[       OK ] Darwin.is_same_species_5 (2 ms)
+[ RUN      ] Darwin.is_same_species_6
+[       OK ] Darwin.is_same_species_6 (2 ms)
+[ RUN      ] Darwin.is_same_species_7
+[       OK ] Darwin.is_same_species_7 (2 ms)
+[ RUN      ] Darwin.is_same_species_8
+[       OK ] Darwin.is_same_species_8 (1 ms)
+[ RUN      ] Darwin.is_same_species_9
+[       OK ] Darwin.is_same_species_9 (2 ms)
+[ RUN      ] Darwin.hop_1
+[       OK ] Darwin.hop_1 (8 ms)
+[ RUN      ] Darwin.hop_2
+[       OK ] Darwin.hop_2 (7 ms)
+[ RUN      ] Darwin.hop_3
+[       OK ] Darwin.hop_3 (7 ms)
+[ RUN      ] Darwin.hop_4
+[       OK ] Darwin.hop_4 (8 ms)
+[ RUN      ] Darwin.hop_5
+[       OK ] Darwin.hop_5 (7 ms)
+[ RUN      ] Darwin.hop_6
+[       OK ] Darwin.hop_6 (8 ms)
+[ RUN      ] Darwin.hop_7
+[       OK ] Darwin.hop_7 (7 ms)
+[ RUN      ] Darwin.hop_8
+[       OK ] Darwin.hop_8 (7 ms)
+[ RUN      ] Darwin.hop_9
+[       OK ] Darwin.hop_9 (8 ms)
+[ RUN      ] Darwin.hop_10
+[       OK ] Darwin.hop_10 (7 ms)
+[ RUN      ] Darwin.hop_11
+[       OK ] Darwin.hop_11 (7 ms)
+[ RUN      ] Darwin.hop_12
+[       OK ] Darwin.hop_12 (8 ms)
+[ RUN      ] Darwin.left_1
+[       OK ] Darwin.left_1 (8 ms)
+[ RUN      ] Darwin.left_2
+[       OK ] Darwin.left_2 (8 ms)
+[ RUN      ] Darwin.left_3
+[       OK ] Darwin.left_3 (8 ms)
+[ RUN      ] Darwin.left_4
+[       OK ] Darwin.left_4 (8 ms)
+[ RUN      ] Darwin.left_5
+[       OK ] Darwin.left_5 (8 ms)
+[ RUN      ] Darwin.left_6
+[       OK ] Darwin.left_6 (8 ms)
+[ RUN      ] Darwin.right_1
+[       OK ] Darwin.right_1 (8 ms)
+[ RUN      ] Darwin.right_2
+[       OK ] Darwin.right_2 (8 ms)
+[ RUN      ] Darwin.right_3
+[       OK ] Darwin.right_3 (8 ms)
+[ RUN      ] Darwin.right_4
+[       OK ] Darwin.right_4 (7 ms)
+[ RUN      ] Darwin.right_5
+[       OK ] Darwin.right_5 (7 ms)
+[ RUN      ] Darwin.right_6
+[       OK ] Darwin.right_6 (8 ms)
+[ RUN      ] Darwin.is_empty_1
+[       OK ] Darwin.is_empty_1 (391 ms)
+[ RUN      ] Darwin.is_empty_2
+[       OK ] Darwin.is_empty_2 (395 ms)
+[ RUN      ] Darwin.is_empty_3
+[       OK ] Darwin.is_empty_3 (389 ms)
+[ RUN      ] Darwin.is_wall_1
+[       OK ] Darwin.is_wall_1 (390 ms)
+[ RUN      ] Darwin.is_wall_2
+[       OK ] Darwin.is_wall_2 (391 ms)
+[ RUN      ] Darwin.is_wall_3
+[       OK ] Darwin.is_wall_3 (391 ms)
+[ RUN      ] Darwin.is_enemy_1
+[       OK ] Darwin.is_enemy_1 (395 ms)
+[ RUN      ] Darwin.is_enemy_2
+[       OK ] Darwin.is_enemy_2 (391 ms)
+[ RUN      ] Darwin.is_enemy_3
+[       OK ] Darwin.is_enemy_3 (392 ms)
+[ RUN      ] Darwin.get_space_ahead_1
+[       OK ] Darwin.get_space_ahead_1 (2 ms)
+[ RUN      ] Darwin.get_space_ahead_2
+[       OK ] Darwin.get_space_ahead_2 (3 ms)
+[ RUN      ] Darwin.get_space_ahead_3
+[       OK ] Darwin.get_space_ahead_3 (2 ms)
+[ RUN      ] Darwin.get_r_1
+[       OK ] Darwin.get_r_1 (2 ms)
+[ RUN      ] Darwin.get_r_2
+[       OK ] Darwin.get_r_2 (2 ms)
+[ RUN      ] Darwin.get_r_3
+[       OK ] Darwin.get_r_3 (1 ms)
+[ RUN      ] Darwin.get_c_1
+[       OK ] Darwin.get_c_1 (1 ms)
+[ RUN      ] Darwin.get_c_2
+[       OK ] Darwin.get_c_2 (2 ms)
+[ RUN      ] Darwin.get_c_3
+[       OK ] Darwin.get_c_3 (2 ms)
+[ RUN      ] Darwin.set_name_1
+[       OK ] Darwin.set_name_1 (2 ms)
+[ RUN      ] Darwin.set_name_2
+[       OK ] Darwin.set_name_2 (2 ms)
+[ RUN      ] Darwin.set_name_3
+[       OK ] Darwin.set_name_3 (2 ms)
+[----------] 102 tests from Darwin (4039 ms total)
+
+[----------] Global test environment tear-down
+[==========] 102 tests from 1 test case ran. (4065 ms total)
+[  PASSED  ] 102 tests.

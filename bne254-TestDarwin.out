@@ -1,0 +1,129 @@
+Running main() from gtest_main.cc
+[==========] Running 60 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 60 tests from Darwin
+[ RUN      ] Darwin.turnLeft0
+[       OK ] Darwin.turnLeft0 (0 ms)
+[ RUN      ] Darwin.turnLeft1
+[       OK ] Darwin.turnLeft1 (0 ms)
+[ RUN      ] Darwin.turnLeft2
+[       OK ] Darwin.turnLeft2 (0 ms)
+[ RUN      ] Darwin.turnRight0
+[       OK ] Darwin.turnRight0 (0 ms)
+[ RUN      ] Darwin.turnRight1
+[       OK ] Darwin.turnRight1 (0 ms)
+[ RUN      ] Darwin.turnRight2
+[       OK ] Darwin.turnRight2 (0 ms)
+[ RUN      ] Darwin.getpc0
+[       OK ] Darwin.getpc0 (0 ms)
+[ RUN      ] Darwin.getpc1
+[       OK ] Darwin.getpc1 (0 ms)
+[ RUN      ] Darwin.getpc2
+[       OK ] Darwin.getpc2 (0 ms)
+[ RUN      ] Darwin.go_to0
+[       OK ] Darwin.go_to0 (0 ms)
+[ RUN      ] Darwin.go_to1
+[       OK ] Darwin.go_to1 (0 ms)
+[ RUN      ] Darwin.go_to2
+[       OK ] Darwin.go_to2 (0 ms)
+[ RUN      ] Darwin.X0
+[       OK ] Darwin.X0 (0 ms)
+[ RUN      ] Darwin.X1
+[       OK ] Darwin.X1 (0 ms)
+[ RUN      ] Darwin.X2
+[       OK ] Darwin.X2 (0 ms)
+[ RUN      ] Darwin.Y0
+[       OK ] Darwin.Y0 (0 ms)
+[ RUN      ] Darwin.Y1
+[       OK ] Darwin.Y1 (0 ms)
+[ RUN      ] Darwin.Y2
+[       OK ] Darwin.Y2 (0 ms)
+[ RUN      ] Darwin.getRace0
+[       OK ] Darwin.getRace0 (0 ms)
+[ RUN      ] Darwin.getRace1
+[       OK ] Darwin.getRace1 (0 ms)
+[ RUN      ] Darwin.getRace2
+[       OK ] Darwin.getRace2 (0 ms)
+[ RUN      ] Darwin.generate0
+[       OK ] Darwin.generate0 (0 ms)
+[ RUN      ] Darwin.generate1
+[       OK ] Darwin.generate1 (0 ms)
+[ RUN      ] Darwin.generate3
+[       OK ] Darwin.generate3 (1 ms)
+[ RUN      ] Darwin.generate4
+[       OK ] Darwin.generate4 (4 ms)
+[ RUN      ] Darwin.if_wall0
+[       OK ] Darwin.if_wall0 (0 ms)
+[ RUN      ] Darwin.if_wall1
+[       OK ] Darwin.if_wall1 (0 ms)
+[ RUN      ] Darwin.if_wall3
+[       OK ] Darwin.if_wall3 (0 ms)
+[ RUN      ] Darwin.if_empty0
+[       OK ] Darwin.if_empty0 (1 ms)
+[ RUN      ] Darwin.if_empty1
+[       OK ] Darwin.if_empty1 (0 ms)
+[ RUN      ] Darwin.if_empty3
+[       OK ] Darwin.if_empty3 (0 ms)
+[ RUN      ] Darwin.if_enemy0
+[       OK ] Darwin.if_enemy0 (0 ms)
+[ RUN      ] Darwin.if_enemy1
+[       OK ] Darwin.if_enemy1 (0 ms)
+[ RUN      ] Darwin.if_enemy3
+[       OK ] Darwin.if_enemy3 (0 ms)
+[ RUN      ] Darwin.incrementPC0
+[       OK ] Darwin.incrementPC0 (0 ms)
+[ RUN      ] Darwin.incrementPC1
+[       OK ] Darwin.incrementPC1 (0 ms)
+[ RUN      ] Darwin.incrementPC2
+[       OK ] Darwin.incrementPC2 (0 ms)
+[ RUN      ] Darwin.incrementPC3
+[       OK ] Darwin.incrementPC3 (0 ms)
+[ RUN      ] Darwin.resetPC0
+[       OK ] Darwin.resetPC0 (0 ms)
+[ RUN      ] Darwin.resetPC1
+[       OK ] Darwin.resetPC1 (0 ms)
+[ RUN      ] Darwin.resetPC2
+[       OK ] Darwin.resetPC2 (0 ms)
+[ RUN      ] Darwin.resetPC3
+[       OK ] Darwin.resetPC3 (0 ms)
+[ RUN      ] Darwin.die0
+[       OK ] Darwin.die0 (0 ms)
+[ RUN      ] Darwin.die1
+[       OK ] Darwin.die1 (0 ms)
+[ RUN      ] Darwin.die2
+[       OK ] Darwin.die2 (0 ms)
+[ RUN      ] Darwin.die3
+[       OK ] Darwin.die3 (0 ms)
+[ RUN      ] Darwin.left0
+[       OK ] Darwin.left0 (0 ms)
+[ RUN      ] Darwin.left1
+[       OK ] Darwin.left1 (0 ms)
+[ RUN      ] Darwin.left2
+[       OK ] Darwin.left2 (0 ms)
+[ RUN      ] Darwin.right0
+[       OK ] Darwin.right0 (0 ms)
+[ RUN      ] Darwin.right1
+[       OK ] Darwin.right1 (0 ms)
+[ RUN      ] Darwin.right2
+[       OK ] Darwin.right2 (0 ms)
+[ RUN      ] Darwin.hop0
+[       OK ] Darwin.hop0 (0 ms)
+[ RUN      ] Darwin.hop1
+[       OK ] Darwin.hop1 (0 ms)
+[ RUN      ] Darwin.hop2
+[       OK ] Darwin.hop2 (0 ms)
+[ RUN      ] Darwin.infect0
+[       OK ] Darwin.infect0 (0 ms)
+[ RUN      ] Darwin.infect1
+[       OK ] Darwin.infect1 (0 ms)
+[ RUN      ] Darwin.run0
+[       OK ] Darwin.run0 (1 ms)
+[ RUN      ] Darwin.run1
+[       OK ] Darwin.run1 (0 ms)
+[ RUN      ] Darwin.run2
+[       OK ] Darwin.run2 (0 ms)
+[----------] 60 tests from Darwin (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 60 tests from 1 test case ran. (8 ms total)
+[  PASSED  ] 60 tests.

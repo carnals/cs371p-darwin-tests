@@ -1,0 +1,123 @@
+Running main() from gtest_main.cc
+[==========] Running 54 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 12 tests from Species
+[ RUN      ] Species.addInstruction1
+[       OK ] Species.addInstruction1 (41 ms)
+[ RUN      ] Species.addInstruction2
+[       OK ] Species.addInstruction2 (4 ms)
+[ RUN      ] Species.addInstruction3
+[       OK ] Species.addInstruction3 (4 ms)
+[ RUN      ] Species.equals1
+[       OK ] Species.equals1 (3 ms)
+[ RUN      ] Species.equals2
+[       OK ] Species.equals2 (4 ms)
+[ RUN      ] Species.equals3
+[       OK ] Species.equals3 (3 ms)
+[ RUN      ] Species.next1
+[       OK ] Species.next1 (7 ms)
+[ RUN      ] Species.next2
+[       OK ] Species.next2 (4 ms)
+[ RUN      ] Species.next3
+[       OK ] Species.next3 (4 ms)
+[ RUN      ] Species.printSig1
+[       OK ] Species.printSig1 (6 ms)
+[ RUN      ] Species.printSig2
+[       OK ] Species.printSig2 (3 ms)
+[ RUN      ] Species.printSig3
+[       OK ] Species.printSig3 (4 ms)
+[----------] 12 tests from Species (98 ms total)
+
+[----------] 9 tests from Darwin
+[ RUN      ] Darwin.addCreature1
+[       OK ] Darwin.addCreature1 (23 ms)
+[ RUN      ] Darwin.addCreature2
+[       OK ] Darwin.addCreature2 (5 ms)
+[ RUN      ] Darwin.addCreature3
+[       OK ] Darwin.addCreature3 (4 ms)
+[ RUN      ] Darwin.addCreature4
+[       OK ] Darwin.addCreature4 (5 ms)
+[ RUN      ] Darwin.update1
+[       OK ] Darwin.update1 (6 ms)
+[ RUN      ] Darwin.update2
+[       OK ] Darwin.update2 (4 ms)
+[ RUN      ] Darwin.update3
+[       OK ] Darwin.update3 (4 ms)
+[ RUN      ] Darwin.update4
+[       OK ] Darwin.update4 (6 ms)
+[ RUN      ] Darwin.update5
+[       OK ] Darwin.update5 (7 ms)
+[----------] 9 tests from Darwin (65 ms total)
+
+[----------] 33 tests from Creature
+[ RUN      ] Creature.infect1
+[       OK ] Creature.infect1 (10 ms)
+[ RUN      ] Creature.infect2
+[       OK ] Creature.infect2 (5 ms)
+[ RUN      ] Creature.infect3
+[       OK ] Creature.infect3 (9 ms)
+[ RUN      ] Creature.left1
+[       OK ] Creature.left1 (2 ms)
+[ RUN      ] Creature.left2
+[       OK ] Creature.left2 (2 ms)
+[ RUN      ] Creature.left3
+[       OK ] Creature.left3 (1 ms)
+[ RUN      ] Creature.right1
+[       OK ] Creature.right1 (1 ms)
+[ RUN      ] Creature.right2
+[       OK ] Creature.right2 (2 ms)
+[ RUN      ] Creature.right3
+[       OK ] Creature.right3 (2 ms)
+[ RUN      ] Creature.right4
+[       OK ] Creature.right4 (2 ms)
+[ RUN      ] Creature.hop1
+[       OK ] Creature.hop1 (5 ms)
+[ RUN      ] Creature.hop2
+[       OK ] Creature.hop2 (4 ms)
+[ RUN      ] Creature.hop3
+[       OK ] Creature.hop3 (3 ms)
+[ RUN      ] Creature.ifEmpty1
+[       OK ] Creature.ifEmpty1 (2 ms)
+[ RUN      ] Creature.ifEmpty2
+[       OK ] Creature.ifEmpty2 (3 ms)
+[ RUN      ] Creature.ifEmpty3
+[       OK ] Creature.ifEmpty3 (3 ms)
+[ RUN      ] Creature.ifWall1
+[       OK ] Creature.ifWall1 (3 ms)
+[ RUN      ] Creature.ifWall2
+[       OK ] Creature.ifWall2 (3 ms)
+[ RUN      ] Creature.ifWall3
+[       OK ] Creature.ifWall3 (3 ms)
+[ RUN      ] Creature.ifEnemy1
+[       OK ] Creature.ifEnemy1 (3 ms)
+[ RUN      ] Creature.ifEnemy2
+[       OK ] Creature.ifEnemy2 (3 ms)
+[ RUN      ] Creature.ifEnemy3
+[       OK ] Creature.ifEnemy3 (4 ms)
+[ RUN      ] Creature.ifRand1
+[       OK ] Creature.ifRand1 (5 ms)
+[ RUN      ] Creature.ifRand2
+[       OK ] Creature.ifRand2 (2 ms)
+[ RUN      ] Creature.go1
+[       OK ] Creature.go1 (2 ms)
+[ RUN      ] Creature.go2
+[       OK ] Creature.go2 (2 ms)
+[ RUN      ] Creature.go3
+[       OK ] Creature.go3 (2 ms)
+[ RUN      ] Creature.nextX1
+[       OK ] Creature.nextX1 (2 ms)
+[ RUN      ] Creature.nextX2
+[       OK ] Creature.nextX2 (2 ms)
+[ RUN      ] Creature.nextX3
+[       OK ] Creature.nextX3 (2 ms)
+[ RUN      ] Creature.nextY1
+[       OK ] Creature.nextY1 (1 ms)
+[ RUN      ] Creature.nextY2
+[       OK ] Creature.nextY2 (1 ms)
+[ RUN      ] Creature.nextY3
+[       OK ] Creature.nextY3 (2 ms)
+[----------] 33 tests from Creature (105 ms total)
+
+[----------] Global test environment tear-down
+[==========] 54 tests from 3 test cases ran. (295 ms total)
+[  PASSED  ] 54 tests.

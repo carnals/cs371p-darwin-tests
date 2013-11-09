@@ -1,0 +1,64 @@
+Running main() from gtest_main.cc
+[==========] Running 20 tests from 6 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from SpeciesTest
+[ RUN      ] SpeciesTest.AddGetInstruction
+[       OK ] SpeciesTest.AddGetInstruction (34 ms)
+[----------] 1 test from SpeciesTest (43 ms total)
+
+[----------] 7 tests from CreatureActTest
+[ RUN      ] CreatureActTest.ActionInstructions
+[       OK ] CreatureActTest.ActionInstructions (15 ms)
+[ RUN      ] CreatureActTest.IfEmpty
+[       OK ] CreatureActTest.IfEmpty (7 ms)
+[ RUN      ] CreatureActTest.IfWall
+[       OK ] CreatureActTest.IfWall (6 ms)
+[ RUN      ] CreatureActTest.IfRandom
+[       OK ] CreatureActTest.IfRandom (9 ms)
+[ RUN      ] CreatureActTest.IfEnemy
+[       OK ] CreatureActTest.IfEnemy (10 ms)
+[ RUN      ] CreatureActTest.Go
+[       OK ] CreatureActTest.Go (4 ms)
+[ RUN      ] CreatureActTest.MultipleInstructionAction
+[       OK ] CreatureActTest.MultipleInstructionAction (4 ms)
+[----------] 7 tests from CreatureActTest (58 ms total)
+
+[----------] 4 tests from GridPrintTest
+[ RUN      ] GridPrintTest.Square
+[       OK ] GridPrintTest.Square (28 ms)
+[ RUN      ] GridPrintTest.NotSquare
+[       OK ] GridPrintTest.NotSquare (3 ms)
+[ RUN      ] GridPrintTest.Large
+[       OK ] GridPrintTest.Large (5 ms)
+[ RUN      ] GridPrintTest.NotEmpty
+[       OK ] GridPrintTest.NotEmpty (20 ms)
+[----------] 4 tests from GridPrintTest (58 ms total)
+
+[----------] 2 tests from GridPlaceCreatureTest
+[ RUN      ] GridPlaceCreatureTest.Success
+[       OK ] GridPlaceCreatureTest.Success (3 ms)
+[ RUN      ] GridPlaceCreatureTest.AttemptReplace
+[       OK ] GridPlaceCreatureTest.AttemptReplace (4 ms)
+[----------] 2 tests from GridPlaceCreatureTest (7 ms total)
+
+[----------] 3 tests from GridGoadSingleTest
+[ RUN      ] GridGoadSingleTest.Hop
+[       OK ] GridGoadSingleTest.Hop (14 ms)
+[ RUN      ] GridGoadSingleTest.Turn
+[       OK ] GridGoadSingleTest.Turn (13 ms)
+[ RUN      ] GridGoadSingleTest.Infect
+[       OK ] GridGoadSingleTest.Infect (19 ms)
+[----------] 3 tests from GridGoadSingleTest (48 ms total)
+
+[----------] 3 tests from GridGoadAllTest
+[ RUN      ] GridGoadAllTest.DisparateSpecies
+[       OK ] GridGoadAllTest.DisparateSpecies (29 ms)
+[ RUN      ] GridGoadAllTest.SameSpecies
+[       OK ] GridGoadAllTest.SameSpecies (11 ms)
+[ RUN      ] GridGoadAllTest.GoadedOnlyOnce
+[       OK ] GridGoadAllTest.GoadedOnlyOnce (6 ms)
+[----------] 3 tests from GridGoadAllTest (47 ms total)
+
+[----------] Global test environment tear-down
+[==========] 20 tests from 6 test cases ran. (289 ms total)
+[  PASSED  ] 20 tests.

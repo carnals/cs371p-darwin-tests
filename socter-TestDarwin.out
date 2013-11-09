@@ -1,0 +1,111 @@
+Running main() from gtest_main.cc
+[==========] Running 51 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 51 tests from Darwin
+[ RUN      ] Darwin.InstructionConstructorActionType1
+[       OK ] Darwin.InstructionConstructorActionType1 (14 ms)
+[ RUN      ] Darwin.InstructionConstructorActionType2
+[       OK ] Darwin.InstructionConstructorActionType2 (3 ms)
+[ RUN      ] Darwin.InstructionConstructorActionType3
+[       OK ] Darwin.InstructionConstructorActionType3 (3 ms)
+[ RUN      ] Darwin.InstructionConstructorExec_Instr1
+[       OK ] Darwin.InstructionConstructorExec_Instr1 (3 ms)
+[ RUN      ] Darwin.InstructionConstructorExec_Instr2
+[       OK ] Darwin.InstructionConstructorExec_Instr2 (3 ms)
+[ RUN      ] Darwin.InstructionConstructorExec_Instr3
+[       OK ] Darwin.InstructionConstructorExec_Instr3 (3 ms)
+[ RUN      ] Darwin.InstructionConstructorControlType1
+[       OK ] Darwin.InstructionConstructorControlType1 (3 ms)
+[ RUN      ] Darwin.InstructionConstructorControlType2
+[       OK ] Darwin.InstructionConstructorControlType2 (3 ms)
+[ RUN      ] Darwin.InstructionConstructorControlType3
+[       OK ] Darwin.InstructionConstructorControlType3 (3 ms)
+[ RUN      ] Darwin.InstructionConstructorGO_TO1
+[       OK ] Darwin.InstructionConstructorGO_TO1 (3 ms)
+[ RUN      ] Darwin.InstructionConstructorGO_TO2
+[       OK ] Darwin.InstructionConstructorGO_TO2 (3 ms)
+[ RUN      ] Darwin.InstructionConstructorGO_TO3
+[       OK ] Darwin.InstructionConstructorGO_TO3 (3 ms)
+[ RUN      ] Darwin.InstructionConstructorExec_Instr4
+[       OK ] Darwin.InstructionConstructorExec_Instr4 (3 ms)
+[ RUN      ] Darwin.InstructionConstructorExec_Instr5
+[       OK ] Darwin.InstructionConstructorExec_Instr5 (3 ms)
+[ RUN      ] Darwin.InstructionConstructorExec_Instr6
+[       OK ] Darwin.InstructionConstructorExec_Instr6 (3 ms)
+[ RUN      ] Darwin.SpeciesConstructor1
+[       OK ] Darwin.SpeciesConstructor1 (7 ms)
+[ RUN      ] Darwin.SpeciesConstructor2
+[       OK ] Darwin.SpeciesConstructor2 (3 ms)
+[ RUN      ] Darwin.SpeciesConstructor3
+[       OK ] Darwin.SpeciesConstructor3 (3 ms)
+[ RUN      ] Darwin.SpeciesConstructor4
+[       OK ] Darwin.SpeciesConstructor4 (2 ms)
+[ RUN      ] Darwin.CreatureConstructorSpeciesCheck1
+[       OK ] Darwin.CreatureConstructorSpeciesCheck1 (3 ms)
+[ RUN      ] Darwin.CreatureConstructorSpeciesCheck2
+[       OK ] Darwin.CreatureConstructorSpeciesCheck2 (4 ms)
+[ RUN      ] Darwin.CreatureConstructorSpeciesCheck3
+[       OK ] Darwin.CreatureConstructorSpeciesCheck3 (3 ms)
+[ RUN      ] Darwin.CreatureConstructorSpeciesCheck4
+[       OK ] Darwin.CreatureConstructorSpeciesCheck4 (4 ms)
+[ RUN      ] Darwin.CreatureIs_Done1
+[       OK ] Darwin.CreatureIs_Done1 (3 ms)
+[ RUN      ] Darwin.CreatureIs_Done2
+[       OK ] Darwin.CreatureIs_Done2 (3 ms)
+[ RUN      ] Darwin.CreatureIs_Done3
+[       OK ] Darwin.CreatureIs_Done3 (4 ms)
+[ RUN      ] Darwin.CreatureIs_Done4
+[       OK ] Darwin.CreatureIs_Done4 (4 ms)
+[ RUN      ] Darwin.CreatureIs_enemy1
+[       OK ] Darwin.CreatureIs_enemy1 (3 ms)
+[ RUN      ] Darwin.CreatureIs_enemy2
+[       OK ] Darwin.CreatureIs_enemy2 (4 ms)
+[ RUN      ] Darwin.CreatureIs_enemy3
+[       OK ] Darwin.CreatureIs_enemy3 (4 ms)
+[ RUN      ] Darwin.CreatureIs_enemy4
+[       OK ] Darwin.CreatureIs_enemy4 (4 ms)
+[ RUN      ] Darwin.CreatureIs_enemy5
+[       OK ] Darwin.CreatureIs_enemy5 (4 ms)
+[ RUN      ] Darwin.DarwinConstructorCheckDimensions1
+[       OK ] Darwin.DarwinConstructorCheckDimensions1 (43 ms)
+[ RUN      ] Darwin.DarwinConstructorCheckDimensions2
+[       OK ] Darwin.DarwinConstructorCheckDimensions2 (9 ms)
+[ RUN      ] Darwin.DarwinConstructorCheckDimensions3
+[       OK ] Darwin.DarwinConstructorCheckDimensions3 (4 ms)
+[ RUN      ] Darwin.DarwinConstructorCheckDimensions4
+[       OK ] Darwin.DarwinConstructorCheckDimensions4 (4 ms)
+[ RUN      ] Darwin.DarwinConstructorCheckDimensions5
+[       OK ] Darwin.DarwinConstructorCheckDimensions5 (5 ms)
+[ RUN      ] Darwin.DarwinConstructorCheckGrid1
+[       OK ] Darwin.DarwinConstructorCheckGrid1 (6 ms)
+[ RUN      ] Darwin.DarwinConstructorCheckGrid2
+[       OK ] Darwin.DarwinConstructorCheckGrid2 (4 ms)
+[ RUN      ] Darwin.DarwinConstructorCheckGrid3
+[       OK ] Darwin.DarwinConstructorCheckGrid3 (5 ms)
+[ RUN      ] Darwin.DarwinConstructorCheckGrid4
+[       OK ] Darwin.DarwinConstructorCheckGrid4 (5 ms)
+[ RUN      ] Darwin.DarwinConstructorAdd_One_Creature1
+[       OK ] Darwin.DarwinConstructorAdd_One_Creature1 (21 ms)
+[ RUN      ] Darwin.DarwinConstructorAdd_One_Creature2
+[       OK ] Darwin.DarwinConstructorAdd_One_Creature2 (6 ms)
+[ RUN      ] Darwin.DarwinConstructorAdd_One_Creature3
+[       OK ] Darwin.DarwinConstructorAdd_One_Creature3 (5 ms)
+[ RUN      ] Darwin.DarwinConstructorAdd_One_Creature4
+[       OK ] Darwin.DarwinConstructorAdd_One_Creature4 (5 ms)
+[ RUN      ] Darwin.DarwinConstructorAdd_One_Creature5
+[       OK ] Darwin.DarwinConstructorAdd_One_Creature5 (5 ms)
+[ RUN      ] Darwin.DarwinConstructorAdd_Two_Creatures1
+[       OK ] Darwin.DarwinConstructorAdd_Two_Creatures1 (10 ms)
+[ RUN      ] Darwin.DarwinConstructorAdd_Two_Creatures2
+[       OK ] Darwin.DarwinConstructorAdd_Two_Creatures2 (7 ms)
+[ RUN      ] Darwin.DarwinConstructorAdd_Two_Creatures3
+[       OK ] Darwin.DarwinConstructorAdd_Two_Creatures3 (7 ms)
+[ RUN      ] Darwin.DarwinConstructorAdd_Two_Creatures4
+[       OK ] Darwin.DarwinConstructorAdd_Two_Creatures4 (6 ms)
+[ RUN      ] Darwin.DarwinConstructorAdd_Two_Creatures5
+[       OK ] Darwin.DarwinConstructorAdd_Two_Creatures5 (8 ms)
+[----------] 51 tests from Darwin (308 ms total)
+
+[----------] Global test environment tear-down
+[==========] 51 tests from 1 test case ran. (351 ms total)
+[  PASSED  ] 51 tests.

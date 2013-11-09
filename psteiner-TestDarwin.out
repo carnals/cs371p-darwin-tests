@@ -1,0 +1,102 @@
+Running main() from gtest_main.cc
+[==========] Running 45 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 39 tests from Darwin
+[ RUN      ] Darwin.hello_world
+[       OK ] Darwin.hello_world (37 ms)
+[ RUN      ] Darwin.hello_24x24
+[       OK ] Darwin.hello_24x24 (5 ms)
+[ RUN      ] Darwin.hello_zero_world
+[       OK ] Darwin.hello_zero_world (2 ms)
+[ RUN      ] Darwin.hello_1x0
+[       OK ] Darwin.hello_1x0 (3 ms)
+[ RUN      ] Darwin.hello_0x1
+[       OK ] Darwin.hello_0x1 (2 ms)
+[ RUN      ] Darwin.add_creature
+[       OK ] Darwin.add_creature (84 ms)
+[ RUN      ] Darwin.add_creature_multiple
+[       OK ] Darwin.add_creature_multiple (7 ms)
+[ RUN      ] Darwin.add_creature_invalid_argument_row
+[       OK ] Darwin.add_creature_invalid_argument_row (39 ms)
+[ RUN      ] Darwin.add_creature_invalid_argument_col
+[       OK ] Darwin.add_creature_invalid_argument_col (4 ms)
+[ RUN      ] Darwin.add_creature_overflow1
+[       OK ] Darwin.add_creature_overflow1 (5 ms)
+[ RUN      ] Darwin.add_creature_overflow2
+[       OK ] Darwin.add_creature_overflow2 (7 ms)
+[ RUN      ] Darwin.add_creature_overflow3
+[       OK ] Darwin.add_creature_overflow3 (4 ms)
+[ RUN      ] Darwin.add_creature_collision_out_of_range
+[       OK ] Darwin.add_creature_collision_out_of_range (4 ms)
+[ RUN      ] Darwin.add_creature_rand
+[       OK ] Darwin.add_creature_rand (7 ms)
+[ RUN      ] Darwin.add_creature_empty_world
+[       OK ] Darwin.add_creature_empty_world (3 ms)
+[ RUN      ] Darwin.add_creature_1x0
+[       OK ] Darwin.add_creature_1x0 (2 ms)
+[ RUN      ] Darwin.add_creature_0x1
+[       OK ] Darwin.add_creature_0x1 (2 ms)
+[ RUN      ] Darwin.turn_left_west
+[       OK ] Darwin.turn_left_west (19 ms)
+[ RUN      ] Darwin.turn_right_south
+[       OK ] Darwin.turn_right_south (7 ms)
+[ RUN      ] Darwin.go
+[       OK ] Darwin.go (5 ms)
+[ RUN      ] Darwin.hop_east
+[       OK ] Darwin.hop_east (5 ms)
+[ RUN      ] Darwin.hop_east2
+[       OK ] Darwin.hop_east2 (5 ms)
+[ RUN      ] Darwin.hop_south
+[       OK ] Darwin.hop_south (6 ms)
+[ RUN      ] Darwin.hop_north
+[       OK ] Darwin.hop_north (5 ms)
+[ RUN      ] Darwin.hop_west
+[       OK ] Darwin.hop_west (5 ms)
+[ RUN      ] Darwin.two_hoppers
+[       OK ] Darwin.two_hoppers (6 ms)
+[ RUN      ] Darwin.empty_hop_east
+[       OK ] Darwin.empty_hop_east (6 ms)
+[ RUN      ] Darwin.empty_hop_west
+[       OK ] Darwin.empty_hop_west (5 ms)
+[ RUN      ] Darwin.empty_hop_south
+[       OK ] Darwin.empty_hop_south (6 ms)
+[ RUN      ] Darwin.empty_hop_north
+[       OK ] Darwin.empty_hop_north (5 ms)
+[ RUN      ] Darwin.not_empty
+[       OK ] Darwin.not_empty (7 ms)
+[ RUN      ] Darwin.if_wall_and_left
+[       OK ] Darwin.if_wall_and_left (11 ms)
+[ RUN      ] Darwin.if_enemy_false
+[       OK ] Darwin.if_enemy_false (6 ms)
+[ RUN      ] Darwin.if_enemy_true
+[       OK ] Darwin.if_enemy_true (7 ms)
+[ RUN      ] Darwin.if_random
+[       OK ] Darwin.if_random (6 ms)
+[ RUN      ] Darwin.infect
+[       OK ] Darwin.infect (7 ms)
+[ RUN      ] Darwin.infect2
+[       OK ] Darwin.infect2 (7 ms)
+[ RUN      ] Darwin.infect3
+[       OK ] Darwin.infect3 (8 ms)
+[ RUN      ] Darwin.infect_trap_full_360_rotation
+[       OK ] Darwin.infect_trap_full_360_rotation (9 ms)
+[----------] 39 tests from Darwin (386 ms total)
+
+[----------] 6 tests from Species
+[ RUN      ] Species.species_null_type
+[       OK ] Species.species_null_type (3 ms)
+[ RUN      ] Species.species_test_type
+[       OK ] Species.species_test_type (3 ms)
+[ RUN      ] Species.species_test_program
+[       OK ] Species.species_test_program (3 ms)
+[ RUN      ] Species.species_program_invalid_arg
+[       OK ] Species.species_program_invalid_arg (11 ms)
+[ RUN      ] Species.species_program_out_of_range1
+[       OK ] Species.species_program_out_of_range1 (4 ms)
+[ RUN      ] Species.species_program_out_of_range2
+[       OK ] Species.species_program_out_of_range2 (3 ms)
+[----------] 6 tests from Species (28 ms total)
+
+[----------] Global test environment tear-down
+[==========] 45 tests from 2 test cases ran. (441 ms total)
+[  PASSED  ] 45 tests.
