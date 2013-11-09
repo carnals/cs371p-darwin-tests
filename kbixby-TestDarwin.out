@@ -1,0 +1,161 @@
+Running main() from gtest_main.cc
+[==========] Running 76 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 76 tests from Darwin
+[ RUN      ] Darwin.op_to_int_left
+[       OK ] Darwin.op_to_int_left (10 ms)
+[ RUN      ] Darwin.op_to_int_right
+[       OK ] Darwin.op_to_int_right (2 ms)
+[ RUN      ] Darwin.op_to_int_hop
+[       OK ] Darwin.op_to_int_hop (2 ms)
+[ RUN      ] Darwin.op_to_int_infect
+[       OK ] Darwin.op_to_int_infect (2 ms)
+[ RUN      ] Darwin.op_to_int_if_empty
+[       OK ] Darwin.op_to_int_if_empty (2 ms)
+[ RUN      ] Darwin.op_to_int_if_wall
+[       OK ] Darwin.op_to_int_if_wall (2 ms)
+[ RUN      ] Darwin.op_to_int_if_random
+[       OK ] Darwin.op_to_int_if_random (2 ms)
+[ RUN      ] Darwin.op_to_int_if_enemy
+[       OK ] Darwin.op_to_int_if_enemy (2 ms)
+[ RUN      ] Darwin.op_to_int_go
+[       OK ] Darwin.op_to_int_go (2 ms)
+[ RUN      ] Darwin.Species_constr_default
+[       OK ] Darwin.Species_constr_default (5 ms)
+[ RUN      ] Darwin.Species_constr_food
+[       OK ] Darwin.Species_constr_food (2 ms)
+[ RUN      ] Darwin.Species_constr_hopper
+[       OK ] Darwin.Species_constr_hopper (1 ms)
+[ RUN      ] Darwin.Species_constr_rover
+[       OK ] Darwin.Species_constr_rover (2 ms)
+[ RUN      ] Darwin.Species_constr_trap
+[       OK ] Darwin.Species_constr_trap (2 ms)
+[ RUN      ] Darwin.Species_constr_best
+[       OK ] Darwin.Species_constr_best (1 ms)
+[ RUN      ] Darwin.Species_add_instruction_control
+[       OK ] Darwin.Species_add_instruction_control (17 ms)
+[ RUN      ] Darwin.Species_add_instruction_action
+[       OK ] Darwin.Species_add_instruction_action (7 ms)
+[ RUN      ] Darwin.Species_add_instruction_mix_1
+[       OK ] Darwin.Species_add_instruction_mix_1 (6 ms)
+[ RUN      ] Darwin.Species_add_instruction_mix_2
+[       OK ] Darwin.Species_add_instruction_mix_2 (7 ms)
+[ RUN      ] Darwin.Species_get_instruction_control
+[       OK ] Darwin.Species_get_instruction_control (7 ms)
+[ RUN      ] Darwin.Species_get_instruction_action
+[       OK ] Darwin.Species_get_instruction_action (6 ms)
+[ RUN      ] Darwin.Species_get_instruction_mix_1
+[       OK ] Darwin.Species_get_instruction_mix_1 (7 ms)
+[ RUN      ] Darwin.Species_get_instruction_mix_2
+[       OK ] Darwin.Species_get_instruction_mix_2 (7 ms)
+[ RUN      ] Darwin.Species_default
+[       OK ] Darwin.Species_default (3 ms)
+[ RUN      ] Darwin.Species_equal1
+[       OK ] Darwin.Species_equal1 (3 ms)
+[ RUN      ] Darwin.Species_equal2
+[       OK ] Darwin.Species_equal2 (3 ms)
+[ RUN      ] Darwin.Creature_constr_default
+[       OK ] Darwin.Creature_constr_default (7 ms)
+[ RUN      ] Darwin.Creature_constr_food
+[       OK ] Darwin.Creature_constr_food (12 ms)
+[ RUN      ] Darwin.Creature_constr_hopper
+[       OK ] Darwin.Creature_constr_hopper (4 ms)
+[ RUN      ] Darwin.Creature_constr_rover
+[       OK ] Darwin.Creature_constr_rover (3 ms)
+[ RUN      ] Darwin.Creature_constr_trap
+[       OK ] Darwin.Creature_constr_trap (4 ms)
+[ RUN      ] Darwin.Creature_constr_best
+[       OK ] Darwin.Creature_constr_best (3 ms)
+[ RUN      ] Darwin.Creature_species_equal
+[       OK ] Darwin.Creature_species_equal (4 ms)
+[ RUN      ] Darwin.Creature_species_equal1
+[       OK ] Darwin.Creature_species_equal1 (5 ms)
+[ RUN      ] Darwin.Creature_species_equal2
+[       OK ] Darwin.Creature_species_equal2 (4 ms)
+[ RUN      ] Darwin.Creature_get_direction_default
+[       OK ] Darwin.Creature_get_direction_default (3 ms)
+[ RUN      ] Darwin.Creature_get_direction_food
+[       OK ] Darwin.Creature_get_direction_food (3 ms)
+[ RUN      ] Darwin.Creature_get_direction_hopper
+[       OK ] Darwin.Creature_get_direction_hopper (3 ms)
+[ RUN      ] Darwin.Creature_get_direction_rover
+[       OK ] Darwin.Creature_get_direction_rover (3 ms)
+[ RUN      ] Darwin.Creature_get_direction_trap
+[       OK ] Darwin.Creature_get_direction_trap (3 ms)
+[ RUN      ] Darwin.Creature_get_direction_best
+[       OK ] Darwin.Creature_get_direction_best (3 ms)
+[ RUN      ] Darwin.Creature_current_instruction_control
+[       OK ] Darwin.Creature_current_instruction_control (14 ms)
+[ RUN      ] Darwin.Creature_current_instruction_action
+[       OK ] Darwin.Creature_current_instruction_action (8 ms)
+[ RUN      ] Darwin.Creature_current_instruction_mix_1
+[       OK ] Darwin.Creature_current_instruction_mix_1 (8 ms)
+[ RUN      ] Darwin.Creature_current_instruction_mix_2
+[       OK ] Darwin.Creature_current_instruction_mix_2 (9 ms)
+[ RUN      ] Darwin.Creature_infect_creature_defaultspec
+[       OK ] Darwin.Creature_infect_creature_defaultspec (5 ms)
+[ RUN      ] Darwin.Creature_infect_creature_samespec
+[       OK ] Darwin.Creature_infect_creature_samespec (6 ms)
+[ RUN      ] Darwin.Creature_infect_creature_diffspec
+[       OK ] Darwin.Creature_infect_creature_diffspec (6 ms)
+[ RUN      ] Darwin.Creature_infect_creature_multdiffspec
+[       OK ] Darwin.Creature_infect_creature_multdiffspec (7 ms)
+[ RUN      ] Darwin.Creature_act1
+[       OK ] Darwin.Creature_act1 (16 ms)
+[ RUN      ] Darwin.Creature_act2
+[       OK ] Darwin.Creature_act2 (8 ms)
+[ RUN      ] Darwin.Creature_act3
+[       OK ] Darwin.Creature_act3 (8 ms)
+[ RUN      ] Darwin.Creature_control1
+[       OK ] Darwin.Creature_control1 (7 ms)
+[ RUN      ] Darwin.Creature_control2
+[       OK ] Darwin.Creature_control2 (4 ms)
+[ RUN      ] Darwin.Creature_control3
+[       OK ] Darwin.Creature_control3 (4 ms)
+[ RUN      ] Darwin.Creature_out_of_actions1
+[       OK ] Darwin.Creature_out_of_actions1 (6 ms)
+[ RUN      ] Darwin.Creature_out_of_actions2
+[       OK ] Darwin.Creature_out_of_actions2 (8 ms)
+[ RUN      ] Darwin.Creature_out_of_actions3
+[       OK ] Darwin.Creature_out_of_actions3 (9 ms)
+[ RUN      ] Darwin.Creature_reset_actions1
+[       OK ] Darwin.Creature_reset_actions1 (7 ms)
+[ RUN      ] Darwin.Creature_reset_actions2
+[       OK ] Darwin.Creature_reset_actions2 (8 ms)
+[ RUN      ] Darwin.Creature_reset_actions3
+[       OK ] Darwin.Creature_reset_actions3 (9 ms)
+[ RUN      ] Darwin.Darwin_constr1
+[       OK ] Darwin.Darwin_constr1 (22 ms)
+[ RUN      ] Darwin.Darwin_constr2
+[       OK ] Darwin.Darwin_constr2 (6 ms)
+[ RUN      ] Darwin.Darwin_constr3
+[       OK ] Darwin.Darwin_constr3 (9 ms)
+[ RUN      ] Darwin.Darwin_is_wall1
+[       OK ] Darwin.Darwin_is_wall1 (6 ms)
+[ RUN      ] Darwin.Darwin_is_wall2
+[       OK ] Darwin.Darwin_is_wall2 (4 ms)
+[ RUN      ] Darwin.Darwin_is_wall3
+[       OK ] Darwin.Darwin_is_wall3 (4 ms)
+[ RUN      ] Darwin.Darwin_is_wall4
+[       OK ] Darwin.Darwin_is_wall4 (7 ms)
+[ RUN      ] Darwin.Darwin_is_creature1
+[       OK ] Darwin.Darwin_is_creature1 (6 ms)
+[ RUN      ] Darwin.Darwin_is_creature2
+[       OK ] Darwin.Darwin_is_creature2 (6 ms)
+[ RUN      ] Darwin.Darwin_is_creature3
+[       OK ] Darwin.Darwin_is_creature3 (7 ms)
+[ RUN      ] Darwin.Darwin_is_empty1
+[       OK ] Darwin.Darwin_is_empty1 (3 ms)
+[ RUN      ] Darwin.Darwin_is_empty2
+[       OK ] Darwin.Darwin_is_empty2 (4 ms)
+[ RUN      ] Darwin.Darwin_is_empty3
+[       OK ] Darwin.Darwin_is_empty3 (4 ms)
+[ RUN      ] Darwin.Darwin_is_enemy1
+[       OK ] Darwin.Darwin_is_enemy1 (7 ms)
+[ RUN      ] Darwin.Darwin_is_enemy2
+[       OK ] Darwin.Darwin_is_enemy2 (5 ms)
+[----------] 76 tests from Darwin (460 ms total)
+
+[----------] Global test environment tear-down
+[==========] 76 tests from 1 test case ran. (487 ms total)
+[  PASSED  ] 76 tests.

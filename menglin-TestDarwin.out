@@ -1,0 +1,129 @@
+Running main() from gtest_main.cc
+[==========] Running 60 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 60 tests from Darwin
+[ RUN      ] Darwin.test_food1
+[       OK ] Darwin.test_food1 (33 ms)
+[ RUN      ] Darwin.test_food2
+[       OK ] Darwin.test_food2 (7 ms)
+[ RUN      ] Darwin.test_food3
+[       OK ] Darwin.test_food3 (4 ms)
+[ RUN      ] Darwin.test_food4
+[       OK ] Darwin.test_food4 (4 ms)
+[ RUN      ] Darwin.test_food5
+[       OK ] Darwin.test_food5 (4 ms)
+[ RUN      ] Darwin.test_trap1
+[       OK ] Darwin.test_trap1 (4 ms)
+[ RUN      ] Darwin.test_trap2
+[       OK ] Darwin.test_trap2 (5 ms)
+[ RUN      ] Darwin.test_trap3
+[       OK ] Darwin.test_trap3 (4 ms)
+[ RUN      ] Darwin.test_hop
+[       OK ] Darwin.test_hop (4 ms)
+[ RUN      ] Darwin.test_hop2
+[       OK ] Darwin.test_hop2 (5 ms)
+[ RUN      ] Darwin.test_hop3
+[       OK ] Darwin.test_hop3 (4 ms)
+[ RUN      ] Darwin.test_left
+[       OK ] Darwin.test_left (3 ms)
+[ RUN      ] Darwin.test_left2
+[       OK ] Darwin.test_left2 (4 ms)
+[ RUN      ] Darwin.test_left3
+[       OK ] Darwin.test_left3 (4 ms)
+[ RUN      ] Darwin.test_left4
+[       OK ] Darwin.test_left4 (4 ms)
+[ RUN      ] Darwin.test_left5
+[       OK ] Darwin.test_left5 (4 ms)
+[ RUN      ] Darwin.test_left6
+[       OK ] Darwin.test_left6 (5 ms)
+[ RUN      ] Darwin.test_left7
+[       OK ] Darwin.test_left7 (4 ms)
+[ RUN      ] Darwin.test_left8
+[       OK ] Darwin.test_left8 (4 ms)
+[ RUN      ] Darwin.test_right
+[       OK ] Darwin.test_right (3 ms)
+[ RUN      ] Darwin.test_right2
+[       OK ] Darwin.test_right2 (3 ms)
+[ RUN      ] Darwin.test_right3
+[       OK ] Darwin.test_right3 (4 ms)
+[ RUN      ] Darwin.test_right4
+[       OK ] Darwin.test_right4 (4 ms)
+[ RUN      ] Darwin.test_right5
+[       OK ] Darwin.test_right5 (4 ms)
+[ RUN      ] Darwin.test_isWallAhead
+[       OK ] Darwin.test_isWallAhead (2 ms)
+[ RUN      ] Darwin.test_isWallAhead2
+[       OK ] Darwin.test_isWallAhead2 (2 ms)
+[ RUN      ] Darwin.test_isWallAhead3
+[       OK ] Darwin.test_isWallAhead3 (5 ms)
+[ RUN      ] Darwin.test_isSpaceAheadEmpty
+[       OK ] Darwin.test_isSpaceAheadEmpty (3 ms)
+[ RUN      ] Darwin.test_isSpaceAheadEmpty2
+[       OK ] Darwin.test_isSpaceAheadEmpty2 (3 ms)
+[ RUN      ] Darwin.test_isSpaceAheadEmpty3
+[       OK ] Darwin.test_isSpaceAheadEmpty3 (6 ms)
+[ RUN      ] Darwin.test_isEnemyAhead
+[       OK ] Darwin.test_isEnemyAhead (4 ms)
+[ RUN      ] Darwin.test_isEnemyAhead2
+[       OK ] Darwin.test_isEnemyAhead2 (3 ms)
+[ RUN      ] Darwin.test_isEnemyAhead3
+[       OK ] Darwin.test_isEnemyAhead3 (4 ms)
+[ RUN      ] Darwin.test_isEnemyAhead4
+[       OK ] Darwin.test_isEnemyAhead4 (3 ms)
+[ RUN      ] Darwin.test_isEnemyAhead5
+[       OK ] Darwin.test_isEnemyAhead5 (3 ms)
+[ RUN      ] Darwin.test_isEnemyAhead6
+[       OK ] Darwin.test_isEnemyAhead6 (4 ms)
+[ RUN      ] Darwin.test_isEnemyAhead7
+[       OK ] Darwin.test_isEnemyAhead7 (3 ms)
+[ RUN      ] Darwin.test_isEnemyAhead8
+[       OK ] Darwin.test_isEnemyAhead8 (4 ms)
+[ RUN      ] Darwin.test_infect
+[       OK ] Darwin.test_infect (4 ms)
+[ RUN      ] Darwin.test_infect1
+[       OK ] Darwin.test_infect1 (5 ms)
+[ RUN      ] Darwin.test_infect2
+[       OK ] Darwin.test_infect2 (7 ms)
+[ RUN      ] Darwin.test_infect3
+[       OK ] Darwin.test_infect3 (4 ms)
+[ RUN      ] Darwin.test_infect4
+[       OK ] Darwin.test_infect4 (4 ms)
+[ RUN      ] Darwin.test_infect5
+[       OK ] Darwin.test_infect5 (4 ms)
+[ RUN      ] Darwin.test_infect6
+[       OK ] Darwin.test_infect6 (5 ms)
+[ RUN      ] Darwin.test_infect7
+[       OK ] Darwin.test_infect7 (4 ms)
+[ RUN      ] Darwin.test_hop4
+[       OK ] Darwin.test_hop4 (3 ms)
+[ RUN      ] Darwin.test_hop5
+[       OK ] Darwin.test_hop5 (3 ms)
+[ RUN      ] Darwin.test_hop6
+[       OK ] Darwin.test_hop6 (4 ms)
+[ RUN      ] Darwin.test_trap
+[       OK ] Darwin.test_trap (4 ms)
+[ RUN      ] Darwin.test_isEnemyAhead18
+[       OK ] Darwin.test_isEnemyAhead18 (3 ms)
+[ RUN      ] Darwin.test_isEnemyAhead9
+[       OK ] Darwin.test_isEnemyAhead9 (3 ms)
+[ RUN      ] Darwin.test_isEnemyAhead10
+[       OK ] Darwin.test_isEnemyAhead10 (3 ms)
+[ RUN      ] Darwin.test_left18
+[       OK ] Darwin.test_left18 (3 ms)
+[ RUN      ] Darwin.test_hop11
+[       OK ] Darwin.test_hop11 (4 ms)
+[ RUN      ] Darwin.test_left9
+[       OK ] Darwin.test_left9 (3 ms)
+[ RUN      ] Darwin.test_left10
+[       OK ] Darwin.test_left10 (3 ms)
+[ RUN      ] Darwin.test_hop8
+[       OK ] Darwin.test_hop8 (3 ms)
+[ RUN      ] Darwin.test_hop9
+[       OK ] Darwin.test_hop9 (3 ms)
+[ RUN      ] Darwin.test_hop10
+[       OK ] Darwin.test_hop10 (3 ms)
+[----------] 60 tests from Darwin (281 ms total)
+
+[----------] Global test environment tear-down
+[==========] 60 tests from 1 test case ran. (308 ms total)
+[  PASSED  ] 60 tests.

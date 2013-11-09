@@ -1,0 +1,1755 @@
+*** Darwin 8x8 ***
+Turn = 0.
+  01234567
+0 f.......
+1 ........
+2 ........
+3 ...hh...
+4 ...hh...
+5 ........
+6 ........
+7 .......f
+
+Turn = 1.
+  01234567
+0 f.......
+1 ........
+2 ...h....
+3 .....h..
+4 ..h.....
+5 ....h...
+6 ........
+7 .......f
+
+Turn = 2.
+  01234567
+0 f.......
+1 ...h....
+2 ........
+3 ......h.
+4 .h......
+5 ........
+6 ....h...
+7 .......f
+
+Turn = 3.
+  01234567
+0 f..h....
+1 ........
+2 ........
+3 .......h
+4 h.......
+5 ........
+6 ........
+7 ....h..f
+
+Turn = 4.
+  01234567
+0 f..h....
+1 ........
+2 ........
+3 .......h
+4 h.......
+5 ........
+6 ........
+7 ....h..f
+
+Turn = 5.
+  01234567
+0 f..h....
+1 ........
+2 ........
+3 .......h
+4 h.......
+5 ........
+6 ........
+7 ....h..f
+
+*** Darwin 7x9 ***
+Turn = 0.
+  012345678
+0 t........
+1 .........
+2 .........
+3 ..h......
+4 .........
+5 ....r....
+6 ........t
+
+Turn = 1.
+  012345678
+0 t........
+1 .........
+2 .........
+3 ...h.....
+4 ....r....
+5 .........
+6 ........t
+
+Turn = 2.
+  012345678
+0 t........
+1 .........
+2 .........
+3 ....r....
+4 ....r....
+5 .........
+6 ........t
+
+Turn = 3.
+  012345678
+0 t........
+1 .........
+2 .........
+3 ....rr...
+4 .........
+5 .........
+6 ........t
+
+Turn = 4.
+  012345678
+0 t........
+1 .........
+2 ....r....
+3 ......r..
+4 .........
+5 .........
+6 ........t
+
+Turn = 5.
+  012345678
+0 t........
+1 ....r....
+2 .........
+3 .......r.
+4 .........
+5 .........
+6 ........t
+
+*** Darwin 72x72 without Best ***
+*** Darwin 72x72 with Best ***
+*** Darwin 1x15 ***
+Turn = 0.
+  012345678901234
+0 h..............
+
+Turn = 1.
+  012345678901234
+0 .h.............
+
+Turn = 2.
+  012345678901234
+0 ..h............
+
+Turn = 3.
+  012345678901234
+0 ...h...........
+
+Turn = 4.
+  012345678901234
+0 ....h..........
+
+Turn = 5.
+  012345678901234
+0 .....h.........
+
+Turn = 6.
+  012345678901234
+0 ......h........
+
+Turn = 7.
+  012345678901234
+0 .......h.......
+
+Turn = 8.
+  012345678901234
+0 ........h......
+
+Turn = 9.
+  012345678901234
+0 .........h.....
+
+Turn = 10.
+  012345678901234
+0 ..........h....
+
+Turn = 11.
+  012345678901234
+0 ...........h...
+
+Turn = 12.
+  012345678901234
+0 ............h..
+
+Turn = 13.
+  012345678901234
+0 .............h.
+
+Turn = 14.
+  012345678901234
+0 ..............h
+
+Turn = 15.
+  012345678901234
+0 ..............h
+
+*** Darwin 3x3 ***
+Turn = 0.
+  012
+0 fff
+1 ftf
+2 fff
+
+Turn = 1.
+  012
+0 ftf
+1 ftf
+2 fff
+
+Turn = 2.
+  012
+0 ttf
+1 ftf
+2 fff
+
+Turn = 3.
+  012
+0 ttf
+1 ttf
+2 tff
+
+Turn = 4.
+  012
+0 ttf
+1 ttf
+2 ttt
+
+Turn = 5.
+  012
+0 ttt
+1 ttt
+2 ttt
+
+Turn = 6.
+  012
+0 ttt
+1 ttt
+2 ttt
+
+*** Darwin 11x11 ***
+Turn = 0.
+  01234567890
+0 r.........f
+1 ...........
+2 ...........
+3 ...........
+4 ...........
+5 .....f.....
+6 ...........
+7 ...........
+8 ...........
+9 ...........
+0 f.........f
+
+Turn = 1.
+  01234567890
+0 .r........f
+1 ...........
+2 ...........
+3 ...........
+4 ...........
+5 .....f.....
+6 ...........
+7 ...........
+8 ...........
+9 ...........
+0 f.........f
+
+Turn = 2.
+  01234567890
+0 ..r.......f
+1 ...........
+2 ...........
+3 ...........
+4 ...........
+5 .....f.....
+6 ...........
+7 ...........
+8 ...........
+9 ...........
+0 f.........f
+
+Turn = 3.
+  01234567890
+0 ...r......f
+1 ...........
+2 ...........
+3 ...........
+4 ...........
+5 .....f.....
+6 ...........
+7 ...........
+8 ...........
+9 ...........
+0 f.........f
+
+Turn = 4.
+  01234567890
+0 ....r.....f
+1 ...........
+2 ...........
+3 ...........
+4 ...........
+5 .....f.....
+6 ...........
+7 ...........
+8 ...........
+9 ...........
+0 f.........f
+
+Turn = 5.
+  01234567890
+0 .....r....f
+1 ...........
+2 ...........
+3 ...........
+4 ...........
+5 .....f.....
+6 ...........
+7 ...........
+8 ...........
+9 ...........
+0 f.........f
+
+Turn = 6.
+  01234567890
+0 ......r...f
+1 ...........
+2 ...........
+3 ...........
+4 ...........
+5 .....f.....
+6 ...........
+7 ...........
+8 ...........
+9 ...........
+0 f.........f
+
+Turn = 7.
+  01234567890
+0 .......r..f
+1 ...........
+2 ...........
+3 ...........
+4 ...........
+5 .....f.....
+6 ...........
+7 ...........
+8 ...........
+9 ...........
+0 f.........f
+
+Turn = 8.
+  01234567890
+0 ........r.f
+1 ...........
+2 ...........
+3 ...........
+4 ...........
+5 .....f.....
+6 ...........
+7 ...........
+8 ...........
+9 ...........
+0 f.........f
+
+Turn = 9.
+  01234567890
+0 .........rf
+1 ...........
+2 ...........
+3 ...........
+4 ...........
+5 .....f.....
+6 ...........
+7 ...........
+8 ...........
+9 ...........
+0 f.........f
+
+Turn = 10.
+  01234567890
+0 .........rr
+1 ...........
+2 ...........
+3 ...........
+4 ...........
+5 .....f.....
+6 ...........
+7 ...........
+8 ...........
+9 ...........
+0 f.........f
+
+Turn = 100.
+  01234567890
+0 ...r.......
+1 ...........
+2 ...........
+3 ...........
+4 ...........
+5 r....f.....
+6 ...........
+7 ...........
+8 ...........
+9 ...........
+0 .........rr
+
+Turn = 200.
+  01234567890
+0 ...........
+1 ..........r
+2 ...........
+3 ...........
+4 ......r....
+5 .....f.....
+6 ...........
+7 ...........
+8 ...........
+9 ...........
+0 rr.........
+
+Turn = 300.
+  01234567890
+0 ...........
+1 ...........
+2 ...........
+3 ...........
+4 ...........
+5 .....f.....
+6 ...........
+7 ...........
+8 ...........
+9 .rr........
+0 r.r........
+
+Turn = 400.
+  01234567890
+0 .r.........
+1 ...........
+2 ...........
+3 rr.........
+4 ...........
+5 .....f.....
+6 ...........
+7 ...........
+8 ...........
+9 ..........r
+0 ...........
+
+Turn = 500.
+  01234567890
+0 .r.........
+1 ...........
+2 ...........
+3 r..........
+4 ...........
+5 .....f.....
+6 r..........
+7 ...........
+8 ...........
+9 ...........
+0 ..........r
+
+Turn = 600.
+  01234567890
+0 ...........
+1 ...rr......
+2 ...........
+3 ...........
+4 ..........r
+5 r..........
+6 ...........
+7 ...........
+8 ...........
+9 .r.........
+0 ...........
+
+Turn = 700.
+  01234567890
+0 ...........
+1 ...........
+2 ...........
+3 ...........
+4 ...........
+5 ...........
+6 .r........r
+7 ...........
+8 ...........
+9 r.....r....
+0 .r.........
+
+Turn = 800.
+  01234567890
+0 r..........
+1 ...........
+2 ...........
+3 ...........
+4 ........r..
+5 .........rr
+6 ...........
+7 ...........
+8 ..........r
+9 ...........
+0 ...........
+
+Turn = 900.
+  01234567890
+0 .......r...
+1 ...........
+2 ...........
+3 ...........
+4 ...........
+5 r..........
+6 ...........
+7 ...........
+8 ..r........
+9 ...........
+0 ..r.......r
+
+Turn = 1000.
+  01234567890
+0 rr.........
+1 r..........
+2 ...........
+3 ...r......r
+4 ...........
+5 ...........
+6 ...........
+7 ...........
+8 ...........
+9 ...........
+0 ...........
+
+*** Darwin 5x5 ***
+Turn = 0.
+  01234
+0 r...f
+1 .t...
+2 ..f..
+3 ...t.
+4 f...t
+
+Turn = 1.
+  01234
+0 r...f
+1 .t...
+2 ..f..
+3 ...t.
+4 f...t
+
+Turn = 2.
+  01234
+0 .r..f
+1 .t...
+2 ..f..
+3 ...t.
+4 f...t
+
+Turn = 3.
+  01234
+0 ..r.f
+1 .t...
+2 ..f..
+3 ...t.
+4 f...t
+
+Turn = 4.
+  01234
+0 ...rf
+1 .t...
+2 ..f..
+3 ...t.
+4 f...t
+
+Turn = 5.
+  01234
+0 ...rr
+1 .t...
+2 ..f..
+3 ...t.
+4 f...t
+
+Turn = 6.
+  01234
+0 ...rr
+1 .t...
+2 ..f..
+3 ...t.
+4 f...t
+
+Turn = 7.
+  01234
+0 ....r
+1 .t.r.
+2 ..f..
+3 ...t.
+4 f...t
+
+Turn = 8.
+  01234
+0 ...r.
+1 .t...
+2 ..fr.
+3 ...t.
+4 f...t
+
+Turn = 9.
+  01234
+0 ..r..
+1 .t...
+2 ..fr.
+3 ...r.
+4 f...t
+
+Turn = 10.
+  01234
+0 .r...
+1 .t...
+2 ..fr.
+3 ....r
+4 f...t
+
+Turn = 20.
+  01234
+0 .....
+1 .t...
+2 ..f.t
+3 ....r
+4 ..rrr
+
+Turn = 30.
+  01234
+0 .t.r.
+1 .rr..
+2 ..f..
+3 ....r
+4 ..r..
+
+Turn = 40.
+  01234
+0 .rrrr
+1 .r...
+2 ..f..
+3 r....
+4 .....
+
+Turn = 50.
+  01234
+0 r...r
+1 .r...
+2 ....r
+3 .....
+4 rr..r
+
+Turn = 60.
+  01234
+0 ....r
+1 ..r..
+2 r....
+3 r...r
+4 ..r.r
+
+Turn = 70.
+  01234
+0 rr..r
+1 ...r.
+2 r....
+3 ..r..
+4 .r...
+
+Turn = 80.
+  01234
+0 r....
+1 .....
+2 r....
+3 r....
+4 rrr.r
+
+Turn = 90.
+  01234
+0 r.rr.
+1 ..r..
+2 .....
+3 r..r.
+4 ..r..
+
+Turn = 100.
+  01234
+0 r....
+1 r....
+2 r....
+3 ....r
+4 .rrr.
+
+*** Darwin 50x50 ***
+Turn = 0.
+  01234567890123456789012345678901234567890123456789
+0 tfffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+
+Turn = 1.
+  01234567890123456789012345678901234567890123456789
+0 ttffffffffffffffffffffffffffffffffffffffffffffffff
+1 ftffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+
+Turn = 2.
+  01234567890123456789012345678901234567890123456789
+0 ttffffffffffffffffffffffffffffffffffffffffffffffff
+1 ttffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+
+Turn = 3.
+  01234567890123456789012345678901234567890123456789
+0 tttfffffffffffffffffffffffffffffffffffffffffffffff
+1 ttffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+
+Turn = 4.
+  01234567890123456789012345678901234567890123456789
+0 tttfffffffffffffffffffffffffffffffffffffffffffffff
+1 tttfffffffffffffffffffffffffffffffffffffffffffffff
+2 ttttffffffffffffffffffffffffffffffffffffffffffffff
+3 ffttffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+
+Turn = 5.
+  01234567890123456789012345678901234567890123456789
+0 tttfffffffffffffffffffffffffffffffffffffffffffffff
+1 tttfffffffffffffffffffffffffffffffffffffffffffffff
+2 tttttttfffffffffffffffffffffffffffffffffffffffffff
+3 ttttfttfffffffffffffffffffffffffffffffffffffffffff
+4 tfffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+
+Turn = 6.
+  01234567890123456789012345678901234567890123456789
+0 ttttffffffffffffffffffffffffffffffffffffffffffffff
+1 tttttfffffffffffffffffffffffffffffffffffffffffffff
+2 tttttttfffffffffffffffffffffffffffffffffffffffffff
+3 ttttfttfffffffffffffffffffffffffffffffffffffffffff
+4 ttffffffffffffffffffffffffffffffffffffffffffffffff
+5 ttffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+
+Turn = 7.
+  01234567890123456789012345678901234567890123456789
+0 ttttffffffffffffffffffffffffffffffffffffffffffffff
+1 tttttttfffffffffffffffffffffffffffffffffffffffffff
+2 tttttttfffffffffffffffffffffffffffffffffffffffffff
+3 ttttfttfffffffffffffffffffffffffffffffffffffffffff
+4 ttftffffffffffffffffffffffffffffffffffffffffffffff
+5 ttffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+
+Turn = 8.
+  01234567890123456789012345678901234567890123456789
+0 tttttfffffffffffffffffffffffffffffffffffffffffffff
+1 ttttttttffffffffffffffffffffffffffffffffffffffffff
+2 tttttttttfffffffffffffffffffffffffffffffffffffffff
+3 tttttttttfffffffffffffffffffffffffffffffffffffffff
+4 ttttffttffffffffffffffffffffffffffffffffffffffffff
+5 ttffffttffffffffffffffffffffffffffffffffffffffffff
+6 ttffffffffffffffffffffffffffffffffffffffffffffffff
+7 ftffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+
+Turn = 9.
+  01234567890123456789012345678901234567890123456789
+0 ttttttffffffffffffffffffffffffffffffffffffffffffff
+1 ttttttttffffffffffffffffffffffffffffffffffffffffff
+2 tttttttttfffffffffffffffffffffffffffffffffffffffff
+3 tttttttttfffffffffffffffffffffffffffffffffffffffff
+4 tttttftttfffffffffffffffffffffffffffffffffffffffff
+5 ttftttttffffffffffffffffffffffffffffffffffffffffff
+6 ttffffffffffffffffffffffffffffffffffffffffffffffff
+7 ttffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+
+Turn = 10.
+  01234567890123456789012345678901234567890123456789
+0 tttttttftfffffffffffffffffffffffffffffffffffffffff
+1 tttttttttfffffffffffffffffffffffffffffffffffffffff
+2 ttttttttttffffffffffffffffffffffffffffffffffffffff
+3 tttttttttfffffffffffffffffffffffffffffffffffffffff
+4 tttttttttfffffffffffffffffffffffffffffffffffffffff
+5 tttttttttfffffffffffffffffffffffffffffffffffffffff
+6 tttffffftfffffffffffffffffffffffffffffffffffffffff
+7 tttffffftfffffffffffffffffffffffffffffffffffffffff
+8 tfffffffffffffffffffffffffffffffffffffffffffffffff
+9 tfffffffffffffffffffffffffffffffffffffffffffffffff
+0 ttffffffffffffffffffffffffffffffffffffffffffffffff
+1 ttffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+
+Turn = 20.
+  01234567890123456789012345678901234567890123456789
+0 ttttttttttttttttffffffffffffffffffffffffffffffffff
+1 tttttttttttttttttttfffffffffffffffffffffffffffffff
+2 tttttttttttttttttttfffffffffffffffffffffffffffffff
+3 ttttttttttttttttttttffffffffffffffffffffffffffffff
+4 ttttttttttttttttttttffffffffffffffffffffffffffffff
+5 tttttttttttttttttttfffffffffffffffffffffffffffffff
+6 tttttttttttttttttttttfffffffffffffffffffffffffffff
+7 tttttttttttttttttttttfffffffffffffffffffffffffffff
+8 tttttttttttttttttttfffffffffffffffffffffffffffffff
+9 tttttttttttttttttttfffffffffffffffffffffffffffffff
+0 ttttttttttttttttttttffffffffffffffffffffffffffffff
+1 ttttttttttttttttttfttttfffffffffffffffffffffffffff
+2 tttttttttttttttfffffffffffffffffffffffffffffffffff
+3 ttttttttttttttffffffffffffffffffffffffffffffffffff
+4 tttttttttttttfffffffffffffffffffffffffffffffffffff
+5 ttttttttttttffffffffffffffffffffffffffffffffffffff
+6 ttttfttttfffffffffffffffffffffffffffffffffffffffff
+7 ttttfttttfffffffffffffffffffffffffffffffffffffffff
+8 tttfffffffffffffffffffffffffffffffffffffffffffffff
+9 ttttffffffffffffffffffffffffffffffffffffffffffffff
+0 ffttffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+
+Turn = 30.
+  01234567890123456789012345678901234567890123456789
+0 ttttttttttttttttttttttttttftffffffffffffffffffffff
+1 ttttttttttttttttttttttttttftffffffffffffffffffffff
+2 ttttttttttttttttttttttttttttffffffffffffffffffffff
+3 ttttttttttttttttttttttttttttttftffffffffffffffffff
+4 ttttttttttttttttttttttttttttttttffffffffffffffffff
+5 tttttttttttttttttttttttttttfttffffffffffffffffffff
+6 tttttttttttttttttttttttttttfffffffffffffffffffffff
+7 tttttttttttttttttttttttttttfffffffffffffffffffffff
+8 tttttttttttttttttttttttttttttfffffffffffffffffffff
+9 ttttttttttttttttttttttttttttffffffffffffffffffffff
+0 ttttttttttttttttttttttttttttftffffffffffffffffffff
+1 ttttttttttttttttttttttttttttttffffffffffffffffffff
+2 tttttttttttttttttttttttttttttfffffffffffffffffffff
+3 ttttttttttttttttttttttttttttttffffffffffffffffffff
+4 tttttttttttttttttttttttttttttttfffffffffffffffffff
+5 tttttttttttttttttttftttttttttttfffffffffffffffffff
+6 ttttttttttttttttttttttttttttttttffffffffffffffffff
+7 ttttttttttttttttttttttttttttttftffffffffffffffffff
+8 ttttttttttttttttttttttttttttttftffffffffffffffffff
+9 tttttttttttttttttfttttttttttffffffffffffffffffffff
+0 ttttttttttttttttttttttfftttttttfffffffffffffffffff
+1 tttttttttttttttttfttffffftttffttffffffffffffffffff
+2 tttttttttttttttttftfffffftttffftttffffffffffffffff
+3 ttttttttttttttttffffffffffttffffffffffffffffffffff
+4 ttttttttttttttffffffffffffffffffffffffffffffffffff
+5 ftttttttftttttffffffffffffffffffffffffffffffffffff
+6 ffttttfffffftfffffffffffffffffffffffffffffffffffff
+7 fffffffffffftfffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+
+Turn = 40.
+  01234567890123456789012345678901234567890123456789
+0 ttttttttttttttttttttttttttttttttttttfttfffffffffff
+1 ttttttttttttttttttttttttttttttttttttttffffffffffff
+2 tttttttttttttttttttttttttttttttttttttfffffffffffff
+3 tttttttttttttttttttttttttttttttttttttfffffffffffff
+4 tttttttttttttttttttttttttttttttttttttfffffffffffff
+5 tttttttttttttttttttttttttttttttttttttfffffffffffff
+6 ttttttttttttttttttttttttttttttttttttftffffffffffff
+7 ttttttttttttttttttttttttttttttttttttftffffffffffff
+8 ttttttttttttttttttttttttttttttttttttttffffffffffff
+9 ttttttttttttttttttttttttttttttttttttttffffffffffff
+0 tttttttttttttttttttttttttttttttttttttfffffffffffff
+1 tttttttttttttttttttttttttttttttttttttttftfffffffff
+2 tttttttttttttttttttttttttttttttttttttttttfffffffff
+3 ttttttttttttttttttttttttttttttttttttttttffffffffff
+4 tttttttttttttttttttttttttttttttttttttttfffffffffff
+5 ttttttttttttttttttttttttttttttttttttttffffffffffff
+6 ttttttttttttttttttttttttttttttttttttttffffffffffff
+7 ttttttttttttttttttttttttttttttttttttttffffffffffff
+8 ttttttttttttttttttttttttttttttttttttttffffffffffff
+9 ttttttttttttttttttttttttttttttttttttttffffffffffff
+0 ttttttttttttttttttttttttttttttttttttttffffffffffff
+1 ttttttttttttttttttttttttttttttttttttttffffffffffff
+2 tttttttttttttttttttttttttttttttttttttttttfffffffff
+3 tttttttttttttttttttttttttttttttttttttttttfffffffff
+4 ttttttttttttttttttttttttttttttttttttttttttffffffff
+5 tttttttttttttttttttttttttttttttttttttttttfffffffff
+6 tttttttttttttttttttttttttttttttttttttttttfffffffff
+7 ttttttttttttttttttttttttttttttttttttttttffffffffff
+8 ttttttttttttttttttttttttttttttttttftttttffffffffff
+9 tttttttttttttttttttttfttfffttttttfttttttffffffffff
+0 tttttttttttttttttttttffffffffftttffffttfffffffffff
+1 ttttttttttttttttttfffffffffffffftttftttfffffffffff
+2 tttttttttttttttttffffffffffffffffftfffffffffffffff
+3 fttttttttttttttftffffffffffffffffftfffffffffffffff
+4 fttffffttftttffttfffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+0 ffffffffffffffffffffffffffffffffffffffffffffffffff
+1 ffffffffffffffffffffffffffffffffffffffffffffffffff
+2 ffffffffffffffffffffffffffffffffffffffffffffffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+
+Turn = 50.
+  01234567890123456789012345678901234567890123456789
+0 tttttttttttttttttttttttttttttttttttttttttttfffffff
+1 tttttttttttttttttttttttttttttttttttttttttttfffffff
+2 tttttttttttttttttttttttttttttttttttttttttttfffffff
+3 tttttttttttttttttttttttttttttttttttttttttttfffffff
+4 tttttttttttttttttttttttttttttttttttttttttttfffffff
+5 ttttttttttttttttttttttttttttttttttttttttttttffffff
+6 ttttttttttttttttttttttttttttttttttttttttttttffffff
+7 ttttttttttttttttttttttttttttttttttttttttttttttttff
+8 ttttttttttttttttttttttttttttttttttttttttttttttftff
+9 ttttttttttttttttttttttttttttttttttttttttttttttttff
+0 ttttttttttttttttttttttttttttttttttttttttttttttttff
+1 tttttttttttttttttttttttttttttttttttttttttttttfttff
+2 tttttttttttttttttttttttttttttttttttttttttttttfffff
+3 tttttttttttttttttttttttttttttttttttttttttttttfffff
+4 tttttttttttttttttttttttttttttttttttttttttttttfffff
+5 ttttttttttttttttttttttttttttttttttttttttttttttftff
+6 ttttttttttttttttttttttttttttttttttttttttttttttttff
+7 ttttttttttttttttttttttttttttttttttttttttttttfttfff
+8 ttttttttttttttttttttttttttttttttttttttttttttffffff
+9 ttttttttttttttttttttttttttttttttttttttttttttffffff
+0 ttttttttttttttttttttttttttttttttttttttttttttttttff
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 ttttttttttttttttttttttttttttttttttttttttttttttttff
+4 ttttttttttttttttttttttttttttttttttttttttttttttttff
+5 ttttttttttttttttttttttttttttttttttttttttttttttttff
+6 tttttttttttttttttttttttttttttttttttttttttttttttttf
+7 tttttttttttttttttttttttttttttttttttttttttttttttftt
+8 ttttttttttttttttttttttttttttttttttttttttttttttttff
+9 ttttttttttttttttttttttttttttttttttttttttttttttttff
+0 ttttttttttttttttttttttttttttttttttttttttttttttttff
+1 ttttttttttttttttttttttttttttttttttttttttttttttttff
+2 ttttttttttttttttttttttttttttttttttttttttttttttttff
+3 ttttttttttttttttttttttttttttttttttttttttttttttttff
+4 ttttttttttttttttttttttttttttttttttttttttttttffffff
+5 ttttttttttttttttttttttttttttttttttttttttttttffffff
+6 ttttttttttttttttttttttttttttttttttttttttttttffffff
+7 ttttttttttttttttttttttttttttttttttttttttttttffffff
+8 tttttttttttttttttttttttttttttttttttffttttttfffffff
+9 ttttttttttftttttttttttttffffttttttfffttttfffffffff
+0 fffttttfttftffttttftttftffffttftfffffffftfffffffff
+1 fffttfffffffffffttffttftffffttfffffffffftttfffffff
+2 ffftffffffffffffffffffttfffffffffffffffffttfffffff
+3 ffffffffffffffffffffffffffffffffffffffffffffffffff
+4 ffffffffffffffffffffffffffffffffffffffffffffffffff
+5 ffffffffffffffffffffffffffffffffffffffffffffffffff
+6 ffffffffffffffffffffffffffffffffffffffffffffffffff
+7 ffffffffffffffffffffffffffffffffffffffffffffffffff
+8 ffffffffffffffffffffffffffffffffffffffffffffffffff
+9 ffffffffffffffffffffffffffffffffffffffffffffffffff
+
+Turn = 60.
+  01234567890123456789012345678901234567890123456789
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tffftttttttttttttttttttttttttttttttttttttftfttttff
+8 fffffftttffffftttttttttttttttttttttttttttfttttttff
+9 fffffftttfffttttttfftttttttftttttttttttttfffttttff
+
+Turn = 70.
+  01234567890123456789012345678901234567890123456789
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+
+Turn = 80.
+  01234567890123456789012345678901234567890123456789
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+
+Turn = 90.
+  01234567890123456789012345678901234567890123456789
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+
+Turn = 100.
+  01234567890123456789012345678901234567890123456789
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+0 tttttttttttttttttttttttttttttttttttttttttttttttttt
+1 tttttttttttttttttttttttttttttttttttttttttttttttttt
+2 tttttttttttttttttttttttttttttttttttttttttttttttttt
+3 tttttttttttttttttttttttttttttttttttttttttttttttttt
+4 tttttttttttttttttttttttttttttttttttttttttttttttttt
+5 tttttttttttttttttttttttttttttttttttttttttttttttttt
+6 tttttttttttttttttttttttttttttttttttttttttttttttttt
+7 tttttttttttttttttttttttttttttttttttttttttttttttttt
+8 tttttttttttttttttttttttttttttttttttttttttttttttttt
+9 tttttttttttttttttttttttttttttttttttttttttttttttttt
+

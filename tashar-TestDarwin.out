@@ -1,0 +1,121 @@
+Running main() from gtest_main.cc
+[==========] Running 56 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 56 tests from Darwin
+[ RUN      ] Darwin.darwin_print_5_by_5
+[       OK ] Darwin.darwin_print_5_by_5 (38 ms)
+[ RUN      ] Darwin.darwin_print_12_by_12
+[       OK ] Darwin.darwin_print_12_by_12 (6 ms)
+[ RUN      ] Darwin.darwin_print_5_by_5_with_creature_at_3_4
+[       OK ] Darwin.darwin_print_5_by_5_with_creature_at_3_4 (17 ms)
+[ RUN      ] Darwin.darwin_add_creature
+[       OK ] Darwin.darwin_add_creature (4 ms)
+[ RUN      ] Darwin.darwin_add_two_creatures_at_same_spot
+[       OK ] Darwin.darwin_add_two_creatures_at_same_spot (5 ms)
+[ RUN      ] Darwin.darwin_add_creature_out_of_bounds
+[       OK ] Darwin.darwin_add_creature_out_of_bounds (40 ms)
+[ RUN      ] Darwin.darwin_add_creature_out_of_bounds_2
+[       OK ] Darwin.darwin_add_creature_out_of_bounds_2 (3 ms)
+[ RUN      ] Darwin.darwin_add_creature_out_of_bounds_3
+[       OK ] Darwin.darwin_add_creature_out_of_bounds_3 (4 ms)
+[ RUN      ] Darwin.darwin_add_creature_out_of_bounds_4
+[       OK ] Darwin.darwin_add_creature_out_of_bounds_4 (3 ms)
+[ RUN      ] Darwin.create_instruction
+[       OK ] Darwin.create_instruction (2 ms)
+[ RUN      ] Darwin.create_instruction_2
+[       OK ] Darwin.create_instruction_2 (3 ms)
+[ RUN      ] Darwin.create_instruction_3
+[       OK ] Darwin.create_instruction_3 (2 ms)
+[ RUN      ] Darwin.add_instruction
+[       OK ] Darwin.add_instruction (12 ms)
+[ RUN      ] Darwin.add_instruction_2
+[       OK ] Darwin.add_instruction_2 (7 ms)
+[ RUN      ] Darwin.creatureExists
+[       OK ] Darwin.creatureExists (2 ms)
+[ RUN      ] Darwin.creatureExists2
+[       OK ] Darwin.creatureExists2 (3 ms)
+[ RUN      ] Darwin.creatureExists3
+[       OK ] Darwin.creatureExists3 (3 ms)
+[ RUN      ] Darwin.creatureExists4
+[       OK ] Darwin.creatureExists4 (4 ms)
+[ RUN      ] Darwin.xyToX
+[       OK ] Darwin.xyToX (2 ms)
+[ RUN      ] Darwin.xyToX2
+[       OK ] Darwin.xyToX2 (2 ms)
+[ RUN      ] Darwin.xyToX_outOfBounds
+[       OK ] Darwin.xyToX_outOfBounds (2 ms)
+[ RUN      ] Darwin.XToXy
+[       OK ] Darwin.XToXy (3 ms)
+[ RUN      ] Darwin.XToXy2
+[       OK ] Darwin.XToXy2 (2 ms)
+[ RUN      ] Darwin.XToXy_outOfBounds
+[       OK ] Darwin.XToXy_outOfBounds (2 ms)
+[ RUN      ] Darwin.areEnemies
+[       OK ] Darwin.areEnemies (10 ms)
+[ RUN      ] Darwin.areEnemies2
+[       OK ] Darwin.areEnemies2 (5 ms)
+[ RUN      ] Darwin.areEnemies3
+[       OK ] Darwin.areEnemies3 (2 ms)
+[ RUN      ] Darwin.getCoordsInFrontOfCreature
+[       OK ] Darwin.getCoordsInFrontOfCreature (3 ms)
+[ RUN      ] Darwin.getCoordsInFrontOfCreature2
+[       OK ] Darwin.getCoordsInFrontOfCreature2 (4 ms)
+[ RUN      ] Darwin.getCreatureInFront
+[       OK ] Darwin.getCreatureInFront (6 ms)
+[ RUN      ] Darwin.getCreatureInFront2
+[       OK ] Darwin.getCreatureInFront2 (4 ms)
+[ RUN      ] Darwin.getCreatureInFront_Wall
+[       OK ] Darwin.getCreatureInFront_Wall (3 ms)
+[ RUN      ] Darwin.HOP
+[       OK ] Darwin.HOP (5 ms)
+[ RUN      ] Darwin.HOP2
+[       OK ] Darwin.HOP2 (3 ms)
+[ RUN      ] Darwin.HOP3
+[       OK ] Darwin.HOP3 (5 ms)
+[ RUN      ] Darwin.Left
+[       OK ] Darwin.Left (3 ms)
+[ RUN      ] Darwin.Left2
+[       OK ] Darwin.Left2 (3 ms)
+[ RUN      ] Darwin.right
+[       OK ] Darwin.right (3 ms)
+[ RUN      ] Darwin.right2
+[       OK ] Darwin.right2 (3 ms)
+[ RUN      ] Darwin.infect
+[       OK ] Darwin.infect (8 ms)
+[ RUN      ] Darwin.infect2
+[       OK ] Darwin.infect2 (4 ms)
+[ RUN      ] Darwin.if_empty
+[       OK ] Darwin.if_empty (5 ms)
+[ RUN      ] Darwin.if_empty2
+[       OK ] Darwin.if_empty2 (4 ms)
+[ RUN      ] Darwin.if_empty3
+[       OK ] Darwin.if_empty3 (5 ms)
+[ RUN      ] Darwin.if_wall
+[       OK ] Darwin.if_wall (5 ms)
+[ RUN      ] Darwin.if_wall2
+[       OK ] Darwin.if_wall2 (4 ms)
+[ RUN      ] Darwin.if_wall3
+[       OK ] Darwin.if_wall3 (5 ms)
+[ RUN      ] Darwin.if_enemy
+[       OK ] Darwin.if_enemy (6 ms)
+[ RUN      ] Darwin.if_enemy2
+[       OK ] Darwin.if_enemy2 (6 ms)
+[ RUN      ] Darwin.if_enemy3
+[       OK ] Darwin.if_enemy3 (5 ms)
+[ RUN      ] Darwin.go
+[       OK ] Darwin.go (4 ms)
+[ RUN      ] Darwin.if_random
+[       OK ] Darwin.if_random (7 ms)
+[ RUN      ] Darwin.executeInstruction
+[       OK ] Darwin.executeInstruction (8 ms)
+[ RUN      ] Darwin.executeInstruction2
+[       OK ] Darwin.executeInstruction2 (5 ms)
+[ RUN      ] Darwin.executeInstruction3
+[       OK ] Darwin.executeInstruction3 (20 ms)
+[ RUN      ] Darwin.executeInstruction4
+[       OK ] Darwin.executeInstruction4 (9 ms)
+[----------] 56 tests from Darwin (367 ms total)
+
+[----------] Global test environment tear-down
+[==========] 56 tests from 1 test case ran. (394 ms total)
+[  PASSED  ] 56 tests.

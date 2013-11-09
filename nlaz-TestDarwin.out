@@ -1,0 +1,107 @@
+Running main() from gtest_main.cc
+[==========] Running 49 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 49 tests from Darwin
+[ RUN      ] Darwin.species_constructor1
+[       OK ] Darwin.species_constructor1 (13 ms)
+[ RUN      ] Darwin.species_constructor2
+[       OK ] Darwin.species_constructor2 (3 ms)
+[ RUN      ] Darwin.species_constructor3
+[       OK ] Darwin.species_constructor3 (2 ms)
+[ RUN      ] Darwin.species_constructor4
+[       OK ] Darwin.species_constructor4 (3 ms)
+[ RUN      ] Darwin.species_add_instruction1
+[       OK ] Darwin.species_add_instruction1 (12 ms)
+[ RUN      ] Darwin.species_add_instruction2
+[       OK ] Darwin.species_add_instruction2 (6 ms)
+[ RUN      ] Darwin.species_add_instruction3
+[       OK ] Darwin.species_add_instruction3 (5 ms)
+[ RUN      ] Darwin.creature_constructor1
+[       OK ] Darwin.creature_constructor1 (12 ms)
+[ RUN      ] Darwin.creature_constructor2
+[       OK ] Darwin.creature_constructor2 (3 ms)
+[ RUN      ] Darwin.creature_constructor3
+[       OK ] Darwin.creature_constructor3 (3 ms)
+[ RUN      ] Darwin.creature_constructor4
+[       OK ] Darwin.creature_constructor4 (3 ms)
+[ RUN      ] Darwin.grid_constructor1
+[       OK ] Darwin.grid_constructor1 (44 ms)
+[ RUN      ] Darwin.grid_constructor2
+[       OK ] Darwin.grid_constructor2 (13 ms)
+[ RUN      ] Darwin.grid_constructor3
+[       OK ] Darwin.grid_constructor3 (4 ms)
+[ RUN      ] Darwin.grid_add_creature1
+[       OK ] Darwin.grid_add_creature1 (7 ms)
+[ RUN      ] Darwin.grid_add_creature2
+[       OK ] Darwin.grid_add_creature2 (5 ms)
+[ RUN      ] Darwin.grid_add_creature3
+[       OK ] Darwin.grid_add_creature3 (6 ms)
+[ RUN      ] Darwin.grid_add_creature4
+[       OK ] Darwin.grid_add_creature4 (5 ms)
+[ RUN      ] Darwin.grid_execute1
+[       OK ] Darwin.grid_execute1 (13 ms)
+[ RUN      ] Darwin.grid_execute2
+[       OK ] Darwin.grid_execute2 (10 ms)
+[ RUN      ] Darwin.grid_execute3
+[       OK ] Darwin.grid_execute3 (9 ms)
+[ RUN      ] Darwin.grid_execute4
+[       OK ] Darwin.grid_execute4 (8 ms)
+[ RUN      ] Darwin.grid_execute5
+[       OK ] Darwin.grid_execute5 (9 ms)
+[ RUN      ] Darwin.grid_execute6
+[       OK ] Darwin.grid_execute6 (7 ms)
+[ RUN      ] Darwin.grid_execute7
+[       OK ] Darwin.grid_execute7 (11 ms)
+[ RUN      ] Darwin.grid_execute8
+[       OK ] Darwin.grid_execute8 (11 ms)
+[ RUN      ] Darwin.grid_hop1
+[       OK ] Darwin.grid_hop1 (5 ms)
+[ RUN      ] Darwin.grid_hop2
+[       OK ] Darwin.grid_hop2 (5 ms)
+[ RUN      ] Darwin.grid_hop3
+[       OK ] Darwin.grid_hop3 (6 ms)
+[ RUN      ] Darwin.grid_hop4
+[       OK ] Darwin.grid_hop4 (5 ms)
+[ RUN      ] Darwin.grid_hop5
+[       OK ] Darwin.grid_hop5 (6 ms)
+[ RUN      ] Darwin.grid_hop6
+[       OK ] Darwin.grid_hop6 (5 ms)
+[ RUN      ] Darwin.grid_hop7
+[       OK ] Darwin.grid_hop7 (5 ms)
+[ RUN      ] Darwin.grid_hop8
+[       OK ] Darwin.grid_hop8 (4 ms)
+[ RUN      ] Darwin.grid_turn_left1
+[       OK ] Darwin.grid_turn_left1 (4 ms)
+[ RUN      ] Darwin.grid_turn_left2
+[       OK ] Darwin.grid_turn_left2 (5 ms)
+[ RUN      ] Darwin.grid_turn_left3
+[       OK ] Darwin.grid_turn_left3 (5 ms)
+[ RUN      ] Darwin.grid_turn_left4
+[       OK ] Darwin.grid_turn_left4 (5 ms)
+[ RUN      ] Darwin.grid_turn_right1
+[       OK ] Darwin.grid_turn_right1 (6 ms)
+[ RUN      ] Darwin.grid_turn_right2
+[       OK ] Darwin.grid_turn_right2 (5 ms)
+[ RUN      ] Darwin.grid_turn_right3
+[       OK ] Darwin.grid_turn_right3 (5 ms)
+[ RUN      ] Darwin.grid_turn_right4
+[       OK ] Darwin.grid_turn_right4 (5 ms)
+[ RUN      ] Darwin.grid_infect1
+[       OK ] Darwin.grid_infect1 (14 ms)
+[ RUN      ] Darwin.grid_infect2
+[       OK ] Darwin.grid_infect2 (9 ms)
+[ RUN      ] Darwin.grid_check_wall
+[       OK ] Darwin.grid_check_wall (3 ms)
+[ RUN      ] Darwin.grid_get_space_ahead1
+[       OK ] Darwin.grid_get_space_ahead1 (6 ms)
+[ RUN      ] Darwin.grid_get_space_ahead2
+[       OK ] Darwin.grid_get_space_ahead2 (5 ms)
+[ RUN      ] Darwin.grid_get_space_ahead3
+[       OK ] Darwin.grid_get_space_ahead3 (5 ms)
+[ RUN      ] Darwin.grid_get_space_ahead4
+[       OK ] Darwin.grid_get_space_ahead4 (6 ms)
+[----------] 49 tests from Darwin (375 ms total)
+
+[----------] Global test environment tear-down
+[==========] 49 tests from 1 test case ran. (403 ms total)
+[  PASSED  ] 49 tests.

@@ -1,0 +1,129 @@
+Running main() from gtest_main.cc
+[==========] Running 60 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 60 tests from Game
+[ RUN      ] Game.constructor_big
+[       OK ] Game.constructor_big (11 ms)
+[ RUN      ] Game.constructor_empty
+[       OK ] Game.constructor_empty (3 ms)
+[ RUN      ] Game.if_wall_west
+[       OK ] Game.if_wall_west (4 ms)
+[ RUN      ] Game.if_wall_north
+[       OK ] Game.if_wall_north (2 ms)
+[ RUN      ] Game.if_wall_east
+[       OK ] Game.if_wall_east (3 ms)
+[ RUN      ] Game.if_wall_south
+[       OK ] Game.if_wall_south (2 ms)
+[ RUN      ] Game.if_wall_west_2
+[       OK ] Game.if_wall_west_2 (2 ms)
+[ RUN      ] Game.if_wall_north_2
+[       OK ] Game.if_wall_north_2 (3 ms)
+[ RUN      ] Game.if_wall_east_2
+[       OK ] Game.if_wall_east_2 (2 ms)
+[ RUN      ] Game.if_wall_south_2
+[       OK ] Game.if_wall_south_2 (3 ms)
+[ RUN      ] Game.check_empty
+[       OK ] Game.check_empty (3 ms)
+[ RUN      ] Game.check_empty_2
+[       OK ] Game.check_empty_2 (3 ms)
+[ RUN      ] Game.check_empty_3
+[       OK ] Game.check_empty_3 (3 ms)
+[ RUN      ] Game.check_empty_4
+[       OK ] Game.check_empty_4 (3 ms)
+[ RUN      ] Game.if_wall_1
+[       OK ] Game.if_wall_1 (3 ms)
+[ RUN      ] Game.if_wall_2
+[       OK ] Game.if_wall_2 (2 ms)
+[ RUN      ] Game.if_wall_3
+[       OK ] Game.if_wall_3 (3 ms)
+[ RUN      ] Game.if_wall_4
+[       OK ] Game.if_wall_4 (2 ms)
+[ RUN      ] Game.if_wall_5
+[       OK ] Game.if_wall_5 (3 ms)
+[ RUN      ] Game.if_wall_6
+[       OK ] Game.if_wall_6 (2 ms)
+[ RUN      ] Game.if_wall_7
+[       OK ] Game.if_wall_7 (3 ms)
+[ RUN      ] Game.if_wall_8
+[       OK ] Game.if_wall_8 (2 ms)
+[ RUN      ] Game.if_wall_9
+[       OK ] Game.if_wall_9 (3 ms)
+[ RUN      ] Game.if_wall_10
+[       OK ] Game.if_wall_10 (2 ms)
+[ RUN      ] Game.if_wall_11
+[       OK ] Game.if_wall_11 (3 ms)
+[ RUN      ] Game.if_wall_12
+[       OK ] Game.if_wall_12 (2 ms)
+[ RUN      ] Game.if_wall_13
+[       OK ] Game.if_wall_13 (3 ms)
+[ RUN      ] Game.if_wall_14
+[       OK ] Game.if_wall_14 (2 ms)
+[ RUN      ] Game.if_wall_15
+[       OK ] Game.if_wall_15 (3 ms)
+[ RUN      ] Game.if_wall_16
+[       OK ] Game.if_wall_16 (2 ms)
+[ RUN      ] Game.if_wall_17
+[       OK ] Game.if_wall_17 (3 ms)
+[ RUN      ] Game.if_wall_18
+[       OK ] Game.if_wall_18 (2 ms)
+[ RUN      ] Game.if_wall_19
+[       OK ] Game.if_wall_19 (3 ms)
+[ RUN      ] Game.if_wall_20
+[       OK ] Game.if_wall_20 (2 ms)
+[ RUN      ] Game.if_empty_1
+[       OK ] Game.if_empty_1 (3 ms)
+[ RUN      ] Game.if_empty_2
+[       OK ] Game.if_empty_2 (2 ms)
+[ RUN      ] Game.if_empty_3
+[       OK ] Game.if_empty_3 (3 ms)
+[ RUN      ] Game.if_empty_4
+[       OK ] Game.if_empty_4 (2 ms)
+[ RUN      ] Game.if_empty_5
+[       OK ] Game.if_empty_5 (3 ms)
+[ RUN      ] Game.if_empty_6
+[       OK ] Game.if_empty_6 (2 ms)
+[ RUN      ] Game.if_empty_7
+[       OK ] Game.if_empty_7 (2 ms)
+[ RUN      ] Game.if_empty_8
+[       OK ] Game.if_empty_8 (2 ms)
+[ RUN      ] Game.if_empty_9
+[       OK ] Game.if_empty_9 (2 ms)
+[ RUN      ] Game.if_empty_10
+[       OK ] Game.if_empty_10 (2 ms)
+[ RUN      ] Game.if_empty_11
+[       OK ] Game.if_empty_11 (2 ms)
+[ RUN      ] Game.if_empty_12
+[       OK ] Game.if_empty_12 (2 ms)
+[ RUN      ] Game.if_empty_13
+[       OK ] Game.if_empty_13 (2 ms)
+[ RUN      ] Game.if_empty_14
+[       OK ] Game.if_empty_14 (3 ms)
+[ RUN      ] Game.if_empty_15
+[       OK ] Game.if_empty_15 (2 ms)
+[ RUN      ] Game.if_empty_16
+[       OK ] Game.if_empty_16 (3 ms)
+[ RUN      ] Game.if_empty_17
+[       OK ] Game.if_empty_17 (2 ms)
+[ RUN      ] Game.if_empty_18
+[       OK ] Game.if_empty_18 (3 ms)
+[ RUN      ] Game.if_empty_19
+[       OK ] Game.if_empty_19 (2 ms)
+[ RUN      ] Game.if_empty_20
+[       OK ] Game.if_empty_20 (3 ms)
+[ RUN      ] Game.if_empty_21
+[       OK ] Game.if_empty_21 (2 ms)
+[ RUN      ] Game.if_empty_22
+[       OK ] Game.if_empty_22 (2 ms)
+[ RUN      ] Game.if_empty_23
+[       OK ] Game.if_empty_23 (2 ms)
+[ RUN      ] Game.if_empty_24
+[       OK ] Game.if_empty_24 (2 ms)
+[ RUN      ] Game.if_empty_25
+[       OK ] Game.if_empty_25 (2 ms)
+[ RUN      ] Game.if_empty_26
+[       OK ] Game.if_empty_26 (2 ms)
+[----------] 60 tests from Game (174 ms total)
+
+[----------] Global test environment tear-down
+[==========] 60 tests from 1 test case ran. (202 ms total)
+[  PASSED  ] 60 tests.

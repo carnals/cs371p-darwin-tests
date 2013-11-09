@@ -1,0 +1,113 @@
+Running main() from gtest_main.cc
+[==========] Running 52 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 52 tests from Darwin
+[ RUN      ] Darwin.species_1
+[       OK ] Darwin.species_1 (12 ms)
+[ RUN      ] Darwin.species_2
+[       OK ] Darwin.species_2 (3 ms)
+[ RUN      ] Darwin.species_3
+[       OK ] Darwin.species_3 (2 ms)
+[ RUN      ] Darwin.speciesAdd_1
+[       OK ] Darwin.speciesAdd_1 (14 ms)
+[ RUN      ] Darwin.speciesAdd_2
+[       OK ] Darwin.speciesAdd_2 (7 ms)
+[ RUN      ] Darwin.speciesAdd_3
+[       OK ] Darwin.speciesAdd_3 (10 ms)
+[ RUN      ] Darwin.creature1
+[       OK ] Darwin.creature1 (3 ms)
+[ RUN      ] Darwin.creature2
+[       OK ] Darwin.creature2 (2 ms)
+[ RUN      ] Darwin.creature3
+[       OK ] Darwin.creature3 (2 ms)
+[ RUN      ] Darwin.creatureCopy_1
+[       OK ] Darwin.creatureCopy_1 (4 ms)
+[ RUN      ] Darwin.creatureCopy_2
+[       OK ] Darwin.creatureCopy_2 (4 ms)
+[ RUN      ] Darwin.creatureCopy_3
+[       OK ] Darwin.creatureCopy_3 (3 ms)
+[ RUN      ] Darwin.creatureToDo_1
+[       OK ] Darwin.creatureToDo_1 (4 ms)
+[ RUN      ] Darwin.creatureToDo_2
+[       OK ] Darwin.creatureToDo_2 (3 ms)
+[ RUN      ] Darwin.creatureToDo_3
+[       OK ] Darwin.creatureToDo_3 (4 ms)
+[ RUN      ] Darwin.changeType_1
+[       OK ] Darwin.changeType_1 (3 ms)
+[ RUN      ] Darwin.changeType_2
+[       OK ] Darwin.changeType_2 (3 ms)
+[ RUN      ] Darwin.increaseCounter_1
+[       OK ] Darwin.increaseCounter_1 (2 ms)
+[ RUN      ] Darwin.increaseCounter_2
+[       OK ] Darwin.increaseCounter_2 (3 ms)
+[ RUN      ] Darwin.increaseCounter_3
+[       OK ] Darwin.increaseCounter_3 (2 ms)
+[ RUN      ] Darwin.turnLeft_1
+[       OK ] Darwin.turnLeft_1 (3 ms)
+[ RUN      ] Darwin.turnLeft_2
+[       OK ] Darwin.turnLeft_2 (2 ms)
+[ RUN      ] Darwin.turnLeft_3
+[       OK ] Darwin.turnLeft_3 (3 ms)
+[ RUN      ] Darwin.turnRight_1
+[       OK ] Darwin.turnRight_1 (2 ms)
+[ RUN      ] Darwin.turnRight_2
+[       OK ] Darwin.turnRight_2 (2 ms)
+[ RUN      ] Darwin.turnRight_3
+[       OK ] Darwin.turnRight_3 (2 ms)
+[ RUN      ] Darwin.charSymbol_1
+[       OK ] Darwin.charSymbol_1 (2 ms)
+[ RUN      ] Darwin.charSymbol_2
+[       OK ] Darwin.charSymbol_2 (3 ms)
+[ RUN      ] Darwin.charSymbol_3
+[       OK ] Darwin.charSymbol_3 (2 ms)
+[ RUN      ] Darwin.isNull_1
+[       OK ] Darwin.isNull_1 (2 ms)
+[ RUN      ] Darwin.isNull_2
+[       OK ] Darwin.isNull_2 (2 ms)
+[ RUN      ] Darwin.emptyBlock_1
+[       OK ] Darwin.emptyBlock_1 (2 ms)
+[ RUN      ] Darwin.emptyBlock_2
+[       OK ] Darwin.emptyBlock_2 (2 ms)
+[ RUN      ] Darwin.emptyBlock_3
+[       OK ] Darwin.emptyBlock_3 (2 ms)
+[ RUN      ] Darwin.outofBounds_1
+[       OK ] Darwin.outofBounds_1 (56 ms)
+[ RUN      ] Darwin.outofBounds_2
+[       OK ] Darwin.outofBounds_2 (10 ms)
+[ RUN      ] Darwin.outofBounds_3
+[       OK ] Darwin.outofBounds_3 (4 ms)
+[ RUN      ] Darwin.if_empty_1
+[       OK ] Darwin.if_empty_1 (8 ms)
+[ RUN      ] Darwin.if_empty_2
+[       OK ] Darwin.if_empty_2 (4 ms)
+[ RUN      ] Darwin.if_empty_3
+[       OK ] Darwin.if_empty_3 (4 ms)
+[ RUN      ] Darwin.if_enemy_1
+[       OK ] Darwin.if_enemy_1 (7 ms)
+[ RUN      ] Darwin.if_enemy_2
+[       OK ] Darwin.if_enemy_2 (3 ms)
+[ RUN      ] Darwin.if_enemy_3
+[       OK ] Darwin.if_enemy_3 (3 ms)
+[ RUN      ] Darwin.if_wall_1
+[       OK ] Darwin.if_wall_1 (4 ms)
+[ RUN      ] Darwin.if_wall_2
+[       OK ] Darwin.if_wall_2 (4 ms)
+[ RUN      ] Darwin.if_wall_3
+[       OK ] Darwin.if_wall_3 (4 ms)
+[ RUN      ] Darwin.hop_1
+[       OK ] Darwin.hop_1 (8 ms)
+[ RUN      ] Darwin.hop_2
+[       OK ] Darwin.hop_2 (5 ms)
+[ RUN      ] Darwin.hop_3
+[       OK ] Darwin.hop_3 (6 ms)
+[ RUN      ] Darwin.infect_1
+[       OK ] Darwin.infect_1 (7 ms)
+[ RUN      ] Darwin.infect_2
+[       OK ] Darwin.infect_2 (4 ms)
+[ RUN      ] Darwin.infect_3
+[       OK ] Darwin.infect_3 (5 ms)
+[----------] 52 tests from Darwin (287 ms total)
+
+[----------] Global test environment tear-down
+[==========] 52 tests from 1 test case ran. (315 ms total)
+[  PASSED  ] 52 tests.

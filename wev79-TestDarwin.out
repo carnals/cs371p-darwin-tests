@@ -1,0 +1,108 @@
+Running main() from gtest_main.cc
+[==========] Running 42 tests from 6 test cases.
+[----------] Global test environment set-up.
+[----------] 7 tests from DarwinsWorld
+[ RUN      ] DarwinsWorld.print_4x4
+[       OK ] DarwinsWorld.print_4x4 (0 ms)
+[ RUN      ] DarwinsWorld.print_3x5
+[       OK ] DarwinsWorld.print_3x5 (0 ms)
+[ RUN      ] DarwinsWorld.print_1x6
+[       OK ] DarwinsWorld.print_1x6 (0 ms)
+[ RUN      ] DarwinsWorld.AddCreature1
+[       OK ] DarwinsWorld.AddCreature1 (1 ms)
+[ RUN      ] DarwinsWorld.AddCreature2
+[       OK ] DarwinsWorld.AddCreature2 (0 ms)
+[ RUN      ] DarwinsWorld.AddCreature3
+[       OK ] DarwinsWorld.AddCreature3 (0 ms)
+[ RUN      ] DarwinsWorld.simulate
+[       OK ] DarwinsWorld.simulate (0 ms)
+[----------] 7 tests from DarwinsWorld (1 ms total)
+
+[----------] 20 tests from Species_Execute
+[ RUN      ] Species_Execute.Hop1
+[       OK ] Species_Execute.Hop1 (0 ms)
+[ RUN      ] Species_Execute.Hop2
+[       OK ] Species_Execute.Hop2 (0 ms)
+[ RUN      ] Species_Execute.Hop3
+[       OK ] Species_Execute.Hop3 (0 ms)
+[ RUN      ] Species_Execute.Left1
+[       OK ] Species_Execute.Left1 (0 ms)
+[ RUN      ] Species_Execute.Right1
+[       OK ] Species_Execute.Right1 (0 ms)
+[ RUN      ] Species_Execute.Infect1
+[       OK ] Species_Execute.Infect1 (0 ms)
+[ RUN      ] Species_Execute.Infect2
+[       OK ] Species_Execute.Infect2 (0 ms)
+[ RUN      ] Species_Execute.Infect3
+[       OK ] Species_Execute.Infect3 (0 ms)
+[ RUN      ] Species_Execute.Infect4
+[       OK ] Species_Execute.Infect4 (0 ms)
+[ RUN      ] Species_Execute.If_empty1
+[       OK ] Species_Execute.If_empty1 (0 ms)
+[ RUN      ] Species_Execute.If_empty2
+[       OK ] Species_Execute.If_empty2 (0 ms)
+[ RUN      ] Species_Execute.If_empty3
+[       OK ] Species_Execute.If_empty3 (0 ms)
+[ RUN      ] Species_Execute.If_wall1
+[       OK ] Species_Execute.If_wall1 (0 ms)
+[ RUN      ] Species_Execute.If_wall2
+[       OK ] Species_Execute.If_wall2 (0 ms)
+[ RUN      ] Species_Execute.If_wall3
+[       OK ] Species_Execute.If_wall3 (0 ms)
+[ RUN      ] Species_Execute.If_enemy1
+[       OK ] Species_Execute.If_enemy1 (0 ms)
+[ RUN      ] Species_Execute.If_enemy2
+[       OK ] Species_Execute.If_enemy2 (0 ms)
+[ RUN      ] Species_Execute.If_enemy3
+[       OK ] Species_Execute.If_enemy3 (0 ms)
+[ RUN      ] Species_Execute.If_enemy4
+[       OK ] Species_Execute.If_enemy4 (0 ms)
+[ RUN      ] Species_Execute.Go1
+[       OK ] Species_Execute.Go1 (0 ms)
+[----------] 20 tests from Species_Execute (0 ms total)
+
+[----------] 6 tests from Species_Operators
+[ RUN      ] Species_Operators.NotEqualSpecies1
+[       OK ] Species_Operators.NotEqualSpecies1 (0 ms)
+[ RUN      ] Species_Operators.NotEqualSpecies2
+[       OK ] Species_Operators.NotEqualSpecies2 (0 ms)
+[ RUN      ] Species_Operators.NotEqualChar1
+[       OK ] Species_Operators.NotEqualChar1 (0 ms)
+[ RUN      ] Species_Operators.NotEqualChar2
+[       OK ] Species_Operators.NotEqualChar2 (0 ms)
+[ RUN      ] Species_Operators.EqualChar1
+[       OK ] Species_Operators.EqualChar1 (0 ms)
+[ RUN      ] Species_Operators.EqualChar2
+[       OK ] Species_Operators.EqualChar2 (0 ms)
+[----------] 6 tests from Species_Operators (0 ms total)
+
+[----------] 3 tests from Species_Constructors
+[ RUN      ] Species_Constructors.default1
+[       OK ] Species_Constructors.default1 (0 ms)
+[ RUN      ] Species_Constructors.typed1
+[       OK ] Species_Constructors.typed1 (0 ms)
+[ RUN      ] Species_Constructors.typed2
+[       OK ] Species_Constructors.typed2 (0 ms)
+[----------] 3 tests from Species_Constructors (0 ms total)
+
+[----------] 3 tests from Species_General
+[ RUN      ] Species_General.addInstruction1
+[       OK ] Species_General.addInstruction1 (0 ms)
+[ RUN      ] Species_General.addInstruction2
+[       OK ] Species_General.addInstruction2 (0 ms)
+[ RUN      ] Species_General.addInstruction3
+[       OK ] Species_General.addInstruction3 (0 ms)
+[----------] 3 tests from Species_General (0 ms total)
+
+[----------] 3 tests from Creature_Constructors
+[ RUN      ] Creature_Constructors.default1
+[       OK ] Creature_Constructors.default1 (0 ms)
+[ RUN      ] Creature_Constructors.typed1
+[       OK ] Creature_Constructors.typed1 (0 ms)
+[ RUN      ] Creature_Constructors.typed2
+[       OK ] Creature_Constructors.typed2 (0 ms)
+[----------] 3 tests from Creature_Constructors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 42 tests from 6 test cases ran. (2 ms total)
+[  PASSED  ] 42 tests.
