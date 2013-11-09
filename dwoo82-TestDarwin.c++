@@ -346,7 +346,7 @@ TEST(Darwin, Darwin_printGrid1){
 	d.printGrid();
 	output = oss.str();
 
-	ASSERT_EQ("  01\n0 ..\n1 ..\n", output);
+	ASSERT_EQ("   01\n 0 ..\n 1 ..\n", output);
 }
 
 TEST(Darwin, Darwin_printGrid2){
@@ -361,7 +361,7 @@ TEST(Darwin, Darwin_printGrid2){
 	d.printGrid();
 	output = oss.str();
 
-	ASSERT_EQ("  0123\n0 ....\n1 ....\n", output);
+	ASSERT_EQ("   0123\n 0 ....\n 1 ....\n", output);
 }
 
 TEST(Darwin, Darwin_printGrid3){
@@ -376,7 +376,7 @@ TEST(Darwin, Darwin_printGrid3){
 	d.printGrid();
 	output = oss.str();
 
-	ASSERT_EQ("  01\n0 ..\n1 ..\n2 ..\n3 ..\n", output);
+	ASSERT_EQ("   01\n 0 ..\n 1 ..\n 2 ..\n 3 ..\n", output);
 }
 
 TEST(Darwin, Darwin_printCreature){
@@ -391,67 +391,13 @@ TEST(Darwin, Darwin_printCreature){
 	Species s = Species("Aardvark");
 	Creature c = Creature(&s);
 	
-	d.addSpecies(&s);
 	d.addCreature(&c);
 	d.spawnCreature("Aardvark", 0, 0, SOUTH);
 
 	d.printGrid();
 	output = oss.str();
 
-	ASSERT_EQ("  01\n0 A.\n1 ..\n2 ..\n3 ..\n", output);
-}
-
-// --------------------
-// Darwin::addSpecies()
-// --------------------
-
-TEST(Darwin, Darwin_addSpecies1){
-	Species s = Species("Thingie");
-	Darwin d = Darwin();
-
-	d.addSpecies(&s);
-
-	ASSERT_EQ(1, d._speciesCol.size());
-	ASSERT_EQ(&s, d._speciesCol["Thingie"]);
-
-	ASSERT_EQ("Thingie", d._speciesCol["Thingie"]->_name);
-}
-
-TEST(Darwin, Darwin_addSpecies2){
-	Species s1 = Species("Thing1");
-	Species s2 = Species("Thing2");
-	Darwin d = Darwin();
-
-	d.addSpecies(&s1);
-	d.addSpecies(&s2);
-
-	ASSERT_EQ(2, d._speciesCol.size());
-	ASSERT_EQ(&s1, d._speciesCol["Thing1"]);
-	ASSERT_EQ(&s2, d._speciesCol["Thing2"]);
-
-
-	ASSERT_EQ("Thing1", d._speciesCol["Thing1"]->_name);
-	ASSERT_EQ("Thing2", d._speciesCol["Thing2"]->_name);
-}
-
-TEST(Darwin, Darwin_addSpecies3){
-	Species s1 = Species("Fox");
-	Species s2 = Species("Chicken");
-	Species s3 = Species("Seeds");
-	Darwin d = Darwin();
-
-	d.addSpecies(&s1);
-	d.addSpecies(&s2);
-	d.addSpecies(&s3);
-
-	ASSERT_EQ(3, d._speciesCol.size());
-	ASSERT_EQ(&s1, d._speciesCol["Fox"]);
-	ASSERT_EQ(&s2, d._speciesCol["Chicken"]);
-	ASSERT_EQ(&s3, d._speciesCol["Seeds"]);
-
-	ASSERT_EQ("Fox", d._speciesCol["Fox"]->_name);
-	ASSERT_EQ("Chicken", d._speciesCol["Chicken"]->_name);
-	ASSERT_EQ("Seeds", d._speciesCol["Seeds"]->_name);
+	ASSERT_EQ("   01\n 0 A.\n 1 ..\n 2 ..\n 3 ..\n", output);
 }
 
 // ---------------------
@@ -462,11 +408,6 @@ TEST(Darwin, Darwin_addCreature){
 	Species s = Species("Pikachu");
 	Creature c = Creature(&s);
 	Darwin d = Darwin();
-
-	d.addSpecies(&s);
-	ASSERT_EQ(1, d._speciesCol.size());
-	ASSERT_EQ(&s, d._speciesCol["Pikachu"]);
-
 
 	d.addCreature(&c);
 	ASSERT_EQ(1, d._actors.size());
@@ -480,11 +421,6 @@ TEST(Darwin, Darwin_add_creatures_of_same_species){
 	Creature c1 = Creature(&s);
 	Creature c2 = Creature(&s);
 	Darwin d = Darwin();
-
-	d.addSpecies(&s);
-	ASSERT_EQ(1, d._speciesCol.size());
-	ASSERT_EQ(&s, d._speciesCol["Tomato"]);
-
 
 	d.addCreature(&c1);
 	d.addCreature(&c2);
@@ -506,13 +442,6 @@ TEST(Darwin, Darwin_add_creatures_of_different_species){
 	Creature c2 = Creature(&s2);
 
 	Darwin d = Darwin();
-
-	d.addSpecies(&s1);
-	d.addSpecies(&s2);
-	ASSERT_EQ(2, d._speciesCol.size());
-	ASSERT_EQ(&s1, d._speciesCol["Broccoli"]);
-	ASSERT_EQ(&s2, d._speciesCol["Banana"]);
-
 
 	d.addCreature(&c1);
 	d.addCreature(&c2);
@@ -536,7 +465,6 @@ TEST(Darwin, Darwin_spawnCreature){
 
 	Darwin d = Darwin();
 
-	d.addSpecies(&s);
 	d.addCreature(&c);
 	int i = d.spawnCreature("Duck", 0, 0, EAST);
 
@@ -555,7 +483,6 @@ TEST(Darwin, Darwin_spawn_creatures_of_same_species){
 
 	Darwin d = Darwin();
 
-	d.addSpecies(&s);
 	d.addCreature(&c1);
 	d.addCreature(&c2);
 	d.addCreature(&c3);
@@ -589,7 +516,6 @@ TEST(Darwin, Darwin_bad_spawn){
 
 	Darwin d = Darwin();
 
-	d.addSpecies(&s);
 	d.addCreature(&c1);
 
 	int i = d.spawnCreature("Pancake", 0, 0, NORTH);
@@ -619,7 +545,6 @@ TEST(Darwin, Darwin_obstacle_wall_N){
 
 	Darwin d = Darwin(2, 2);
 
-	d.addSpecies(&s);
 	d.addCreature(&c);
 
 	int i = d.spawnCreature("NWallHugger", 0, 1, NORTH);
@@ -635,7 +560,6 @@ TEST(Darwin, Darwin_obstacle_wall_E){
 
 	Darwin d = Darwin(2, 2);
 
-	d.addSpecies(&s);
 	d.addCreature(&c);
 
 	int i = d.spawnCreature("EWallHugger", 0, 1, EAST);
@@ -651,7 +575,6 @@ TEST(Darwin, Darwin_obstacle_wall_S){
 
 	Darwin d = Darwin(2, 2);
 
-	d.addSpecies(&s);
 	d.addCreature(&c);
 
 	int i = d.spawnCreature("SWallHugger", 1, 1, SOUTH);
@@ -667,7 +590,6 @@ TEST(Darwin, Darwin_obstacle_wall_W){
 
 	Darwin d = Darwin(2, 2);
 
-	d.addSpecies(&s);
 	d.addCreature(&c);
 
 	int i = d.spawnCreature("WWallHugger", 0, 0, WEST);
@@ -685,9 +607,6 @@ TEST(Darwin, Darwin_obstacle_multiple_creatures){
 	Creature b = Creature(&x);
 
 	Darwin d = Darwin(2, 2);
-
-	d.addSpecies(&s);
-	d.addSpecies(&x);
 
 	d.addCreature(&c1);
 	d.addCreature(&c2);
@@ -730,7 +649,6 @@ TEST(Darwin, Darwin_nextAction_hop_go){
 	Creature c = Creature(&s);
 	Darwin d = Darwin();
 
-	d.addSpecies(&s);
 	d.addCreature(&c);
 	d.spawnCreature("Hopper", 0, 0, EAST);
 
@@ -748,7 +666,6 @@ TEST(Darwin, Darwin_nextAction_hop_left_go){
 	Creature c = Creature(&s);
 	Darwin d = Darwin();
 
-	d.addSpecies(&s);
 	d.addCreature(&c);
 	d.spawnCreature("Hopper", 0, 0, EAST);
 
@@ -774,7 +691,6 @@ TEST(Darwin, Darwin_nextAction_if_wall){
 	Creature c = Creature(&s);
 	Darwin d = Darwin(2, 4);
 
-	d.addSpecies(&s);
 	d.addCreature(&c);
 	d.spawnCreature("Hopper", 0, 0, EAST);
 
@@ -816,9 +732,6 @@ TEST(Darwin, Darwin_nextAction_if_enemy){
 
 	Darwin d = Darwin(2, 2);
 
-	d.addSpecies(&s);
-	d.addSpecies(&x);
-
 	d.addCreature(&c1);
 	d.addCreature(&c2);
 	d.addCreature(&b);
@@ -857,8 +770,6 @@ TEST(Darwin, Darwin_nextAction_if_empty){
 	Creature c = Creature(&s);
 	Darwin d = Darwin(2, 4);
 
-	d.addSpecies(&s);
-	d.addCreature(&c);
 	d.spawnCreature("Lonely", 0, 0, EAST);
 
 	Action action = d.nextAction(&c, -1);
@@ -894,7 +805,6 @@ TEST(Darwin, Darwin_nextAction_if_random){
 	Creature c = Creature(&s);
 	Darwin d = Darwin(2, 4);
 
-	d.addSpecies(&s);
 	d.addCreature(&c);
 	d.spawnCreature("Random", 0, 0, EAST);
 
@@ -920,23 +830,22 @@ TEST(Darwin, Darwin_step_simpleHopper){
 	Creature c = Creature(&s);
 	Darwin d = Darwin(2, 2, oss);
 
-	d.addSpecies(&s);
 	d.addCreature(&c);
 	d.spawnCreature("Hopper", 0, 0, EAST);
 
 	d.step();
 	output = oss.str();
-	ASSERT_EQ("Turn 0\n  01\n0 H.\n1 ..\n\n", output);
+	ASSERT_EQ("Turn = 0.\n   01\n 0 H.\n 1 ..\n\n", output);
 	oss.str("");
 
 	d.step();
 	output = oss.str();
-	ASSERT_EQ("Turn 1\n  01\n0 .H\n1 ..\n\n", output);
+	ASSERT_EQ("Turn = 1.\n   01\n 0 .H\n 1 ..\n\n", output);
 	oss.str("");
 
 	d.step();
 	output = oss.str();
-	ASSERT_EQ("Turn 2\n  01\n0 .H\n1 ..\n\n", output);
+	ASSERT_EQ("Turn = 2.\n   01\n 0 .H\n 1 ..\n\n", output);
 	oss.str("");
 }
 
@@ -954,40 +863,39 @@ TEST(Darwin, Darwin_step_CWHopper){
 	Creature c = Creature(&s);
 	Darwin d = Darwin(2, 2, oss);
 
-	d.addSpecies(&s);
 	d.addCreature(&c);
 	d.spawnCreature("Hopper", 0, 0, EAST);
 
 	d.step();
 	output = oss.str();
-	ASSERT_EQ("Turn 0\n  01\n0 H.\n1 ..\n\n", output);
+	ASSERT_EQ("Turn = 0.\n   01\n 0 H.\n 1 ..\n\n", output);
 	oss.str("");
 
 	d.step();
 	output = oss.str();
-	ASSERT_EQ("Turn 1\n  01\n0 .H\n1 ..\n\n", output);
+	ASSERT_EQ("Turn = 1.\n   01\n 0 .H\n 1 ..\n\n", output);
 	oss.str("");
 
 	d.step();
 	output = oss.str();
-	ASSERT_EQ("Turn 2\n  01\n0 .H\n1 ..\n\n", output);
+	ASSERT_EQ("Turn = 2.\n   01\n 0 .H\n 1 ..\n\n", output);
 	ASSERT_EQ(SOUTH, c._direction);
 	oss.str("");
 
 	d.step();
 	output = oss.str();
-	ASSERT_EQ("Turn 3\n  01\n0 ..\n1 .H\n\n", output);
+	ASSERT_EQ("Turn = 3.\n   01\n 0 ..\n 1 .H\n\n", output);
 	oss.str("");
 
 	d.step();
 	output = oss.str();
-	ASSERT_EQ("Turn 4\n  01\n0 ..\n1 .H\n\n", output);
+	ASSERT_EQ("Turn = 4.\n   01\n 0 ..\n 1 .H\n\n", output);
 	ASSERT_EQ(WEST, c._direction);
 	oss.str("");
 
 	d.step();
 	output = oss.str();
-	ASSERT_EQ("Turn 5\n  01\n0 ..\n1 H.\n\n", output);
+	ASSERT_EQ("Turn = 5.\n   01\n 0 ..\n 1 H.\n\n", output);
 	oss.str("");
 }
 
@@ -1014,8 +922,6 @@ TEST(Darwin, Darwin_step_infection){
 	Creature c2 = Creature(&l);
 	Darwin d = Darwin(2, 2, oss);
 
-	d.addSpecies(&w);
-	d.addSpecies(&l);
 	d.addCreature(&c1);
 	d.addCreature(&c2);
 	d.spawnCreature("Winner", 0, 0, EAST);
@@ -1023,11 +929,11 @@ TEST(Darwin, Darwin_step_infection){
 
 	d.step();
 	output = oss.str();
-	ASSERT_EQ("Turn 0\n  01\n0 WL\n1 ..\n\n", output);
+	ASSERT_EQ("Turn = 0.\n   01\n 0 WL\n 1 ..\n\n", output);
 	oss.str("");
 
 	d.step();
 	output = oss.str();
-	ASSERT_EQ("Turn 1\n  01\n0 WW\n1 ..\n\n", output);
+	ASSERT_EQ("Turn = 1.\n   01\n 0 WW\n 1 ..\n\n", output);
 	oss.str("");
 }

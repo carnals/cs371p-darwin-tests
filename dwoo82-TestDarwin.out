@@ -1,17 +1,17 @@
 Running main() from gtest_main.cc
-[==========] Running 47 tests from 1 test case.
+[==========] Running 44 tests from 1 test case.
 [----------] Global test environment set-up.
-[----------] 47 tests from Darwin
+[----------] 44 tests from Darwin
 [ RUN      ] Darwin.Species_addInstruction1
 [       OK ] Darwin.Species_addInstruction1 (45 ms)
 [ RUN      ] Darwin.Species_addInstruction2
 [       OK ] Darwin.Species_addInstruction2 (12 ms)
 [ RUN      ] Darwin.Species_addInstruction3
-[       OK ] Darwin.Species_addInstruction3 (9 ms)
+[       OK ] Darwin.Species_addInstruction3 (10 ms)
 [ RUN      ] Darwin.Creature_construction1
-[       OK ] Darwin.Creature_construction1 (10 ms)
+[       OK ] Darwin.Creature_construction1 (11 ms)
 [ RUN      ] Darwin.Creature_construction2
-[       OK ] Darwin.Creature_construction2 (7 ms)
+[       OK ] Darwin.Creature_construction2 (6 ms)
 [ RUN      ] Darwin.Creature_construction3
 [       OK ] Darwin.Creature_construction3 (7 ms)
 [ RUN      ] Darwin.Creature_turnRight_N
@@ -27,49 +27,43 @@ Running main() from gtest_main.cc
 [ RUN      ] Darwin.Creature_turnLeft_S
 [       OK ] Darwin.Creature_turnLeft_S (6 ms)
 [ RUN      ] Darwin.Creature_turnLeft_E
-[       OK ] Darwin.Creature_turnLeft_E (6 ms)
+[       OK ] Darwin.Creature_turnLeft_E (5 ms)
 [ RUN      ] Darwin.Creature_turnLeft_W
 [       OK ] Darwin.Creature_turnLeft_W (6 ms)
 [ RUN      ] Darwin.Creature_morph
 [       OK ] Darwin.Creature_morph (9 ms)
 [ RUN      ] Darwin.Creature_morph_back
-[       OK ] Darwin.Creature_morph_back (11 ms)
+[       OK ] Darwin.Creature_morph_back (12 ms)
 [ RUN      ] Darwin.Creature_morph_twice
 [       OK ] Darwin.Creature_morph_twice (12 ms)
 [ RUN      ] Darwin.Creature_instruction_access
-[       OK ] Darwin.Creature_instruction_access (9 ms)
+[       OK ] Darwin.Creature_instruction_access (8 ms)
 [ RUN      ] Darwin.Darwin_default_construction
-[       OK ] Darwin.Darwin_default_construction (22 ms)
+[       OK ] Darwin.Darwin_default_construction (20 ms)
 [ RUN      ] Darwin.Darwin_construction
-[       OK ] Darwin.Darwin_construction (9 ms)
+[       OK ] Darwin.Darwin_construction (10 ms)
 [ RUN      ] Darwin.Darwin_printGrid1
 [       OK ] Darwin.Darwin_printGrid1 (18 ms)
 [ RUN      ] Darwin.Darwin_printGrid2
-[       OK ] Darwin.Darwin_printGrid2 (7 ms)
+[       OK ] Darwin.Darwin_printGrid2 (6 ms)
 [ RUN      ] Darwin.Darwin_printGrid3
-[       OK ] Darwin.Darwin_printGrid3 (7 ms)
+[       OK ] Darwin.Darwin_printGrid3 (6 ms)
 [ RUN      ] Darwin.Darwin_printCreature
-[       OK ] Darwin.Darwin_printCreature (47 ms)
-[ RUN      ] Darwin.Darwin_addSpecies1
-[       OK ] Darwin.Darwin_addSpecies1 (12 ms)
-[ RUN      ] Darwin.Darwin_addSpecies2
-[       OK ] Darwin.Darwin_addSpecies2 (15 ms)
-[ RUN      ] Darwin.Darwin_addSpecies3
-[       OK ] Darwin.Darwin_addSpecies3 (18 ms)
+[       OK ] Darwin.Darwin_printCreature (29 ms)
 [ RUN      ] Darwin.Darwin_addCreature
-[       OK ] Darwin.Darwin_addCreature (11 ms)
+[       OK ] Darwin.Darwin_addCreature (9 ms)
 [ RUN      ] Darwin.Darwin_add_creatures_of_same_species
-[       OK ] Darwin.Darwin_add_creatures_of_same_species (13 ms)
+[       OK ] Darwin.Darwin_add_creatures_of_same_species (11 ms)
 [ RUN      ] Darwin.Darwin_add_creatures_of_different_species
-[       OK ] Darwin.Darwin_add_creatures_of_different_species (13 ms)
+[       OK ] Darwin.Darwin_add_creatures_of_different_species (10 ms)
 [ RUN      ] Darwin.Darwin_spawnCreature
-[       OK ] Darwin.Darwin_spawnCreature (8 ms)
+[       OK ] Darwin.Darwin_spawnCreature (9 ms)
 [ RUN      ] Darwin.Darwin_spawn_creatures_of_same_species
-[       OK ] Darwin.Darwin_spawn_creatures_of_same_species (19 ms)
+[       OK ] Darwin.Darwin_spawn_creatures_of_same_species (18 ms)
 [ RUN      ] Darwin.Darwin_bad_spawn
 [       OK ] Darwin.Darwin_bad_spawn (13 ms)
 [ RUN      ] Darwin.Darwin_obstacle_wall_N
-[       OK ] Darwin.Darwin_obstacle_wall_N (7 ms)
+[       OK ] Darwin.Darwin_obstacle_wall_N (6 ms)
 [ RUN      ] Darwin.Darwin_obstacle_wall_E
 [       OK ] Darwin.Darwin_obstacle_wall_E (7 ms)
 [ RUN      ] Darwin.Darwin_obstacle_wall_S
@@ -77,7 +71,7 @@ Running main() from gtest_main.cc
 [ RUN      ] Darwin.Darwin_obstacle_wall_W
 [       OK ] Darwin.Darwin_obstacle_wall_W (7 ms)
 [ RUN      ] Darwin.Darwin_obstacle_multiple_creatures
-[       OK ] Darwin.Darwin_obstacle_multiple_creatures (16 ms)
+[       OK ] Darwin.Darwin_obstacle_multiple_creatures (15 ms)
 [ RUN      ] Darwin.Darwin_nextAction_hop_go
 [       OK ] Darwin.Darwin_nextAction_hop_go (13 ms)
 [ RUN      ] Darwin.Darwin_nextAction_hop_left_go
@@ -85,19 +79,19 @@ Running main() from gtest_main.cc
 [ RUN      ] Darwin.Darwin_nextAction_if_wall
 [       OK ] Darwin.Darwin_nextAction_if_wall (19 ms)
 [ RUN      ] Darwin.Darwin_nextAction_if_enemy
-[       OK ] Darwin.Darwin_nextAction_if_enemy (19 ms)
+[       OK ] Darwin.Darwin_nextAction_if_enemy (18 ms)
 [ RUN      ] Darwin.Darwin_nextAction_if_empty
-[       OK ] Darwin.Darwin_nextAction_if_empty (17 ms)
+[       OK ] Darwin.Darwin_nextAction_if_empty (16 ms)
 [ RUN      ] Darwin.Darwin_nextAction_if_random
-[       OK ] Darwin.Darwin_nextAction_if_random (15 ms)
+[       OK ] Darwin.Darwin_nextAction_if_random (14 ms)
 [ RUN      ] Darwin.Darwin_step_simpleHopper
 [       OK ] Darwin.Darwin_step_simpleHopper (21 ms)
 [ RUN      ] Darwin.Darwin_step_CWHopper
 [       OK ] Darwin.Darwin_step_CWHopper (24 ms)
 [ RUN      ] Darwin.Darwin_step_infection
 [       OK ] Darwin.Darwin_step_infection (18 ms)
-[----------] 47 tests from Darwin (649 ms total)
+[----------] 44 tests from Darwin (570 ms total)
 
 [----------] Global test environment tear-down
-[==========] 47 tests from 1 test case ran. (692 ms total)
-[  PASSED  ] 47 tests.
+[==========] 44 tests from 1 test case ran. (614 ms total)
+[  PASSED  ] 44 tests.
