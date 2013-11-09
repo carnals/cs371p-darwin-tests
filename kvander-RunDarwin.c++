@@ -231,22 +231,22 @@ int main () {
         for (int i = 0; i < 10; ++i) {
             pos = randomPos(72, 72);
             dir = randomDir(); 
-            g.add(Creature(food), dir, pos % 72, pos / 72);
+            g.add(Creature(food), dir, pos / 72, pos % 72);
         }
         for (int i = 0; i < 10; ++i) {
             pos = randomPos(72, 72);
             dir = randomDir(); 
-            g.add(Creature(hopper), dir, pos % 72, pos / 72);
+            g.add(Creature(hopper), dir, pos / 72, pos % 72);
         }
         for (int i = 0; i < 10; ++i) {
             pos = randomPos(72, 72);
             dir = randomDir(); 
-            g.add(Creature(rover), dir, pos % 72, pos / 72);
+            g.add(Creature(rover), dir, pos / 72, pos % 72);
         }
         for (int i = 0; i < 10; ++i) {
             pos = randomPos(72, 72);
             dir = randomDir(); 
-            g.add(Creature(trap), dir, pos % 72, pos / 72);
+            g.add(Creature(trap), dir, pos / 72, pos % 72);
         }
         g.simulateLarge();
         }
@@ -286,27 +286,27 @@ int main () {
         for (int i = 0; i < 10; ++i) {
             pos = randomPos(72, 72);
             dir = randomDir(); 
-            g.add(Creature(food), dir, pos % 72, pos / 72);
+            g.add(Creature(food), dir, pos / 72, pos % 72);
         }
         for (int i = 0; i < 10; ++i) {
             pos = randomPos(72, 72);
             dir = randomDir(); 
-            g.add(Creature(hopper), dir, pos % 72, pos / 72);
+            g.add(Creature(hopper), dir, pos / 72, pos % 72);
         }
         for (int i = 0; i < 10; ++i) {
             pos = randomPos(72, 72);
             dir = randomDir(); 
-            g.add(Creature(rover), dir, pos % 72, pos / 72);
+            g.add(Creature(rover), dir, pos / 72, pos % 72);
         }
         for (int i = 0; i < 10; ++i) {
             pos = randomPos(72, 72);
             dir = randomDir(); 
-            g.add(Creature(trap), dir, pos % 72, pos / 72);
+            g.add(Creature(trap), dir, pos / 72, pos % 72);
         }
         for (int i = 0; i < 10; ++i) {
             pos = randomPos(72, 72);
             dir = randomDir(); 
-            g.add(Creature(best), dir, pos % 72, pos / 72);
+            g.add(Creature(best), dir, pos / 72, pos % 72);
         }
         g.simulateLarge();
         }
@@ -474,12 +474,12 @@ int main () {
         for (int i = 0; i < 20; ++i) {
             pos = randomPos(72, 72);
             dir = randomDir(); 
-            g.add(Creature(rover), dir, pos % 72, pos / 72);
+            g.add(Creature(rover), dir, pos / 72, pos % 72);
         }
         for (int i = 0; i < 20; ++i) {
             pos = randomPos(72, 72);
             dir = randomDir(); 
-            g.add(Creature(trap), dir, pos % 72, pos / 72);
+            g.add(Creature(trap), dir, pos / 72, pos % 72);
         }
         g.simulateLarge();
         }
@@ -518,17 +518,17 @@ int main () {
         for (int i = 0; i < 20; ++i) {
             pos = randomPos(72, 72);
             dir = randomDir(); 
-            g.add(Creature(rover), dir, pos % 72, pos / 72);
+            g.add(Creature(rover), dir, pos / 72, pos % 72);
         }
         for (int i = 0; i < 10; ++i) {
             pos = randomPos(72, 72);
             dir = randomDir(); 
-            g.add(Creature(trap), dir, pos % 72, pos / 72);
+            g.add(Creature(trap), dir, pos / 72, pos % 72);
         }
         for (int i = 0; i < 20; ++i) {
             pos = randomPos(72, 72);
             dir = randomDir(); 
-            g.add(Creature(best), dir, pos % 72, pos / 72);
+            g.add(Creature(best), dir, pos / 72, pos % 72);
         }
         g.simulateLarge();
         }
