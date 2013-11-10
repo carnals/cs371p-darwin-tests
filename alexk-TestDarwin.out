@@ -1,0 +1,87 @@
+Running main() from gtest_main.cc
+[==========] Running 39 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 39 tests from Darwin
+[ RUN      ] Darwin.board
+[       OK ] Darwin.board (46 ms)
+[ RUN      ] Darwin.board1
+[       OK ] Darwin.board1 (3 ms)
+[ RUN      ] Darwin.board2
+[       OK ] Darwin.board2 (7 ms)
+[ RUN      ] Darwin.creature
+[       OK ] Darwin.creature (5 ms)
+[ RUN      ] Darwin.creature1
+[       OK ] Darwin.creature1 (4 ms)
+[ RUN      ] Darwin.creature2
+[       OK ] Darwin.creature2 (6 ms)
+[ RUN      ] Darwin.nextTurn
+[       OK ] Darwin.nextTurn (14 ms)
+[ RUN      ] Darwin.nextTurn1
+[       OK ] Darwin.nextTurn1 (11 ms)
+[ RUN      ] Darwin.nextTurn2
+[       OK ] Darwin.nextTurn2 (18 ms)
+[ RUN      ] Darwin.hop
+[       OK ] Darwin.hop (6 ms)
+[ RUN      ] Darwin.hop1
+[       OK ] Darwin.hop1 (8 ms)
+[ RUN      ] Darwin.hop2
+[       OK ] Darwin.hop2 (16 ms)
+[ RUN      ] Darwin.left
+[       OK ] Darwin.left (4 ms)
+[ RUN      ] Darwin.left1
+[       OK ] Darwin.left1 (5 ms)
+[ RUN      ] Darwin.left2
+[       OK ] Darwin.left2 (7 ms)
+[ RUN      ] Darwin.right
+[       OK ] Darwin.right (4 ms)
+[ RUN      ] Darwin.right1
+[       OK ] Darwin.right1 (4 ms)
+[ RUN      ] Darwin.right2
+[       OK ] Darwin.right2 (7 ms)
+[ RUN      ] Darwin.go
+[       OK ] Darwin.go (4 ms)
+[ RUN      ] Darwin.go1
+[       OK ] Darwin.go1 (4 ms)
+[ RUN      ] Darwin.go2
+[       OK ] Darwin.go2 (13 ms)
+[ RUN      ] Darwin.move
+[       OK ] Darwin.move (5 ms)
+[ RUN      ] Darwin.move1
+[       OK ] Darwin.move1 (8 ms)
+[ RUN      ] Darwin.move2
+[       OK ] Darwin.move2 (16 ms)
+[ RUN      ] Darwin.empty
+[       OK ] Darwin.empty (5 ms)
+[ RUN      ] Darwin.empty1
+[       OK ] Darwin.empty1 (5 ms)
+[ RUN      ] Darwin.empty2
+[       OK ] Darwin.empty2 (8 ms)
+[ RUN      ] Darwin.random
+[       OK ] Darwin.random (7 ms)
+[ RUN      ] Darwin.random1
+[       OK ] Darwin.random1 (4 ms)
+[ RUN      ] Darwin.random2
+[       OK ] Darwin.random2 (6 ms)
+[ RUN      ] Darwin.infect
+[       OK ] Darwin.infect (5 ms)
+[ RUN      ] Darwin.infect1
+[       OK ] Darwin.infect1 (5 ms)
+[ RUN      ] Darwin.infect2
+[       OK ] Darwin.infect2 (6 ms)
+[ RUN      ] Darwin.wall
+[       OK ] Darwin.wall (4 ms)
+[ RUN      ] Darwin.wall1
+[       OK ] Darwin.wall1 (5 ms)
+[ RUN      ] Darwin.wall2
+[       OK ] Darwin.wall2 (6 ms)
+[ RUN      ] Darwin.enemy
+[       OK ] Darwin.enemy (5 ms)
+[ RUN      ] Darwin.enemy1
+[       OK ] Darwin.enemy1 (5 ms)
+[ RUN      ] Darwin.enemy2
+[       OK ] Darwin.enemy2 (7 ms)
+[----------] 39 tests from Darwin (328 ms total)
+
+[----------] Global test environment tear-down
+[==========] 39 tests from 1 test case ran. (355 ms total)
+[  PASSED  ] 39 tests.
