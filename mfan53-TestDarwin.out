@@ -1,0 +1,124 @@
+Running main() from gtest_main.cc
+[==========] Running 57 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 57 tests from Darwin
+[ RUN      ] Darwin.addCreature1
+[       OK ] Darwin.addCreature1 (29 ms)
+[ RUN      ] Darwin.addCreature2
+[       OK ] Darwin.addCreature2 (3 ms)
+[ RUN      ] Darwin.addCreature3
+[       OK ] Darwin.addCreature3 (4 ms)
+[ RUN      ] Darwin.outOfBounds1
+[       OK ] Darwin.outOfBounds1 (3 ms)
+[ RUN      ] Darwin.outOfBounds2
+[       OK ] Darwin.outOfBounds2 (2 ms)
+[ RUN      ] Darwin.outOfBounds3
+[       OK ] Darwin.outOfBounds3 (2 ms)
+[ RUN      ] Darwin.ifEmpty1
+[       OK ] Darwin.ifEmpty1 (5 ms)
+[ RUN      ] Darwin.ifEmpty2
+[       OK ] Darwin.ifEmpty2 (3 ms)
+[ RUN      ] Darwin.ifEmpty3
+[       OK ] Darwin.ifEmpty3 (3 ms)
+[ RUN      ] Darwin.ifWall1
+[       OK ] Darwin.ifWall1 (2 ms)
+[ RUN      ] Darwin.ifWall2
+[       OK ] Darwin.ifWall2 (2 ms)
+[ RUN      ] Darwin.ifWall3
+[       OK ] Darwin.ifWall3 (2 ms)
+[ RUN      ] Darwin.ifEnemy1
+[       OK ] Darwin.ifEnemy1 (10 ms)
+[ RUN      ] Darwin.ifEnemy2
+[       OK ] Darwin.ifEnemy2 (4 ms)
+[ RUN      ] Darwin.ifEnemy3
+[       OK ] Darwin.ifEnemy3 (4 ms)
+[ RUN      ] Darwin.move1
+[       OK ] Darwin.move1 (5 ms)
+[ RUN      ] Darwin.move2
+[       OK ] Darwin.move2 (4 ms)
+[ RUN      ] Darwin.move3
+[       OK ] Darwin.move3 (4 ms)
+[ RUN      ] Darwin.isBlank1
+[       OK ] Darwin.isBlank1 (3 ms)
+[ RUN      ] Darwin.isBlank2
+[       OK ] Darwin.isBlank2 (3 ms)
+[ RUN      ] Darwin.isBlank3
+[       OK ] Darwin.isBlank3 (17 ms)
+[ RUN      ] Darwin.sameSpecies1
+[       OK ] Darwin.sameSpecies1 (3 ms)
+[ RUN      ] Darwin.sameSpecies2
+[       OK ] Darwin.sameSpecies2 (4 ms)
+[ RUN      ] Darwin.sameSpecies3
+[       OK ] Darwin.sameSpecies3 (3 ms)
+[ RUN      ] Darwin.left1
+[       OK ] Darwin.left1 (7 ms)
+[ RUN      ] Darwin.left2
+[       OK ] Darwin.left2 (3 ms)
+[ RUN      ] Darwin.left3
+[       OK ] Darwin.left3 (3 ms)
+[ RUN      ] Darwin.right1
+[       OK ] Darwin.right1 (3 ms)
+[ RUN      ] Darwin.right2
+[       OK ] Darwin.right2 (4 ms)
+[ RUN      ] Darwin.right3
+[       OK ] Darwin.right3 (3 ms)
+[ RUN      ] Darwin.hop1
+[       OK ] Darwin.hop1 (5 ms)
+[ RUN      ] Darwin.hop2
+[       OK ] Darwin.hop2 (3 ms)
+[ RUN      ] Darwin.hop3
+[       OK ] Darwin.hop3 (4 ms)
+[ RUN      ] Darwin.go1
+[       OK ] Darwin.go1 (3 ms)
+[ RUN      ] Darwin.go2
+[       OK ] Darwin.go2 (3 ms)
+[ RUN      ] Darwin.go3
+[       OK ] Darwin.go3 (2 ms)
+[ RUN      ] Darwin.empty1
+[       OK ] Darwin.empty1 (4 ms)
+[ RUN      ] Darwin.empty2
+[       OK ] Darwin.empty2 (4 ms)
+[ RUN      ] Darwin.empty3
+[       OK ] Darwin.empty3 (4 ms)
+[ RUN      ] Darwin.wall1
+[       OK ] Darwin.wall1 (4 ms)
+[ RUN      ] Darwin.wall2
+[       OK ] Darwin.wall2 (3 ms)
+[ RUN      ] Darwin.wall3
+[       OK ] Darwin.wall3 (4 ms)
+[ RUN      ] Darwin.random1
+[       OK ] Darwin.random1 (3 ms)
+[ RUN      ] Darwin.random2
+[       OK ] Darwin.random2 (2 ms)
+[ RUN      ] Darwin.random3
+[       OK ] Darwin.random3 (3 ms)
+[ RUN      ] Darwin.enemy1
+[       OK ] Darwin.enemy1 (4 ms)
+[ RUN      ] Darwin.enemy2
+[       OK ] Darwin.enemy2 (4 ms)
+[ RUN      ] Darwin.enemy3
+[       OK ] Darwin.enemy3 (3 ms)
+[ RUN      ] Darwin.infect1
+[       OK ] Darwin.infect1 (6 ms)
+[ RUN      ] Darwin.infect2
+[       OK ] Darwin.infect2 (4 ms)
+[ RUN      ] Darwin.infect3
+[       OK ] Darwin.infect3 (4 ms)
+[ RUN      ] Darwin.addI1
+[       OK ] Darwin.addI1 (14 ms)
+[ RUN      ] Darwin.addI2
+[       OK ] Darwin.addI2 (7 ms)
+[ RUN      ] Darwin.addI3
+[       OK ] Darwin.addI3 (5 ms)
+[ RUN      ] Darwin.getInstruction1
+[       OK ] Darwin.getInstruction1 (3 ms)
+[ RUN      ] Darwin.getInstruction2
+[       OK ] Darwin.getInstruction2 (4 ms)
+[ RUN      ] Darwin.getInstruction3
+[       OK ] Darwin.getInstruction3 (45 ms)
+[----------] 57 tests from Darwin (318 ms total)
+
+[----------] Global test environment tear-down
+[==========] 57 tests from 1 test case ran. (347 ms total)
+[  PASSED  ] 57 tests.
+
