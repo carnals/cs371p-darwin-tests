@@ -1,0 +1,192 @@
+Running main() from gtest_main.cc
+[==========] Running 87 tests from 4 test cases.
+[----------] Global test environment set-up.
+[----------] 3 tests from Instruction
+[ RUN      ] Instruction.constructor1
+[       OK ] Instruction.constructor1 (11 ms)
+[ RUN      ] Instruction.constructor2
+[       OK ] Instruction.constructor2 (3 ms)
+[ RUN      ] Instruction.constructor3
+[       OK ] Instruction.constructor3 (2 ms)
+[----------] 3 tests from Instruction (26 ms total)
+
+[----------] 15 tests from Species
+[ RUN      ] Species.def_constructor1
+[       OK ] Species.def_constructor1 (4 ms)
+[ RUN      ] Species.def_constructor2
+[       OK ] Species.def_constructor2 (12 ms)
+[ RUN      ] Species.def_constructor3
+[       OK ] Species.def_constructor3 (5 ms)
+[ RUN      ] Species.name_constructor1
+[       OK ] Species.name_constructor1 (1 ms)
+[ RUN      ] Species.name_constructor2
+[       OK ] Species.name_constructor2 (4 ms)
+[ RUN      ] Species.name_constructor3
+[       OK ] Species.name_constructor3 (3 ms)
+[ RUN      ] Species.addInstruction1
+[       OK ] Species.addInstruction1 (3 ms)
+[ RUN      ] Species.addInstruction2
+[       OK ] Species.addInstruction2 (5 ms)
+[ RUN      ] Species.addInstruction3
+[       OK ] Species.addInstruction3 (6 ms)
+[ RUN      ] Species.myName1
+[       OK ] Species.myName1 (2 ms)
+[ RUN      ] Species.myName2
+[       OK ] Species.myName2 (3 ms)
+[ RUN      ] Species.myName3
+[       OK ] Species.myName3 (1 ms)
+[ RUN      ] Species.instruct1
+[       OK ] Species.instruct1 (3 ms)
+[ RUN      ] Species.instruct2
+[       OK ] Species.instruct2 (5 ms)
+[ RUN      ] Species.instruct3
+[       OK ] Species.instruct3 (7 ms)
+[----------] 15 tests from Species (69 ms total)
+
+[----------] 27 tests from Creature
+[ RUN      ] Creature.def_constructor1
+[       OK ] Creature.def_constructor1 (2 ms)
+[ RUN      ] Creature.def_constructor2
+[       OK ] Creature.def_constructor2 (3 ms)
+[ RUN      ] Creature.def_constructor3
+[       OK ] Creature.def_constructor3 (2 ms)
+[ RUN      ] Creature.constructor1
+[       OK ] Creature.constructor1 (4 ms)
+[ RUN      ] Creature.constructor2
+[       OK ] Creature.constructor2 (3 ms)
+[ RUN      ] Creature.constructor3
+[       OK ] Creature.constructor3 (3 ms)
+[ RUN      ] Creature.infect1
+[       OK ] Creature.infect1 (3 ms)
+[ RUN      ] Creature.infect2
+[       OK ] Creature.infect2 (4 ms)
+[ RUN      ] Creature.infect3
+[       OK ] Creature.infect3 (4 ms)
+[ RUN      ] Creature.instruct1
+[       OK ] Creature.instruct1 (3 ms)
+[ RUN      ] Creature.instruct2
+[       OK ] Creature.instruct2 (5 ms)
+[ RUN      ] Creature.instruct3
+[       OK ] Creature.instruct3 (5 ms)
+[ RUN      ] Creature.changePC1
+[       OK ] Creature.changePC1 (2 ms)
+[ RUN      ] Creature.changePC2
+[       OK ] Creature.changePC2 (2 ms)
+[ RUN      ] Creature.changePC3
+[       OK ] Creature.changePC3 (3 ms)
+[ RUN      ] Creature.incrPC1
+[       OK ] Creature.incrPC1 (2 ms)
+[ RUN      ] Creature.incrPC2
+[       OK ] Creature.incrPC2 (3 ms)
+[ RUN      ] Creature.incrPC3
+[       OK ] Creature.incrPC3 (2 ms)
+[ RUN      ] Creature.turnLeft1
+[       OK ] Creature.turnLeft1 (2 ms)
+[ RUN      ] Creature.turnLeft2
+[       OK ] Creature.turnLeft2 (3 ms)
+[ RUN      ] Creature.turnLeft3
+[       OK ] Creature.turnLeft3 (2 ms)
+[ RUN      ] Creature.turnRight1
+[       OK ] Creature.turnRight1 (2 ms)
+[ RUN      ] Creature.turnRight2
+[       OK ] Creature.turnRight2 (3 ms)
+[ RUN      ] Creature.turnRight3
+[       OK ] Creature.turnRight3 (2 ms)
+[ RUN      ] Creature.speciesType1
+[       OK ] Creature.speciesType1 (2 ms)
+[ RUN      ] Creature.speciesType2
+[       OK ] Creature.speciesType2 (3 ms)
+[ RUN      ] Creature.speciesType3
+[       OK ] Creature.speciesType3 (3 ms)
+[----------] 27 tests from Creature (79 ms total)
+
+[----------] 42 tests from Darwin
+[ RUN      ] Darwin.constructor1
+[       OK ] Darwin.constructor1 (24 ms)
+[ RUN      ] Darwin.constructor2
+[       OK ] Darwin.constructor2 (14 ms)
+[ RUN      ] Darwin.constructor3
+[       OK ] Darwin.constructor3 (4 ms)
+[ RUN      ] Darwin.validRange1
+[       OK ] Darwin.validRange1 (4 ms)
+[ RUN      ] Darwin.validRange2
+[       OK ] Darwin.validRange2 (6 ms)
+[ RUN      ] Darwin.validRange3
+[       OK ] Darwin.validRange3 (6 ms)
+[ RUN      ] Darwin.addCreature1
+[       OK ] Darwin.addCreature1 (6 ms)
+[ RUN      ] Darwin.addCreature2
+[       OK ] Darwin.addCreature2 (5 ms)
+[ RUN      ] Darwin.addCreature3
+[       OK ] Darwin.addCreature3 (4 ms)
+[ RUN      ] Darwin.simulate1
+[       OK ] Darwin.simulate1 (17 ms)
+[ RUN      ] Darwin.simulate2
+[       OK ] Darwin.simulate2 (6 ms)
+[ RUN      ] Darwin.simulate3
+[       OK ] Darwin.simulate3 (8 ms)
+[ RUN      ] Darwin.execute1
+[       OK ] Darwin.execute1 (3 ms)
+[ RUN      ] Darwin.execute2
+[       OK ] Darwin.execute2 (3 ms)
+[ RUN      ] Darwin.execute3
+[       OK ] Darwin.execute3 (6 ms)
+[ RUN      ] Darwin.hop1
+[       OK ] Darwin.hop1 (4 ms)
+[ RUN      ] Darwin.hop2
+[       OK ] Darwin.hop2 (4 ms)
+[ RUN      ] Darwin.hop3
+[       OK ] Darwin.hop3 (4 ms)
+[ RUN      ] Darwin.infect1
+[       OK ] Darwin.infect1 (4 ms)
+[ RUN      ] Darwin.infect2
+[       OK ] Darwin.infect2 (4 ms)
+[ RUN      ] Darwin.infect3
+[       OK ] Darwin.infect3 (5 ms)
+[ RUN      ] Darwin.if_empty1
+[       OK ] Darwin.if_empty1 (3 ms)
+[ RUN      ] Darwin.if_empty2
+[       OK ] Darwin.if_empty2 (3 ms)
+[ RUN      ] Darwin.if_empty3
+[       OK ] Darwin.if_empty3 (3 ms)
+[ RUN      ] Darwin.if_wall1
+[       OK ] Darwin.if_wall1 (3 ms)
+[ RUN      ] Darwin.if_wall2
+[       OK ] Darwin.if_wall2 (2 ms)
+[ RUN      ] Darwin.if_wall3
+[       OK ] Darwin.if_wall3 (3 ms)
+[ RUN      ] Darwin.if_random1
+[       OK ] Darwin.if_random1 (3 ms)
+[ RUN      ] Darwin.if_random2
+[       OK ] Darwin.if_random2 (2 ms)
+[ RUN      ] Darwin.if_random3
+[       OK ] Darwin.if_random3 (3 ms)
+[ RUN      ] Darwin.if_enemy1
+[       OK ] Darwin.if_enemy1 (4 ms)
+[ RUN      ] Darwin.if_enemy2
+[       OK ] Darwin.if_enemy2 (3 ms)
+[ RUN      ] Darwin.if_enemy3
+[       OK ] Darwin.if_enemy3 (4 ms)
+[ RUN      ] Darwin.go1
+[       OK ] Darwin.go1 (3 ms)
+[ RUN      ] Darwin.go2
+[       OK ] Darwin.go2 (3 ms)
+[ RUN      ] Darwin.go3
+[       OK ] Darwin.go3 (5 ms)
+[ RUN      ] Darwin.space_ahead1
+[       OK ] Darwin.space_ahead1 (3 ms)
+[ RUN      ] Darwin.space_ahead2
+[       OK ] Darwin.space_ahead2 (3 ms)
+[ RUN      ] Darwin.space_ahead3
+[       OK ] Darwin.space_ahead3 (3 ms)
+[ RUN      ] Darwin.printWorld1
+[       OK ] Darwin.printWorld1 (2 ms)
+[ RUN      ] Darwin.printWorld2
+[       OK ] Darwin.printWorld2 (3 ms)
+[ RUN      ] Darwin.printWorld3
+[       OK ] Darwin.printWorld3 (7 ms)
+[----------] 42 tests from Darwin (218 ms total)
+
+[----------] Global test environment tear-down
+[==========] 87 tests from 4 test cases ran. (419 ms total)
+[  PASSED  ] 87 tests.
