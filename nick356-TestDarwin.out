@@ -1,0 +1,198 @@
+Running main() from gtest_main.cc
+[==========] Running 81 tests from 10 test cases.
+[----------] Global test environment set-up.
+[----------] 4 tests from Species
+[ RUN      ] Species.name1
+[       OK ] Species.name1 (20 ms)
+[ RUN      ] Species.name2
+[       OK ] Species.name2 (3 ms)
+[ RUN      ] Species.name3
+[       OK ] Species.name3 (3 ms)
+[ RUN      ] Species.name4
+[       OK ] Species.name4 (6 ms)
+[----------] 4 tests from Species (48 ms total)
+
+[----------] 3 tests from Species2
+[ RUN      ] Species2.construct
+[       OK ] Species2.construct (4 ms)
+[ RUN      ] Species2.construct2
+[       OK ] Species2.construct2 (4 ms)
+[ RUN      ] Species2.construct3
+[       OK ] Species2.construct3 (6 ms)
+[----------] 3 tests from Species2 (14 ms total)
+
+[----------] 6 tests from Species3
+[ RUN      ] Species3.Instruction
+[       OK ] Species3.Instruction (53 ms)
+[ RUN      ] Species3.Instruction2
+[       OK ] Species3.Instruction2 (7 ms)
+[ RUN      ] Species3.Instruction3
+[       OK ] Species3.Instruction3 (12 ms)
+[ RUN      ] Species3.Instruction4
+[       OK ] Species3.Instruction4 (6 ms)
+[ RUN      ] Species3.Instruction5
+[       OK ] Species3.Instruction5 (5 ms)
+[ RUN      ] Species3.Instruction6
+[       OK ] Species3.Instruction6 (4 ms)
+[----------] 6 tests from Species3 (88 ms total)
+
+[----------] 12 tests from Creature
+[ RUN      ] Creature.construct
+[       OK ] Creature.construct (21 ms)
+[ RUN      ] Creature.construct2
+[       OK ] Creature.construct2 (6 ms)
+[ RUN      ] Creature.construct3
+[       OK ] Creature.construct3 (11 ms)
+[ RUN      ] Creature.construct4
+[       OK ] Creature.construct4 (9 ms)
+[ RUN      ] Creature.construct5
+[       OK ] Creature.construct5 (7 ms)
+[ RUN      ] Creature.construct6
+[       OK ] Creature.construct6 (6 ms)
+[ RUN      ] Creature.construct7
+[       OK ] Creature.construct7 (7 ms)
+[ RUN      ] Creature.construct8
+[       OK ] Creature.construct8 (4 ms)
+[ RUN      ] Creature.construct9
+[       OK ] Creature.construct9 (5 ms)
+[ RUN      ] Creature.construct10
+[       OK ] Creature.construct10 (4 ms)
+[ RUN      ] Creature.construct11
+[       OK ] Creature.construct11 (4 ms)
+[ RUN      ] Creature.construct12
+[       OK ] Creature.construct12 (5 ms)
+[----------] 12 tests from Creature (91 ms total)
+
+[----------] 5 tests from Creaturedir
+[ RUN      ] Creaturedir.direction
+[       OK ] Creaturedir.direction (5 ms)
+[ RUN      ] Creaturedir.direction2
+[       OK ] Creaturedir.direction2 (4 ms)
+[ RUN      ] Creaturedir.direction3
+[       OK ] Creaturedir.direction3 (4 ms)
+[ RUN      ] Creaturedir.direction4
+[       OK ] Creaturedir.direction4 (5 ms)
+[ RUN      ] Creaturedir.direction5
+[       OK ] Creaturedir.direction5 (4 ms)
+[----------] 5 tests from Creaturedir (23 ms total)
+
+[----------] 5 tests from Creatureinf
+[ RUN      ] Creatureinf.infect
+[       OK ] Creatureinf.infect (9 ms)
+[ RUN      ] Creatureinf.infect2
+[       OK ] Creatureinf.infect2 (11 ms)
+[ RUN      ] Creatureinf.infect3
+[       OK ] Creatureinf.infect3 (14 ms)
+[ RUN      ] Creatureinf.infect4
+[       OK ] Creatureinf.infect4 (7 ms)
+[ RUN      ] Creatureinf.infect5
+[       OK ] Creatureinf.infect5 (9 ms)
+[----------] 5 tests from Creatureinf (52 ms total)
+
+[----------] 5 tests from World
+[ RUN      ] World.setting
+[       OK ] World.setting (43 ms)
+[ RUN      ] World.setting2
+[       OK ] World.setting2 (5 ms)
+[ RUN      ] World.setting3
+[       OK ] World.setting3 (4 ms)
+[ RUN      ] World.setting4
+[       OK ] World.setting4 (3 ms)
+[ RUN      ] World.setting5
+[       OK ] World.setting5 (7 ms)
+[----------] 5 tests from World (63 ms total)
+
+[----------] 5 tests from Worldpl
+[ RUN      ] Worldpl.place
+[       OK ] Worldpl.place (13 ms)
+[ RUN      ] Worldpl.place2
+[       OK ] Worldpl.place2 (21 ms)
+[ RUN      ] Worldpl.place3
+[       OK ] Worldpl.place3 (8 ms)
+[ RUN      ] Worldpl.place4
+[       OK ] Worldpl.place4 (20 ms)
+[ RUN      ] Worldpl.place5
+[       OK ] Worldpl.place5 (14 ms)
+[----------] 5 tests from Worldpl (77 ms total)
+
+[----------] 27 tests from Worldturn
+[ RUN      ] Worldturn.turn
+[       OK ] Worldturn.turn (17 ms)
+[ RUN      ] Worldturn.turn2
+[       OK ] Worldturn.turn2 (11 ms)
+[ RUN      ] Worldturn.turn3
+[       OK ] Worldturn.turn3 (9 ms)
+[ RUN      ] Worldturn.turn4
+[       OK ] Worldturn.turn4 (17 ms)
+[ RUN      ] Worldturn.turn5
+[       OK ] Worldturn.turn5 (13 ms)
+[ RUN      ] Worldturn.turn6
+[       OK ] Worldturn.turn6 (9 ms)
+[ RUN      ] Worldturn.turn7
+[       OK ] Worldturn.turn7 (13 ms)
+[ RUN      ] Worldturn.turn8
+[       OK ] Worldturn.turn8 (8 ms)
+[ RUN      ] Worldturn.turn9
+[       OK ] Worldturn.turn9 (9 ms)
+[ RUN      ] Worldturn.turn10
+[       OK ] Worldturn.turn10 (9 ms)
+[ RUN      ] Worldturn.turn11
+[       OK ] Worldturn.turn11 (12 ms)
+[ RUN      ] Worldturn.turn12
+[       OK ] Worldturn.turn12 (9 ms)
+[ RUN      ] Worldturn.turn13
+[       OK ] Worldturn.turn13 (9 ms)
+[ RUN      ] Worldturn.turn14
+[       OK ] Worldturn.turn14 (8 ms)
+[ RUN      ] Worldturn.turn15
+[       OK ] Worldturn.turn15 (7 ms)
+[ RUN      ] Worldturn.turn16
+[       OK ] Worldturn.turn16 (7 ms)
+[ RUN      ] Worldturn.turn17
+[       OK ] Worldturn.turn17 (9 ms)
+[ RUN      ] Worldturn.turn18
+[       OK ] Worldturn.turn18 (10 ms)
+[ RUN      ] Worldturn.turn19
+[       OK ] Worldturn.turn19 (16 ms)
+[ RUN      ] Worldturn.turn20
+[       OK ] Worldturn.turn20 (15 ms)
+[ RUN      ] Worldturn.turn21
+[       OK ] Worldturn.turn21 (24 ms)
+[ RUN      ] Worldturn.turn22
+[       OK ] Worldturn.turn22 (20 ms)
+[ RUN      ] Worldturn.turn23
+[       OK ] Worldturn.turn23 (23 ms)
+[ RUN      ] Worldturn.turn24
+[       OK ] Worldturn.turn24 (24 ms)
+[ RUN      ] Worldturn.turn25
+[       OK ] Worldturn.turn25 (8 ms)
+[ RUN      ] Worldturn.turn26
+[       OK ] Worldturn.turn26 (12 ms)
+[ RUN      ] Worldturn.turn27
+[       OK ] Worldturn.turn27 (11 ms)
+[----------] 27 tests from Worldturn (341 ms total)
+
+[----------] 9 tests from Misc
+[ RUN      ] Misc.misc
+[       OK ] Misc.misc (3 ms)
+[ RUN      ] Misc.misc2
+[       OK ] Misc.misc2 (3 ms)
+[ RUN      ] Misc.misc3
+[       OK ] Misc.misc3 (3 ms)
+[ RUN      ] Misc.misc4
+[       OK ] Misc.misc4 (5 ms)
+[ RUN      ] Misc.misc5
+[       OK ] Misc.misc5 (5 ms)
+[ RUN      ] Misc.misc6
+[       OK ] Misc.misc6 (5 ms)
+[ RUN      ] Misc.misc7
+[       OK ] Misc.misc7 (6 ms)
+[ RUN      ] Misc.misc8
+[       OK ] Misc.misc8 (4 ms)
+[ RUN      ] Misc.misc9
+[       OK ] Misc.misc9 (4 ms)
+[----------] 9 tests from Misc (40 ms total)
+
+[----------] Global test environment tear-down
+[==========] 81 tests from 10 test cases ran. (884 ms total)
+[  PASSED  ] 81 tests.
